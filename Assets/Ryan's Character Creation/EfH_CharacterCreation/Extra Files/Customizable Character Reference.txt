@@ -1,0 +1,17 @@
+Creating Mesh Slots for customizable characters:
+
+1. Rig character as one complete mesh.
+2. Properly do skin weights
+3. Once skinned, delete portions of mesh to create proper slot mesh.  DO NOT DELETE SKELETON!!!
+4. Save AS the new mesh into a different file.
+5. Reopen unified mesh and repeat process for other slots.
+
+For reference, take a look at UMA wolf.  Rigged meshes with the same skeleton merge the skeletons together.
+
+List of Slots:
+-Head + Mouth
+-Eyes
+-Torso + Arms / Torso
+-Hands + Arms / Hands
+-Legs
+-Feet
