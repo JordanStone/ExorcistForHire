@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - UiReticle
+  - Grabbable
+  - Key
+  - Door
+  - Bullet
+  - Checkpoint
+  - Note
+  - DoorHandleRight
+  - DoorHandleLeft
+  - Pushable
+  - Gun
+  - Shelf
+  - FinalObject
+  - Grabable
+  - FinalBossGhost
+  - LockWithKeyInInv
+  - Bird
+  - NPC
+  - Ladder
+  - AmmoBox
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Gun
+  - Bullet
+  - Player
+  - DoorHandle
+  - Door
+  - Enemy
+  - Scenery
+  - DoorFrame
+  - Floor
+  - Flashlight
+  - Note
+  - Physics Crate
+  - PhysicsCrateWall
+  - PlayerOnlyTrigger
+  - Desk
+  - DeskBack
+  - Story
+  - LightUpAble
+  - PlacedObjectCollider
+  - Bird
+  - LadderRaycastOnly
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
