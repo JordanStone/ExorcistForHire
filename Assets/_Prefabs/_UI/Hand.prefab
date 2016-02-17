@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &128366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22471406}
+  - 222: {fileID: 22296070}
+  - 114: {fileID: 11437144}
+  - 114: {fileID: 11479994}
+  m_Layer: 5
+  m_Name: Hand
+  m_TagString: UiReticle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11437144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 97190a4a424e69e45b18e9b17979c0e0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11479994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7fdd6e45918b0468384cc5b8dbfb18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Flip: 0
+  OpenHand: {fileID: 21300000, guid: 1e117d700cd5ecf4aaa689aa136a0d56, type: 3}
+  ClosedHand: {fileID: 21300000, guid: 672d2fec957d3704c8a70c613aa6269a, type: 3}
+  ReadyHand: {fileID: 21300000, guid: e660565e01e5e2f4f83497ff31f27e12, type: 3}
+  DoorHand: {fileID: 21300000, guid: 7e98a7047c4d81649897a3ff62c25d9a, type: 3}
+  KeyHand: {fileID: 0}
+  GunReticle: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  SmallScaleIncrease: 2.5
+  HandXSensitivity: 500
+  HandYSensitivity: 500
+  OuterRectY: .400000006
+  OuterRectX: .400000006
+  MaxGrabLength: 5
+  MinGrabLength: 0
+  GrabBreakForce: 400
+  Grabbables:
+    serializedVersion: 2
+    m_Bits: 4294836223
+  InstantiatedHand: {fileID: 189804, guid: 42259b833cd6edd4c9e9c8f5a2b52ca8, type: 2}
+  HandRecenterTime: .400000006
+  SlerpSpring: .5
+  SlerpDamp: .5
+  DoorForce: 8
+  DoorTargetVelocity: 50
+  PushingAnchorZ: 1.60000002
+  PushingSpring: 2400
+  PushingDamper: 800
+  PushingBreakForce: 400
+  PushingBreakDistance: 12
+--- !u!222 &22296070
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128366}
+--- !u!224 &22471406
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 128366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .0909999982, y: .0909999982, z: .0909999982}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 128366}
+  m_IsPrefabParent: 1

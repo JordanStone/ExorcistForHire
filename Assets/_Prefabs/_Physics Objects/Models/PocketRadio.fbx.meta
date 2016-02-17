@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: c4ee15f7f0a6cc945a6b07f0408cd0f0
+timeCreated: 1455241991
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: pCylinder1
+    100002: //RootNode
+    100004: PocketRadio
+    100006: PocketRadio_InnerFrame
+    100008: PocketRadio_OuterFrame
+    100010: PocketRadio_Speaker
+    100012: PocketRadio_StationDial
+    100014: PocketRadio_StationWindow
+    100016: PocketRadio_TopMetalPlate
+    100018: PocketRadio_VolumeDial
+    400000: pCylinder1
+    400002: //RootNode
+    400004: PocketRadio
+    400006: PocketRadio_InnerFrame
+    400008: PocketRadio_OuterFrame
+    400010: PocketRadio_Speaker
+    400012: PocketRadio_StationDial
+    400014: PocketRadio_StationWindow
+    400016: PocketRadio_TopMetalPlate
+    400018: PocketRadio_VolumeDial
+    2300000: pCylinder1
+    2300002: PocketRadio_InnerFrame
+    2300004: PocketRadio_OuterFrame
+    2300006: PocketRadio_Speaker
+    2300008: PocketRadio_StationDial
+    2300010: PocketRadio_StationWindow
+    2300012: PocketRadio_TopMetalPlate
+    2300014: PocketRadio_VolumeDial
+    3300000: pCylinder1
+    3300002: PocketRadio_InnerFrame
+    3300004: PocketRadio_OuterFrame
+    3300006: PocketRadio_Speaker
+    3300008: PocketRadio_StationDial
+    3300010: PocketRadio_StationWindow
+    3300012: PocketRadio_TopMetalPlate
+    3300014: PocketRadio_VolumeDial
+    4300000: pCylinder1
+    4300002: PocketRadio_InnerFrame
+    4300004: PocketRadio_StationDial
+    4300006: PocketRadio_OuterFrame
+    4300008: PocketRadio_VolumeDial
+    4300010: PocketRadio_Speaker
+    4300012: PocketRadio_TopMetalPlate
+    4300014: PocketRadio_StationWindow
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

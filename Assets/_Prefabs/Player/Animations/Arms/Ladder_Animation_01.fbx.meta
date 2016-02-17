@@ -1,0 +1,2394 @@
+fileFormatVersion: 2
+guid: a8ebdfd91d0ae684ba4ba2fd90dd18a9
+timeCreated: 1454084591
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Left_Arm
+    100004: Left_Arm 1
+    100006: Left_Arm_IK_Control
+    100008: Left_Arm_IK_Control_Group
+    100010: Left_Arm_ikHandle
+    100012: Left_Elbow_FK_Control
+    100014: Left_Elbow_FK_Control_group
+    100016: Left_Elbow_FK_Joint
+    100018: Left_Elbow_IK_Joint
+    100020: Left_Elbow_Joint
+    100022: Left_Elbow_Twist_Joint
+    100024: Left_Fingers_Group
+    100026: Left_Forearm_Joint
+    100028: Left_Hand_SDKs
+    100030: Left_Hand_SDKs_Group
+    100032: Left_Index1_Joint
+    100034: Left_Index2_Joint
+    100036: Left_Index3_Joint
+    100038: Left_Index4_Joint
+    100040: Left_Index5_Joint
+    100042: Left_Index_1_Control
+    100044: Left_Index_1_Group
+    100046: Left_Index_1_SDK
+    100048: Left_Index_2_Control
+    100050: Left_Index_2_Group
+    100052: Left_Index_2_SDK
+    100054: Left_Index_3_Control
+    100056: Left_Index_3_Group
+    100058: Left_Index_3_SDK
+    100060: Left_Index_4_Control
+    100062: Left_Index_4_Group
+    100064: Left_Index_4_SDK
+    100066: Left_Middle1_Joint
+    100068: Left_Middle2_Joint
+    100070: Left_Middle3_Joint
+    100072: Left_Middle4_Joint
+    100074: Left_Middle5_Joint
+    100076: Left_Middle_1_Control
+    100078: Left_Middle_1_Group
+    100080: Left_Middle_1_SDK
+    100082: Left_Middle_2_Control
+    100084: Left_Middle_2_Group
+    100086: Left_Middle_2_SDK
+    100088: Left_Middle_3_Control
+    100090: Left_Middle_3_Group
+    100092: Left_Middle_3_SDK
+    100094: Left_Middle_4_Control
+    100096: Left_Middle_4_Group
+    100098: Left_Middle_4_SDK
+    100100: Left_Pinky1_Joint
+    100102: Left_Pinky2_Joint
+    100104: Left_Pinky3_Joint
+    100106: Left_Pinky4_Joint
+    100108: Left_Pinky5_Joint
+    100110: Left_Pinky_1_Control
+    100112: Left_Pinky_1_Group
+    100114: Left_Pinky_1_SDK
+    100116: Left_Pinky_2_Control
+    100118: Left_Pinky_2_Group
+    100120: Left_Pinky_2_SDK
+    100122: Left_Pinky_3_Control
+    100124: Left_Pinky_3_Group
+    100126: Left_Pinky_3_SDK
+    100128: Left_Pinky_4_Control
+    100130: Left_Pinky_4_Group
+    100132: Left_Pinky_4_SDK
+    100134: Left_Ring1_Joint
+    100136: Left_Ring2_Joint
+    100138: Left_Ring3_Joint
+    100140: Left_Ring4_Joint
+    100142: Left_Ring5_Joint
+    100144: Left_Ring_1_Control
+    100146: Left_Ring_1_Group
+    100148: Left_Ring_1_SDK
+    100150: Left_Ring_2_Control
+    100152: Left_Ring_2_Group
+    100154: Left_Ring_2_SDK
+    100156: Left_Ring_3_Control
+    100158: Left_Ring_3_Group
+    100160: Left_Ring_3_SDK
+    100162: Left_Ring_4_Control
+    100164: Left_Ring_4_Group
+    100166: Left_Ring_4_SDK
+    100168: Left_Shoulder_Control
+    100170: Left_Shoulder_Control_group
+    100172: Left_Shoulder_FK_Joint
+    100174: Left_Shoulder_IK_Joint
+    100176: Left_Shoulder_Joint
+    100178: Left_Shoulder_Twist_Joint
+    100180: Left_Thumb1_Joint
+    100182: Left_Thumb2_Joint
+    100184: Left_Thumb3_Joint
+    100186: Left_Thumb4_Joint
+    100188: Left_Thumb_1_Control
+    100190: Left_Thumb_1_Group
+    100192: Left_Thumb_1_SDK
+    100194: Left_Thumb_2_Control
+    100196: Left_Thumb_2_Group
+    100198: Left_Thumb_2_SDK
+    100200: Left_Thumb_3_Control
+    100202: Left_Thumb_3_Group
+    100204: Left_Thumb_3_SDK
+    100206: Left_UpperArm_Joint
+    100208: Left_Wrist_FK_Control
+    100210: Left_Wrist_FK_Control_group
+    100212: Left_Wrist_FK_Joint
+    100214: Left_Wrist_IK_Joint
+    100216: Left_Wrist_Joint
+    100218: Left_Wrist_Twist_Joint
+    100220: Right_Arm
+    100222: Right_Arm 1
+    100224: Right_Arm_IK_Control
+    100226: Right_Arm_IK_Control_group
+    100228: Right_Arm_ikHandle
+    100230: Right_Elbow_FK_Control
+    100232: Right_Elbow_FK_Control_group
+    100234: Right_Elbow_FK_Joint
+    100236: Right_Elbow_IK_Joint
+    100238: Right_Elbow_Joint
+    100240: Right_Elbow_Twist_Joint
+    100242: Right_Fingers_Group
+    100244: Right_Forearm_Joint
+    100246: Right_Hand_SDKs
+    100248: Right_Hand_SDKs_Group
+    100250: Right_Index1_Joint
+    100252: Right_Index2_Joint
+    100254: Right_Index3_Joint
+    100256: Right_Index4_Joint
+    100258: Right_Index5_Joint
+    100260: Right_Index_1_Control
+    100262: Right_Index_1_Group
+    100264: Right_Index_1_SDK
+    100266: Right_Index_2_Control
+    100268: Right_Index_2_Group
+    100270: Right_Index_2_SDK
+    100272: Right_Index_3_Control
+    100274: Right_Index_3_Group
+    100276: Right_Index_3_SDK
+    100278: Right_Index_4_Control
+    100280: Right_Index_4_Group
+    100282: Right_Index_4_SDK
+    100284: Right_Middle1_Joint
+    100286: Right_Middle2_Joint
+    100288: Right_Middle3_Joint
+    100290: Right_Middle4_Joint
+    100292: Right_Middle5_Joint
+    100294: Right_Middle_1_Control
+    100296: Right_Middle_1_Group
+    100298: Right_Middle_1_SDK
+    100300: Right_Middle_2_Control
+    100302: Right_Middle_2_Group
+    100304: Right_Middle_2_SDK
+    100306: Right_Middle_3_Control
+    100308: Right_Middle_3_Group
+    100310: Right_Middle_3_SDK
+    100312: Right_Middle_4_Control
+    100314: Right_Middle_4_Group
+    100316: Right_Middle_4_SDK
+    100318: Right_Pinky1_Joint
+    100320: Right_Pinky2_Joint
+    100322: Right_Pinky3_Joint
+    100324: Right_Pinky4_Joint
+    100326: Right_Pinky5_Joint
+    100328: Right_Pinky_1_Control
+    100330: Right_Pinky_1_Group
+    100332: Right_Pinky_1_SDK
+    100334: Right_Pinky_2_Control
+    100336: Right_Pinky_2_Group
+    100338: Right_Pinky_2_SDK
+    100340: Right_Pinky_3_Control
+    100342: Right_Pinky_3_Group
+    100344: Right_Pinky_3_SDK
+    100346: Right_Pinky_4_Control
+    100348: Right_Pinky_4_Group
+    100350: Right_Pinky_4_SDK
+    100352: Right_Ring1_Joint
+    100354: Right_Ring2_Joint
+    100356: Right_Ring3_Joint
+    100358: Right_Ring4_Joint
+    100360: Right_Ring5_Joint
+    100362: Right_Ring_1_Control
+    100364: Right_Ring_1_Group
+    100366: Right_Ring_1_SDK
+    100368: Right_Ring_2_Control
+    100370: Right_Ring_2_Group
+    100372: Right_Ring_2_SDK
+    100374: Right_Ring_3_Control
+    100376: Right_Ring_3_Group
+    100378: Right_Ring_3_SDK
+    100380: Right_Ring_4_Control
+    100382: Right_Ring_4_Group
+    100384: Right_Ring_4_SDK
+    100386: Right_Shoulder_Control
+    100388: Right_Shoulder_Control_group
+    100390: Right_Shoulder_FK_Joint
+    100392: Right_Shoulder_IK_Joint
+    100394: Right_Shoulder_Joint
+    100396: Right_Shoulder_Twist_Joint
+    100398: Right_Thumb1_Joint
+    100400: Right_Thumb2_Joint
+    100402: Right_Thumb3_Joint
+    100404: Right_Thumb4_Joint
+    100406: Right_Thumb_1_Control
+    100408: Right_Thumb_1_Group
+    100410: Right_Thumb_1_SDK
+    100412: Right_Thumb_2_Control
+    100414: Right_Thumb_2_Group
+    100416: Right_Thumb_2_SDK
+    100418: Right_Thumb_3_Control
+    100420: Right_Thumb_3_Group
+    100422: Right_Thumb_3_SDK
+    100424: Right_UpperArm_Joint
+    100426: Right_Wrist_FK_Control
+    100428: Right_Wrist_FK_Control_group
+    100430: Right_Wrist_FK_Joint
+    100432: Right_Wrist_IK_Joint
+    100434: Right_Wrist_Joint
+    100436: Right_Wrist_Twist_Joint
+    100438: Root
+    100440: Root_Group
+    400000: //RootNode
+    400002: Left_Arm
+    400004: Left_Arm 1
+    400006: Left_Arm_IK_Control
+    400008: Left_Arm_IK_Control_Group
+    400010: Left_Arm_ikHandle
+    400012: Left_Elbow_FK_Control
+    400014: Left_Elbow_FK_Control_group
+    400016: Left_Elbow_FK_Joint
+    400018: Left_Elbow_IK_Joint
+    400020: Left_Elbow_Joint
+    400022: Left_Elbow_Twist_Joint
+    400024: Left_Fingers_Group
+    400026: Left_Forearm_Joint
+    400028: Left_Hand_SDKs
+    400030: Left_Hand_SDKs_Group
+    400032: Left_Index1_Joint
+    400034: Left_Index2_Joint
+    400036: Left_Index3_Joint
+    400038: Left_Index4_Joint
+    400040: Left_Index5_Joint
+    400042: Left_Index_1_Control
+    400044: Left_Index_1_Group
+    400046: Left_Index_1_SDK
+    400048: Left_Index_2_Control
+    400050: Left_Index_2_Group
+    400052: Left_Index_2_SDK
+    400054: Left_Index_3_Control
+    400056: Left_Index_3_Group
+    400058: Left_Index_3_SDK
+    400060: Left_Index_4_Control
+    400062: Left_Index_4_Group
+    400064: Left_Index_4_SDK
+    400066: Left_Middle1_Joint
+    400068: Left_Middle2_Joint
+    400070: Left_Middle3_Joint
+    400072: Left_Middle4_Joint
+    400074: Left_Middle5_Joint
+    400076: Left_Middle_1_Control
+    400078: Left_Middle_1_Group
+    400080: Left_Middle_1_SDK
+    400082: Left_Middle_2_Control
+    400084: Left_Middle_2_Group
+    400086: Left_Middle_2_SDK
+    400088: Left_Middle_3_Control
+    400090: Left_Middle_3_Group
+    400092: Left_Middle_3_SDK
+    400094: Left_Middle_4_Control
+    400096: Left_Middle_4_Group
+    400098: Left_Middle_4_SDK
+    400100: Left_Pinky1_Joint
+    400102: Left_Pinky2_Joint
+    400104: Left_Pinky3_Joint
+    400106: Left_Pinky4_Joint
+    400108: Left_Pinky5_Joint
+    400110: Left_Pinky_1_Control
+    400112: Left_Pinky_1_Group
+    400114: Left_Pinky_1_SDK
+    400116: Left_Pinky_2_Control
+    400118: Left_Pinky_2_Group
+    400120: Left_Pinky_2_SDK
+    400122: Left_Pinky_3_Control
+    400124: Left_Pinky_3_Group
+    400126: Left_Pinky_3_SDK
+    400128: Left_Pinky_4_Control
+    400130: Left_Pinky_4_Group
+    400132: Left_Pinky_4_SDK
+    400134: Left_Ring1_Joint
+    400136: Left_Ring2_Joint
+    400138: Left_Ring3_Joint
+    400140: Left_Ring4_Joint
+    400142: Left_Ring5_Joint
+    400144: Left_Ring_1_Control
+    400146: Left_Ring_1_Group
+    400148: Left_Ring_1_SDK
+    400150: Left_Ring_2_Control
+    400152: Left_Ring_2_Group
+    400154: Left_Ring_2_SDK
+    400156: Left_Ring_3_Control
+    400158: Left_Ring_3_Group
+    400160: Left_Ring_3_SDK
+    400162: Left_Ring_4_Control
+    400164: Left_Ring_4_Group
+    400166: Left_Ring_4_SDK
+    400168: Left_Shoulder_Control
+    400170: Left_Shoulder_Control_group
+    400172: Left_Shoulder_FK_Joint
+    400174: Left_Shoulder_IK_Joint
+    400176: Left_Shoulder_Joint
+    400178: Left_Shoulder_Twist_Joint
+    400180: Left_Thumb1_Joint
+    400182: Left_Thumb2_Joint
+    400184: Left_Thumb3_Joint
+    400186: Left_Thumb4_Joint
+    400188: Left_Thumb_1_Control
+    400190: Left_Thumb_1_Group
+    400192: Left_Thumb_1_SDK
+    400194: Left_Thumb_2_Control
+    400196: Left_Thumb_2_Group
+    400198: Left_Thumb_2_SDK
+    400200: Left_Thumb_3_Control
+    400202: Left_Thumb_3_Group
+    400204: Left_Thumb_3_SDK
+    400206: Left_UpperArm_Joint
+    400208: Left_Wrist_FK_Control
+    400210: Left_Wrist_FK_Control_group
+    400212: Left_Wrist_FK_Joint
+    400214: Left_Wrist_IK_Joint
+    400216: Left_Wrist_Joint
+    400218: Left_Wrist_Twist_Joint
+    400220: Right_Arm
+    400222: Right_Arm 1
+    400224: Right_Arm_IK_Control
+    400226: Right_Arm_IK_Control_group
+    400228: Right_Arm_ikHandle
+    400230: Right_Elbow_FK_Control
+    400232: Right_Elbow_FK_Control_group
+    400234: Right_Elbow_FK_Joint
+    400236: Right_Elbow_IK_Joint
+    400238: Right_Elbow_Joint
+    400240: Right_Elbow_Twist_Joint
+    400242: Right_Fingers_Group
+    400244: Right_Forearm_Joint
+    400246: Right_Hand_SDKs
+    400248: Right_Hand_SDKs_Group
+    400250: Right_Index1_Joint
+    400252: Right_Index2_Joint
+    400254: Right_Index3_Joint
+    400256: Right_Index4_Joint
+    400258: Right_Index5_Joint
+    400260: Right_Index_1_Control
+    400262: Right_Index_1_Group
+    400264: Right_Index_1_SDK
+    400266: Right_Index_2_Control
+    400268: Right_Index_2_Group
+    400270: Right_Index_2_SDK
+    400272: Right_Index_3_Control
+    400274: Right_Index_3_Group
+    400276: Right_Index_3_SDK
+    400278: Right_Index_4_Control
+    400280: Right_Index_4_Group
+    400282: Right_Index_4_SDK
+    400284: Right_Middle1_Joint
+    400286: Right_Middle2_Joint
+    400288: Right_Middle3_Joint
+    400290: Right_Middle4_Joint
+    400292: Right_Middle5_Joint
+    400294: Right_Middle_1_Control
+    400296: Right_Middle_1_Group
+    400298: Right_Middle_1_SDK
+    400300: Right_Middle_2_Control
+    400302: Right_Middle_2_Group
+    400304: Right_Middle_2_SDK
+    400306: Right_Middle_3_Control
+    400308: Right_Middle_3_Group
+    400310: Right_Middle_3_SDK
+    400312: Right_Middle_4_Control
+    400314: Right_Middle_4_Group
+    400316: Right_Middle_4_SDK
+    400318: Right_Pinky1_Joint
+    400320: Right_Pinky2_Joint
+    400322: Right_Pinky3_Joint
+    400324: Right_Pinky4_Joint
+    400326: Right_Pinky5_Joint
+    400328: Right_Pinky_1_Control
+    400330: Right_Pinky_1_Group
+    400332: Right_Pinky_1_SDK
+    400334: Right_Pinky_2_Control
+    400336: Right_Pinky_2_Group
+    400338: Right_Pinky_2_SDK
+    400340: Right_Pinky_3_Control
+    400342: Right_Pinky_3_Group
+    400344: Right_Pinky_3_SDK
+    400346: Right_Pinky_4_Control
+    400348: Right_Pinky_4_Group
+    400350: Right_Pinky_4_SDK
+    400352: Right_Ring1_Joint
+    400354: Right_Ring2_Joint
+    400356: Right_Ring3_Joint
+    400358: Right_Ring4_Joint
+    400360: Right_Ring5_Joint
+    400362: Right_Ring_1_Control
+    400364: Right_Ring_1_Group
+    400366: Right_Ring_1_SDK
+    400368: Right_Ring_2_Control
+    400370: Right_Ring_2_Group
+    400372: Right_Ring_2_SDK
+    400374: Right_Ring_3_Control
+    400376: Right_Ring_3_Group
+    400378: Right_Ring_3_SDK
+    400380: Right_Ring_4_Control
+    400382: Right_Ring_4_Group
+    400384: Right_Ring_4_SDK
+    400386: Right_Shoulder_Control
+    400388: Right_Shoulder_Control_group
+    400390: Right_Shoulder_FK_Joint
+    400392: Right_Shoulder_IK_Joint
+    400394: Right_Shoulder_Joint
+    400396: Right_Shoulder_Twist_Joint
+    400398: Right_Thumb1_Joint
+    400400: Right_Thumb2_Joint
+    400402: Right_Thumb3_Joint
+    400404: Right_Thumb4_Joint
+    400406: Right_Thumb_1_Control
+    400408: Right_Thumb_1_Group
+    400410: Right_Thumb_1_SDK
+    400412: Right_Thumb_2_Control
+    400414: Right_Thumb_2_Group
+    400416: Right_Thumb_2_SDK
+    400418: Right_Thumb_3_Control
+    400420: Right_Thumb_3_Group
+    400422: Right_Thumb_3_SDK
+    400424: Right_UpperArm_Joint
+    400426: Right_Wrist_FK_Control
+    400428: Right_Wrist_FK_Control_group
+    400430: Right_Wrist_FK_Joint
+    400432: Right_Wrist_IK_Joint
+    400434: Right_Wrist_Joint
+    400436: Right_Wrist_Twist_Joint
+    400438: Root
+    400440: Root_Group
+    4300000: Right_Arm
+    4300002: Left_Arm
+    7400000: ClimbLoop
+    7400002: Top of ladder
+    7400004: EnterLadder
+    7400006: ClimbDown
+    9500000: //RootNode
+    13700000: Left_Arm 1
+    13700002: Right_Arm 1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ClimbLoop
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Arm/Left_Arm 1
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group/Left_Arm_IK_Control
+        weight: 1
+      - path: Left_Arm/Left_Arm_ikHandle
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK/Left_Index_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK/Left_Middle_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK/Left_Pinky_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK/Left_Ring_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK/Left_Thumb_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group/Left_Hand_SDKs
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group/Left_Wrist_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint/Left_Wrist_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint/Left_Wrist_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint/Left_Index5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint/Left_Middle5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint/Left_Pinky5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint/Left_Ring5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint/Left_Thumb4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint/Left_Wrist_Twist_Joint
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Arm/Right_Arm 1
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group/Right_Arm_IK_Control
+        weight: 1
+      - path: Right_Arm/Right_Arm_ikHandle
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK/Right_Index_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK/Right_Middle_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK/Right_Pinky_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK/Right_Ring_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK/Right_Thumb_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group/Right_Hand_SDKs
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group/Right_Wrist_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint/Right_Wrist_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint/Right_Wrist_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint/Right_Index5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint/Right_Middle5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint/Right_Pinky5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint/Right_Ring5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint/Right_Thumb4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint/Right_Wrist_Twist_Joint
+        weight: 1
+      - path: Root_Group
+        weight: 1
+      - path: Root_Group/Root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Top of ladder
+      takeName: Take 001
+      firstFrame: 63
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Arm/Left_Arm 1
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group/Left_Arm_IK_Control
+        weight: 1
+      - path: Left_Arm/Left_Arm_ikHandle
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK/Left_Index_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK/Left_Middle_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK/Left_Pinky_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK/Left_Ring_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK/Left_Thumb_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group/Left_Hand_SDKs
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group/Left_Wrist_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint/Left_Wrist_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint/Left_Wrist_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint/Left_Index5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint/Left_Middle5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint/Left_Pinky5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint/Left_Ring5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint/Left_Thumb4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint/Left_Wrist_Twist_Joint
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Arm/Right_Arm 1
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group/Right_Arm_IK_Control
+        weight: 1
+      - path: Right_Arm/Right_Arm_ikHandle
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK/Right_Index_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK/Right_Middle_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK/Right_Pinky_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK/Right_Ring_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK/Right_Thumb_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group/Right_Hand_SDKs
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group/Right_Wrist_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint/Right_Wrist_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint/Right_Wrist_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint/Right_Index5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint/Right_Middle5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint/Right_Pinky5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint/Right_Ring5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint/Right_Thumb4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint/Right_Wrist_Twist_Joint
+        weight: 1
+      - path: Root_Group
+        weight: 1
+      - path: Root_Group/Root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EnterLadder
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Arm/Left_Arm 1
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group/Left_Arm_IK_Control
+        weight: 1
+      - path: Left_Arm/Left_Arm_ikHandle
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK/Left_Index_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK/Left_Middle_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK/Left_Pinky_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK/Left_Ring_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK/Left_Thumb_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group/Left_Hand_SDKs
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group/Left_Wrist_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint/Left_Wrist_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint/Left_Wrist_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint/Left_Index5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint/Left_Middle5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint/Left_Pinky5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint/Left_Ring5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint/Left_Thumb4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint/Left_Wrist_Twist_Joint
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Arm/Right_Arm 1
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group/Right_Arm_IK_Control
+        weight: 1
+      - path: Right_Arm/Right_Arm_ikHandle
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK/Right_Index_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK/Right_Middle_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK/Right_Pinky_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK/Right_Ring_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK/Right_Thumb_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group/Right_Hand_SDKs
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group/Right_Wrist_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint/Right_Wrist_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint/Right_Wrist_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint/Right_Index5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint/Right_Middle5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint/Right_Pinky5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint/Right_Ring5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint/Right_Thumb4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint/Right_Wrist_Twist_Joint
+        weight: 1
+      - path: Root_Group
+        weight: 1
+      - path: Root_Group/Root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ClimbDown
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 66
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Arm/Left_Arm 1
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group
+        weight: 1
+      - path: Left_Arm/Left_Arm_IK_Control_Group/Left_Arm_IK_Control
+        weight: 1
+      - path: Left_Arm/Left_Arm_ikHandle
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Index_1_Group/Left_Index_1_SDK/Left_Index_1_Control/Left_Index_2_Group/Left_Index_2_SDK/Left_Index_2_Control/Left_Index_3_Group/Left_Index_3_SDK/Left_Index_3_Control/Left_Index_4_Group/Left_Index_4_SDK/Left_Index_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Middle_1_Group/Left_Middle_1_SDK/Left_Middle_1_Control/Left_Middle_2_Group/Left_Middle_2_SDK/Left_Middle_2_Control/Left_Middle_3_Group/Left_Middle_3_SDK/Left_Middle_3_Control/Left_Middle_4_Group/Left_Middle_4_SDK/Left_Middle_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Pinky_1_Group/Left_Pinky_1_SDK/Left_Pinky_1_Control/Left_Pinky_2_Group/Left_Pinky_2_SDK/Left_Pinky_2_Control/Left_Pinky_3_Group/Left_Pinky_3_SDK/Left_Pinky_3_Control/Left_Pinky_4_Group/Left_Pinky_4_SDK/Left_Pinky_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Ring_1_Group/Left_Ring_1_SDK/Left_Ring_1_Control/Left_Ring_2_Group/Left_Ring_2_SDK/Left_Ring_2_Control/Left_Ring_3_Group/Left_Ring_3_SDK/Left_Ring_3_Control/Left_Ring_4_Group/Left_Ring_4_SDK/Left_Ring_4_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK
+        weight: 1
+      - path: Left_Arm/Left_Fingers_Group/Left_Thumb_1_Group/Left_Thumb_1_SDK/Left_Thumb_1_Control/Left_Thumb_2_Group/Left_Thumb_2_SDK/Left_Thumb_2_Control/Left_Thumb_3_Group/Left_Thumb_3_SDK/Left_Thumb_3_Control
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group
+        weight: 1
+      - path: Left_Arm/Left_Hand_SDKs_Group/Left_Hand_SDKs
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Control_group/Left_Shoulder_Control/Left_Elbow_FK_Control_group/Left_Elbow_FK_Control/Left_Wrist_FK_Control_group/Left_Wrist_FK_Control
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_FK_Joint/Left_Elbow_FK_Joint/Left_Wrist_FK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_IK_Joint/Left_Elbow_IK_Joint/Left_Wrist_IK_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Index1_Joint/Left_Index2_Joint/Left_Index3_Joint/Left_Index4_Joint/Left_Index5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Middle1_Joint/Left_Middle2_Joint/Left_Middle3_Joint/Left_Middle4_Joint/Left_Middle5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Pinky1_Joint/Left_Pinky2_Joint/Left_Pinky3_Joint/Left_Pinky4_Joint/Left_Pinky5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Ring1_Joint/Left_Ring2_Joint/Left_Ring3_Joint/Left_Ring4_Joint/Left_Ring5_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Joint/Left_UpperArm_Joint/Left_Elbow_Joint/Left_Forearm_Joint/Left_Wrist_Joint/Left_Thumb1_Joint/Left_Thumb2_Joint/Left_Thumb3_Joint/Left_Thumb4_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint
+        weight: 1
+      - path: Left_Arm/Left_Shoulder_Twist_Joint/Left_Elbow_Twist_Joint/Left_Wrist_Twist_Joint
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Arm/Right_Arm 1
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Arm_IK_Control_group/Right_Arm_IK_Control
+        weight: 1
+      - path: Right_Arm/Right_Arm_ikHandle
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Index_1_Group/Right_Index_1_SDK/Right_Index_1_Control/Right_Index_2_Group/Right_Index_2_SDK/Right_Index_2_Control/Right_Index_3_Group/Right_Index_3_SDK/Right_Index_3_Control/Right_Index_4_Group/Right_Index_4_SDK/Right_Index_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Middle_1_Group/Right_Middle_1_SDK/Right_Middle_1_Control/Right_Middle_2_Group/Right_Middle_2_SDK/Right_Middle_2_Control/Right_Middle_3_Group/Right_Middle_3_SDK/Right_Middle_3_Control/Right_Middle_4_Group/Right_Middle_4_SDK/Right_Middle_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Pinky_1_Group/Right_Pinky_1_SDK/Right_Pinky_1_Control/Right_Pinky_2_Group/Right_Pinky_2_SDK/Right_Pinky_2_Control/Right_Pinky_3_Group/Right_Pinky_3_SDK/Right_Pinky_3_Control/Right_Pinky_4_Group/Right_Pinky_4_SDK/Right_Pinky_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Ring_1_Group/Right_Ring_1_SDK/Right_Ring_1_Control/Right_Ring_2_Group/Right_Ring_2_SDK/Right_Ring_2_Control/Right_Ring_3_Group/Right_Ring_3_SDK/Right_Ring_3_Control/Right_Ring_4_Group/Right_Ring_4_SDK/Right_Ring_4_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK
+        weight: 1
+      - path: Right_Arm/Right_Fingers_Group/Right_Thumb_1_Group/Right_Thumb_1_SDK/Right_Thumb_1_Control/Right_Thumb_2_Group/Right_Thumb_2_SDK/Right_Thumb_2_Control/Right_Thumb_3_Group/Right_Thumb_3_SDK/Right_Thumb_3_Control
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group
+        weight: 1
+      - path: Right_Arm/Right_Hand_SDKs_Group/Right_Hand_SDKs
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Control_group/Right_Shoulder_Control/Right_Elbow_FK_Control_group/Right_Elbow_FK_Control/Right_Wrist_FK_Control_group/Right_Wrist_FK_Control
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_FK_Joint/Right_Elbow_FK_Joint/Right_Wrist_FK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_IK_Joint/Right_Elbow_IK_Joint/Right_Wrist_IK_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Index1_Joint/Right_Index2_Joint/Right_Index3_Joint/Right_Index4_Joint/Right_Index5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Middle1_Joint/Right_Middle2_Joint/Right_Middle3_Joint/Right_Middle4_Joint/Right_Middle5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Pinky1_Joint/Right_Pinky2_Joint/Right_Pinky3_Joint/Right_Pinky4_Joint/Right_Pinky5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Ring1_Joint/Right_Ring2_Joint/Right_Ring3_Joint/Right_Ring4_Joint/Right_Ring5_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Joint/Right_UpperArm_Joint/Right_Elbow_Joint/Right_Forearm_Joint/Right_Wrist_Joint/Right_Thumb1_Joint/Right_Thumb2_Joint/Right_Thumb3_Joint/Right_Thumb4_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint
+        weight: 1
+      - path: Right_Arm/Right_Shoulder_Twist_Joint/Right_Elbow_Twist_Joint/Right_Wrist_Twist_Joint
+        weight: 1
+      - path: Root_Group
+        weight: 1
+      - path: Root_Group/Root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

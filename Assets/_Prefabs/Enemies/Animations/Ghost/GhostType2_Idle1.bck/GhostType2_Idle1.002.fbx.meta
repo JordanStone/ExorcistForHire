@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: debf33a80b029994182210b812d03478
+timeCreated: 1449469735
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: H_DDS_LowRes
+    100004: Head 1
+    100006: HeadEnd 1
+    100008: Hips 1
+    100010: l_L_eye
+    100012: l_L_gland
+    100014: l_R_eye
+    100016: l_R_gland
+    100018: LeftArm 1
+    100020: LeftEye 1
+    100022: LeftFingerBase 1
+    100024: LeftFoot 1
+    100026: LeftForeArm 1
+    100028: LeftHand 1
+    100030: LeftHandIndex5
+    100032: LeftHandIndex6
+    100034: LeftHandIndex7
+    100036: LeftHandIndex8
+    100038: LeftHandIndex9
+    100040: LeftHandMiddle5
+    100042: LeftHandMiddle6
+    100044: LeftHandMiddle7
+    100046: LeftHandMiddle8
+    100048: LeftHandPinky5
+    100050: LeftHandPinky6
+    100052: LeftHandPinky7
+    100054: LeftHandPinky8
+    100056: LeftHandPinky9
+    100058: LeftHandRing5
+    100060: LeftHandRing6
+    100062: LeftHandRing7
+    100064: LeftHandRing8
+    100066: LeftHandThumb5
+    100068: LeftHandThumb6
+    100070: LeftHandThumb7
+    100072: LeftHandThumb8
+    100074: LeftLeg 1
+    100076: LeftShoulder 1
+    100078: LeftToeBase 1
+    100080: LeftToeEnd 1
+    100082: LeftUpLeg 1
+    100084: master 1
+    100086: Neck 1
+    100088: Reference 1
+    100090: RightArm 1
+    100092: RightEye 1
+    100094: RightFingerBase 1
+    100096: RightFoot 1
+    100098: RightForeArm 1
+    100100: RightHand 1
+    100102: RightHandIndex5
+    100104: RightHandIndex6
+    100106: RightHandIndex7
+    100108: RightHandIndex8
+    100110: RightHandIndex9
+    100112: RightHandMiddle5
+    100114: RightHandMiddle6
+    100116: RightHandMiddle7
+    100118: RightHandMiddle8
+    100120: RightHandPinky5
+    100122: RightHandPinky6
+    100124: RightHandPinky7
+    100126: RightHandPinky8
+    100128: RightHandPinky9
+    100130: RightHandRing5
+    100132: RightHandRing6
+    100134: RightHandRing7
+    100136: RightHandRing8
+    100138: RightHandThumb5
+    100140: RightHandThumb6
+    100142: RightHandThumb7
+    100144: RightHandThumb8
+    100146: RightLeg 1
+    100148: RightShoulder 1
+    100150: RightToeBase 1
+    100152: RightToeEnd 1
+    100154: RightUpLeg 1
+    100156: Spine 1
+    100158: Spine3
+    100160: Spine4
+    400000: //RootNode
+    400002: H_DDS_LowRes
+    400004: Head 1
+    400006: HeadEnd 1
+    400008: Hips 1
+    400010: l_L_eye
+    400012: l_L_gland
+    400014: l_R_eye
+    400016: l_R_gland
+    400018: LeftArm 1
+    400020: LeftEye 1
+    400022: LeftFingerBase 1
+    400024: LeftFoot 1
+    400026: LeftForeArm 1
+    400028: LeftHand 1
+    400030: LeftHandIndex5
+    400032: LeftHandIndex6
+    400034: LeftHandIndex7
+    400036: LeftHandIndex8
+    400038: LeftHandIndex9
+    400040: LeftHandMiddle5
+    400042: LeftHandMiddle6
+    400044: LeftHandMiddle7
+    400046: LeftHandMiddle8
+    400048: LeftHandPinky5
+    400050: LeftHandPinky6
+    400052: LeftHandPinky7
+    400054: LeftHandPinky8
+    400056: LeftHandPinky9
+    400058: LeftHandRing5
+    400060: LeftHandRing6
+    400062: LeftHandRing7
+    400064: LeftHandRing8
+    400066: LeftHandThumb5
+    400068: LeftHandThumb6
+    400070: LeftHandThumb7
+    400072: LeftHandThumb8
+    400074: LeftLeg 1
+    400076: LeftShoulder 1
+    400078: LeftToeBase 1
+    400080: LeftToeEnd 1
+    400082: LeftUpLeg 1
+    400084: master 1
+    400086: Neck 1
+    400088: Reference 1
+    400090: RightArm 1
+    400092: RightEye 1
+    400094: RightFingerBase 1
+    400096: RightFoot 1
+    400098: RightForeArm 1
+    400100: RightHand 1
+    400102: RightHandIndex5
+    400104: RightHandIndex6
+    400106: RightHandIndex7
+    400108: RightHandIndex8
+    400110: RightHandIndex9
+    400112: RightHandMiddle5
+    400114: RightHandMiddle6
+    400116: RightHandMiddle7
+    400118: RightHandMiddle8
+    400120: RightHandPinky5
+    400122: RightHandPinky6
+    400124: RightHandPinky7
+    400126: RightHandPinky8
+    400128: RightHandPinky9
+    400130: RightHandRing5
+    400132: RightHandRing6
+    400134: RightHandRing7
+    400136: RightHandRing8
+    400138: RightHandThumb5
+    400140: RightHandThumb6
+    400142: RightHandThumb7
+    400144: RightHandThumb8
+    400146: RightLeg 1
+    400148: RightShoulder 1
+    400150: RightToeBase 1
+    400152: RightToeEnd 1
+    400154: RightUpLeg 1
+    400156: Spine 1
+    400158: Spine3
+    400160: Spine4
+    4300000: l_L_gland
+    4300002: l_L_eye
+    4300004: l_R_gland
+    4300006: l_R_eye
+    4300008: H_DDS_LowRes
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: H_DDS_LowRes
+    13700002: l_L_eye
+    13700004: l_L_gland
+    13700006: l_R_eye
+    13700008: l_R_gland
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

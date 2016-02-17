@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: fe38ab22b9eaa5944a5bcc5ef0024cab
+timeCreated: 1454314962
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: books:pCube2
+    100002: bottle1:nurbsToPoly2
+    100004: bottle23:nurbsToPoly1
+    100006: bowls:polySurface1
+    100008: brokenplate:nurbsToPoly6
+    100010: chippedsa:nurbsToPoly6
+    100012: cup2:polySurface1
+    100014: cup:polySurface2
+    100016: ladles:pSphere2
+    100018: pan2:pCylinder3
+    100020: pan:pCylinder1
+    100022: plate:pCylinder4
+    100024: plateorbowl:nurbsToPoly2
+    100026: spoon:polySurface1
+    100028: stool2:polySurface1
+    100030: //RootNode
+    100032: table_middle:polySurface1
+    100034: tablebar:polySurface1
+    100036: tableleg:polySurface1
+    100038: Tabletop:polySurface1
+    400000: books:pCube2
+    400002: bottle1:nurbsToPoly2
+    400004: bottle23:nurbsToPoly1
+    400006: bowls:polySurface1
+    400008: brokenplate:nurbsToPoly6
+    400010: chippedsa:nurbsToPoly6
+    400012: cup2:polySurface1
+    400014: cup:polySurface2
+    400016: ladles:pSphere2
+    400018: pan2:pCylinder3
+    400020: pan:pCylinder1
+    400022: plate:pCylinder4
+    400024: plateorbowl:nurbsToPoly2
+    400026: spoon:polySurface1
+    400028: stool2:polySurface1
+    400030: //RootNode
+    400032: table_middle:polySurface1
+    400034: tablebar:polySurface1
+    400036: tableleg:polySurface1
+    400038: Tabletop:polySurface1
+    2300000: books:pCube2
+    2300002: bottle1:nurbsToPoly2
+    2300004: bottle23:nurbsToPoly1
+    2300006: bowls:polySurface1
+    2300008: brokenplate:nurbsToPoly6
+    2300010: chippedsa:nurbsToPoly6
+    2300012: cup2:polySurface1
+    2300014: cup:polySurface2
+    2300016: ladles:pSphere2
+    2300018: pan2:pCylinder3
+    2300020: pan:pCylinder1
+    2300022: plate:pCylinder4
+    2300024: plateorbowl:nurbsToPoly2
+    2300026: spoon:polySurface1
+    2300028: stool2:polySurface1
+    2300030: table_middle:polySurface1
+    2300032: tablebar:polySurface1
+    2300034: tableleg:polySurface1
+    2300036: Tabletop:polySurface1
+    3300000: books:pCube2
+    3300002: bottle1:nurbsToPoly2
+    3300004: bottle23:nurbsToPoly1
+    3300006: bowls:polySurface1
+    3300008: brokenplate:nurbsToPoly6
+    3300010: chippedsa:nurbsToPoly6
+    3300012: cup2:polySurface1
+    3300014: cup:polySurface2
+    3300016: ladles:pSphere2
+    3300018: pan2:pCylinder3
+    3300020: pan:pCylinder1
+    3300022: plate:pCylinder4
+    3300024: plateorbowl:nurbsToPoly2
+    3300026: spoon:polySurface1
+    3300028: stool2:polySurface1
+    3300030: table_middle:polySurface1
+    3300032: tablebar:polySurface1
+    3300034: tableleg:polySurface1
+    3300036: Tabletop:polySurface1
+    4300000: books:pCube2
+    4300002: bottle1:nurbsToPoly2
+    4300004: bottle23:nurbsToPoly1
+    4300006: bowls:polySurface1
+    4300008: brokenplate:nurbsToPoly6
+    4300010: chippedsa:nurbsToPoly6
+    4300012: cup:polySurface2
+    4300014: cup2:polySurface1
+    4300016: ladles:pSphere2
+    4300018: pan:pCylinder1
+    4300020: pan2:pCylinder3
+    4300022: plate:pCylinder4
+    4300024: plateorbowl:nurbsToPoly2
+    4300026: spoon:polySurface1
+    4300028: stool2:polySurface1
+    4300030: table_middle:polySurface1
+    4300032: tablebar:polySurface1
+    4300034: tableleg:polySurface1
+    4300036: Tabletop:polySurface1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
