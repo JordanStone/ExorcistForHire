@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 21fde5120b0ff43aaae189639bac3af2
+timeCreated: 1455432916
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: House
+    100002: //RootNode
+    100004: pCube103
+    100006: pCube104
+    100008: pCube107
+    100010: pCube108
+    100012: pCube109
+    100014: pCube110
+    100016: pCube111
+    100018: pCube112
+    100020: pCube113
+    100022: pCube114
+    100024: pCube115
+    100026: pCube116
+    100028: pCube117
+    100030: pCube118
+    100032: pCube119
+    100034: pCube119 1
+    100036: pCube119 2
+    100038: pCube120
+    100040: pCube120 1
+    100042: pCube120 2
+    100044: pCube121
+    100046: pCube121 1
+    100048: pCube121 2
+    100050: pCube122
+    100052: pCube122 1
+    100054: pCube122 2
+    100056: pCube59
+    100058: pCube60
+    100060: pCube61
+    100062: roof_01
+    100064: Windows01
+    100066: Windows02
+    100068: Windows03
+    100070: Windows04
+    400000: House
+    400002: //RootNode
+    400004: pCube103
+    400006: pCube104
+    400008: pCube107
+    400010: pCube108
+    400012: pCube109
+    400014: pCube110
+    400016: pCube111
+    400018: pCube112
+    400020: pCube113
+    400022: pCube114
+    400024: pCube115
+    400026: pCube116
+    400028: pCube117
+    400030: pCube118
+    400032: pCube119
+    400034: pCube119 1
+    400036: pCube119 2
+    400038: pCube120
+    400040: pCube120 1
+    400042: pCube120 2
+    400044: pCube121
+    400046: pCube121 1
+    400048: pCube121 2
+    400050: pCube122
+    400052: pCube122 1
+    400054: pCube122 2
+    400056: pCube59
+    400058: pCube60
+    400060: pCube61
+    400062: roof_01
+    400064: Windows01
+    400066: Windows02
+    400068: Windows03
+    400070: Windows04
+    2300000: House
+    2300002: pCube103
+    2300004: pCube104
+    2300006: pCube107
+    2300008: pCube108
+    2300010: pCube109
+    2300012: pCube110
+    2300014: pCube111
+    2300016: pCube112
+    2300018: pCube113
+    2300020: pCube114
+    2300022: pCube115
+    2300024: pCube116
+    2300026: pCube117
+    2300028: pCube118
+    2300030: pCube119
+    2300032: pCube119 1
+    2300034: pCube119 2
+    2300036: pCube120
+    2300038: pCube120 1
+    2300040: pCube120 2
+    2300042: pCube121
+    2300044: pCube121 1
+    2300046: pCube121 2
+    2300048: pCube122
+    2300050: pCube122 1
+    2300052: pCube122 2
+    2300054: pCube59
+    2300056: pCube60
+    2300058: pCube61
+    3300000: House
+    3300002: pCube103
+    3300004: pCube104
+    3300006: pCube107
+    3300008: pCube108
+    3300010: pCube109
+    3300012: pCube110
+    3300014: pCube111
+    3300016: pCube112
+    3300018: pCube113
+    3300020: pCube114
+    3300022: pCube115
+    3300024: pCube116
+    3300026: pCube117
+    3300028: pCube118
+    3300030: pCube119
+    3300032: pCube119 1
+    3300034: pCube119 2
+    3300036: pCube120
+    3300038: pCube120 1
+    3300040: pCube120 2
+    3300042: pCube121
+    3300044: pCube121 1
+    3300046: pCube121 2
+    3300048: pCube122
+    3300050: pCube122 1
+    3300052: pCube122 2
+    3300054: pCube59
+    3300056: pCube60
+    3300058: pCube61
+    4300000: pCube59
+    4300002: pCube61
+    4300004: pCube60
+    4300006: pCube103
+    4300008: House
+    4300010: pCube104
+    4300012: pCube107
+    4300014: pCube108
+    4300016: pCube109
+    4300018: pCube110
+    4300020: pCube111
+    4300022: pCube118
+    4300024: pCube117
+    4300026: pCube119
+    4300028: pCube120
+    4300030: pCube121
+    4300032: pCube122
+    4300034: pCube112
+    4300036: pCube113
+    4300038: pCube114
+    4300040: pCube115
+    4300042: pCube116
+    4300044: pCube119
+    4300046: pCube120
+    4300048: pCube121
+    4300050: pCube122
+    4300052: pCube119
+    4300054: pCube120
+    4300056: pCube121
+    4300058: pCube122
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

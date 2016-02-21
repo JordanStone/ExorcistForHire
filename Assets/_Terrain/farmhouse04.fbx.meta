@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 74c7c40a7ffd3924483505503804313c
+timeCreated: 1455567972
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Farmhouse02 1
+    100002: Farmhouse02_door
+    100004: Farmhouse02_roof
+    100006: Farmhouse02_shudders01
+    100008: Farmhouse02_shudders02
+    100010: Farmhouse02_shudders03
+    100012: Farmhouse02_shudders04
+    100014: Farmhouse02_shudders05
+    100016: Farmhouse02_shudders06
+    100018: Farmhouse02_shudders07
+    100020: //RootNode
+    400000: Farmhouse02 1
+    400002: Farmhouse02_door
+    400004: Farmhouse02_roof
+    400006: Farmhouse02_shudders01
+    400008: Farmhouse02_shudders02
+    400010: Farmhouse02_shudders03
+    400012: Farmhouse02_shudders04
+    400014: Farmhouse02_shudders05
+    400016: Farmhouse02_shudders06
+    400018: Farmhouse02_shudders07
+    400020: //RootNode
+    2300000: Farmhouse02 1
+    2300002: Farmhouse02_door
+    2300004: Farmhouse02_roof
+    2300006: Farmhouse02_shudders01
+    2300008: Farmhouse02_shudders02
+    2300010: Farmhouse02_shudders03
+    2300012: Farmhouse02_shudders04
+    2300014: Farmhouse02_shudders05
+    2300016: Farmhouse02_shudders06
+    2300018: Farmhouse02_shudders07
+    3300000: Farmhouse02 1
+    3300002: Farmhouse02_door
+    3300004: Farmhouse02_roof
+    3300006: Farmhouse02_shudders01
+    3300008: Farmhouse02_shudders02
+    3300010: Farmhouse02_shudders03
+    3300012: Farmhouse02_shudders04
+    3300014: Farmhouse02_shudders05
+    3300016: Farmhouse02_shudders06
+    3300018: Farmhouse02_shudders07
+    4300000: Farmhouse02
+    4300002: Farmhouse02_roof
+    4300004: Farmhouse02_shudders01
+    4300006: Farmhouse02_shudders02
+    4300008: Farmhouse02_shudders03
+    4300010: Farmhouse02_shudders04
+    4300012: Farmhouse02_shudders05
+    4300014: Farmhouse02_shudders06
+    4300016: Farmhouse02_shudders07
+    4300018: Farmhouse02_door
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

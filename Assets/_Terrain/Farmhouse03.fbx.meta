@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 8532044f9c6ebdc49b2a1fc9ba7c9f7c
+timeCreated: 1455567973
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Farmhouse01_chimney
+    100002: Farmhouse01_door
+    100004: Farmhouse01_roof
+    100006: farmhouse01_shudders
+    100008: farmhouse01_shudders1
+    100010: farmhouse01_shudders2
+    100012: farmhouse01_shudders3
+    100014: farmhouse01_shudders4
+    100016: farmhouse01_shudders5
+    100018: farmhouse01_shudders6
+    100020: farmhouse01_shudders7
+    100022: farmhouse01_shudders8
+    100024: farmhouse01_shudders9
+    100026: Farmhouse01_wall_front
+    100028: Farmhouse01_wall_left
+    100030: Farmhouse01_wall_rear
+    100032: Farmhouse01_wall_right
+    100034: //RootNode
+    400000: Farmhouse01_chimney
+    400002: Farmhouse01_door
+    400004: Farmhouse01_roof
+    400006: farmhouse01_shudders
+    400008: farmhouse01_shudders1
+    400010: farmhouse01_shudders2
+    400012: farmhouse01_shudders3
+    400014: farmhouse01_shudders4
+    400016: farmhouse01_shudders5
+    400018: farmhouse01_shudders6
+    400020: farmhouse01_shudders7
+    400022: farmhouse01_shudders8
+    400024: farmhouse01_shudders9
+    400026: Farmhouse01_wall_front
+    400028: Farmhouse01_wall_left
+    400030: Farmhouse01_wall_rear
+    400032: Farmhouse01_wall_right
+    400034: //RootNode
+    2300000: Farmhouse01_chimney
+    2300002: Farmhouse01_door
+    2300004: Farmhouse01_roof
+    2300006: farmhouse01_shudders
+    2300008: farmhouse01_shudders1
+    2300010: farmhouse01_shudders2
+    2300012: farmhouse01_shudders3
+    2300014: farmhouse01_shudders4
+    2300016: farmhouse01_shudders5
+    2300018: farmhouse01_shudders6
+    2300020: farmhouse01_shudders7
+    2300022: farmhouse01_shudders8
+    2300024: farmhouse01_shudders9
+    2300026: Farmhouse01_wall_front
+    2300028: Farmhouse01_wall_left
+    2300030: Farmhouse01_wall_rear
+    2300032: Farmhouse01_wall_right
+    3300000: Farmhouse01_chimney
+    3300002: Farmhouse01_door
+    3300004: Farmhouse01_roof
+    3300006: farmhouse01_shudders
+    3300008: farmhouse01_shudders1
+    3300010: farmhouse01_shudders2
+    3300012: farmhouse01_shudders3
+    3300014: farmhouse01_shudders4
+    3300016: farmhouse01_shudders5
+    3300018: farmhouse01_shudders6
+    3300020: farmhouse01_shudders7
+    3300022: farmhouse01_shudders8
+    3300024: farmhouse01_shudders9
+    3300026: Farmhouse01_wall_front
+    3300028: Farmhouse01_wall_left
+    3300030: Farmhouse01_wall_rear
+    3300032: Farmhouse01_wall_right
+    4300000: Farmhouse01_wall_rear
+    4300002: Farmhouse01_wall_left
+    4300004: Farmhouse01_wall_right
+    4300006: Farmhouse01_wall_front
+    4300008: Farmhouse01_roof
+    4300010: Farmhouse01_chimney
+    4300012: Farmhouse01_door
+    4300014: farmhouse01_shudders
+    4300016: farmhouse01_shudders1
+    4300018: farmhouse01_shudders2
+    4300020: farmhouse01_shudders3
+    4300022: farmhouse01_shudders4
+    4300024: farmhouse01_shudders5
+    4300026: farmhouse01_shudders6
+    4300028: farmhouse01_shudders7
+    4300030: farmhouse01_shudders8
+    4300032: farmhouse01_shudders9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

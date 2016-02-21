@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: a3eb40cd5698e3c4a99c8a57ba166dc9
+timeCreated: 1456021450
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AirVent1
+    100002: Base1
+    100004: Cap1
+    100006: Cap_Lid
+    100008: Cap_Screw
+    100010: curve4
+    100012: curve5
+    100014: DualWire03
+    100016: DualWire04
+    100018: Glass1
+    100020: GlassBase1
+    100022: GlassCircleWire1
+    100024: GlassTop1
+    100026: GlassTopTop1
+    100028: Hook1
+    100030: //RootNode
+    100032: LeftHandle1
+    100034: Lid1
+    100036: RightHandle
+    100038: WickBase1
+    100040: WickHolder1
+    400000: AirVent1
+    400002: Base1
+    400004: Cap1
+    400006: Cap_Lid
+    400008: Cap_Screw
+    400010: curve4
+    400012: curve5
+    400014: DualWire03
+    400016: DualWire04
+    400018: Glass1
+    400020: GlassBase1
+    400022: GlassCircleWire1
+    400024: GlassTop1
+    400026: GlassTopTop1
+    400028: Hook1
+    400030: //RootNode
+    400032: LeftHandle1
+    400034: Lid1
+    400036: RightHandle
+    400038: WickBase1
+    400040: WickHolder1
+    2300000: AirVent1
+    2300002: Base1
+    2300004: Cap_Lid
+    2300006: Cap_Screw
+    2300008: DualWire03
+    2300010: DualWire04
+    2300012: Glass1
+    2300014: GlassBase1
+    2300016: GlassCircleWire1
+    2300018: GlassTop1
+    2300020: GlassTopTop1
+    2300022: Hook1
+    2300024: LeftHandle1
+    2300026: Lid1
+    2300028: RightHandle
+    2300030: WickBase1
+    2300032: WickHolder1
+    3300000: AirVent1
+    3300002: Base1
+    3300004: Cap_Lid
+    3300006: Cap_Screw
+    3300008: DualWire03
+    3300010: DualWire04
+    3300012: Glass1
+    3300014: GlassBase1
+    3300016: GlassCircleWire1
+    3300018: GlassTop1
+    3300020: GlassTopTop1
+    3300022: Hook1
+    3300024: LeftHandle1
+    3300026: Lid1
+    3300028: RightHandle
+    3300030: WickBase1
+    3300032: WickHolder1
+    4300000: Base1
+    4300002: WickBase1
+    4300004: WickHolder1
+    4300006: GlassCircleWire1
+    4300008: GlassBase1
+    4300010: Glass1
+    4300012: GlassTop1
+    4300014: GlassTopTop1
+    4300016: AirVent1
+    4300018: Lid1
+    4300020: LeftHandle1
+    4300022: DualWire03
+    4300024: DualWire04
+    4300026: Cap_Screw
+    4300028: Cap_Lid
+    4300030: Hook1
+    4300032: RightHandle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
