@@ -20,6 +20,8 @@ public class CultistAttackAndHealth : MonoBehaviour {
 	private SoundManager _soundManager;
 	private Animator _myAnimator;
 
+	private BossAddBehavior _bossAdd;
+
 
 	// Use this for initialization
 	void OnEnable () 
@@ -34,6 +36,8 @@ public class CultistAttackAndHealth : MonoBehaviour {
 //		spookyMoan = GetComponents<AudioSource>()[0];
 		spookyAttack = GetComponents<AudioSource>()[1];
 		spookDeath = GetComponents<AudioSource>()[2];
+		if(gameObject.tag == "BossAdd")
+			_bossAdd = gameObject.GetComponent<BossAddBehavior>();
 	}
 	
 	// Update is called once per frame
@@ -65,6 +69,8 @@ public class CultistAttackAndHealth : MonoBehaviour {
 				if (spookDeath.clip)
 					AudioSource.PlayClipAtPoint(spookDeath.clip, transform.position);
 				_myAnimator.SetTrigger("DeathKnockdown");
+				if(_bossAdd != null)
+					_bossAdd.AddDeath();
 
 				StartCoroutine(_enemyDetectionScript.ChangeState(EnemyStateMachine.EnemyState.Die));
 			}
