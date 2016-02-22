@@ -25,6 +25,8 @@ TagManager:
   - Ladder
   - AmmoBox
   - Enemy
+  - BossAdd
+  - Radio
   layers:
   - Default
   - TransparentFX
