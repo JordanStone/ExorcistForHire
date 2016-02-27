@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 04e06a7e611844bd2b752d84d19637d8
+timeCreated: 1456543073
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bolt
+    100002: bolt1
+    100004: bolt10
+    100006: bolt11
+    100008: bolt12
+    100010: bolt13
+    100012: bolt2
+    100014: bolt3
+    100016: bolt4
+    100018: bolt5
+    100020: bolt6
+    100022: bolt7
+    100024: bolt8
+    100026: bolt9
+    100028: sign
+    100030: sign_bolts
+    100032: sign_bolts1
+    100034: sign_hold_crossbar
+    100036: signhold
+    100038: //RootNode
+    400000: bolt
+    400002: bolt1
+    400004: bolt10
+    400006: bolt11
+    400008: bolt12
+    400010: bolt13
+    400012: bolt2
+    400014: bolt3
+    400016: bolt4
+    400018: bolt5
+    400020: bolt6
+    400022: bolt7
+    400024: bolt8
+    400026: bolt9
+    400028: sign
+    400030: sign_bolts
+    400032: sign_bolts1
+    400034: sign_hold_crossbar
+    400036: signhold
+    400038: //RootNode
+    2300000: bolt
+    2300002: bolt1
+    2300004: bolt10
+    2300006: bolt11
+    2300008: bolt12
+    2300010: bolt13
+    2300012: bolt2
+    2300014: bolt3
+    2300016: bolt4
+    2300018: bolt5
+    2300020: bolt6
+    2300022: bolt7
+    2300024: bolt8
+    2300026: bolt9
+    2300028: sign
+    2300030: sign_bolts
+    2300032: sign_bolts1
+    2300034: sign_hold_crossbar
+    2300036: signhold
+    3300000: bolt
+    3300002: bolt1
+    3300004: bolt10
+    3300006: bolt11
+    3300008: bolt12
+    3300010: bolt13
+    3300012: bolt2
+    3300014: bolt3
+    3300016: bolt4
+    3300018: bolt5
+    3300020: bolt6
+    3300022: bolt7
+    3300024: bolt8
+    3300026: bolt9
+    3300028: sign
+    3300030: sign_bolts
+    3300032: sign_bolts1
+    3300034: sign_hold_crossbar
+    3300036: signhold
+    4300000: signhold
+    4300002: sign_hold_crossbar
+    4300004: sign_bolts
+    4300006: bolt
+    4300008: bolt1
+    4300010: bolt2
+    4300012: bolt3
+    4300014: bolt4
+    4300016: bolt5
+    4300018: sign_bolts1
+    4300020: sign
+    4300022: bolt6
+    4300024: bolt7
+    4300026: bolt8
+    4300028: bolt9
+    4300030: bolt10
+    4300032: bolt11
+    4300034: bolt12
+    4300036: bolt13
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

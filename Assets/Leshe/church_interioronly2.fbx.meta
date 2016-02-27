@@ -1,0 +1,2070 @@
+fileFormatVersion: 2
+guid: db73061a841ff6e4c8e017b7014c816f
+timeCreated: 1456597712
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: altar
+    100002: Candle01
+    100004: Candle01 1
+    100006: Candle01 10
+    100008: Candle01 11
+    100010: Candle01 2
+    100012: Candle01 3
+    100014: Candle01 4
+    100016: Candle01 5
+    100018: Candle01 6
+    100020: Candle01 7
+    100022: Candle01 8
+    100024: Candle01 9
+    100026: Candle02
+    100028: Candle02 1
+    100030: Candle02 10
+    100032: Candle02 11
+    100034: Candle02 2
+    100036: Candle02 3
+    100038: Candle02 4
+    100040: Candle02 5
+    100042: Candle02 6
+    100044: Candle02 7
+    100046: Candle02 8
+    100048: Candle02 9
+    100050: Candle03
+    100052: Candle03 1
+    100054: Candle03 10
+    100056: Candle03 11
+    100058: Candle03 2
+    100060: Candle03 3
+    100062: Candle03 4
+    100064: Candle03 5
+    100066: Candle03 6
+    100068: Candle03 7
+    100070: Candle03 8
+    100072: Candle03 9
+    100074: Candle04
+    100076: Candle04 1
+    100078: Candle04 10
+    100080: Candle04 11
+    100082: Candle04 2
+    100084: Candle04 3
+    100086: Candle04 4
+    100088: Candle04 5
+    100090: Candle04 6
+    100092: Candle04 7
+    100094: Candle04 8
+    100096: Candle04 9
+    100098: CandleGroup01
+    100100: CandleGroup010
+    100102: CandleGroup011
+    100104: CandleGroup012
+    100106: CandleGroup02
+    100108: CandleGroup03
+    100110: CandleGroup04
+    100112: CandleGroup05
+    100114: CandleGroup06
+    100116: CandleGroup07
+    100118: CandleGroup08
+    100120: CandleGroup09
+    100122: CandleHolder
+    100124: CandleHolder1
+    100126: CandleHolder10
+    100128: CandleHolder11
+    100130: CandleHolder2
+    100132: CandleHolder3
+    100134: CandleHolder4
+    100136: CandleHolder5
+    100138: CandleHolder6
+    100140: CandleHolder7
+    100142: CandleHolder8
+    100144: CandleHolder9
+    100146: CandleHolder_Body
+    100148: CandleHolder_Body 1
+    100150: CandleHolder_Body 10
+    100152: CandleHolder_Body 11
+    100154: CandleHolder_Body 2
+    100156: CandleHolder_Body 3
+    100158: CandleHolder_Body 4
+    100160: CandleHolder_Body 5
+    100162: CandleHolder_Body 6
+    100164: CandleHolder_Body 7
+    100166: CandleHolder_Body 8
+    100168: CandleHolder_Body 9
+    100170: CandleHolder_LeftSupport
+    100172: CandleHolder_LeftSupport 1
+    100174: CandleHolder_LeftSupport 10
+    100176: CandleHolder_LeftSupport 11
+    100178: CandleHolder_LeftSupport 2
+    100180: CandleHolder_LeftSupport 3
+    100182: CandleHolder_LeftSupport 4
+    100184: CandleHolder_LeftSupport 5
+    100186: CandleHolder_LeftSupport 6
+    100188: CandleHolder_LeftSupport 7
+    100190: CandleHolder_LeftSupport 8
+    100192: CandleHolder_LeftSupport 9
+    100194: CandleHolder_LeftSupport1
+    100196: CandleHolder_LeftSupport1 1
+    100198: CandleHolder_LeftSupport1 10
+    100200: CandleHolder_LeftSupport1 11
+    100202: CandleHolder_LeftSupport1 2
+    100204: CandleHolder_LeftSupport1 3
+    100206: CandleHolder_LeftSupport1 4
+    100208: CandleHolder_LeftSupport1 5
+    100210: CandleHolder_LeftSupport1 6
+    100212: CandleHolder_LeftSupport1 7
+    100214: CandleHolder_LeftSupport1 8
+    100216: CandleHolder_LeftSupport1 9
+    100218: CandleTable
+    100220: candletable
+    100222: candletable1
+    100224: CandleTable_LeftLeg
+    100226: CandleTable_LegLeft_Ankle
+    100228: CandleTable_LegLeft_CenterShin
+    100230: CandleTable_LegLeft_CenterShin1
+    100232: CandleTable_LegLeft_CenterShin2
+    100234: CandleTable_LegLeft_Foot
+    100236: CandleTable_LegLeft_Toe
+    100238: CandleTable_LegLeft_Toe1
+    100240: CandleTable_LegLeft_Ulna
+    100242: CandleTable_LegLeft_Ulna1
+    100244: CandleTable_RightLeg
+    100246: CandleTable_RightLeg_Ankle
+    100248: CandleTable_RightLeg_CenterShin
+    100250: CandleTable_RightLeg_CenterShin1
+    100252: CandleTable_RightLeg_CenterShin2
+    100254: CandleTable_RightLeg_Foot
+    100256: CandleTable_RightLeg_Toe
+    100258: CandleTable_RightLeg_Toe1
+    100260: CandleTable_RightLeg_Ulna
+    100262: CandleTable_RightLeg_Ulna1
+    100264: CandleTable_Table
+    100266: CandyHolder_LeftBar
+    100268: CandyHolder_LeftBar 1
+    100270: CandyHolder_LeftBar 10
+    100272: CandyHolder_LeftBar 11
+    100274: CandyHolder_LeftBar 2
+    100276: CandyHolder_LeftBar 3
+    100278: CandyHolder_LeftBar 4
+    100280: CandyHolder_LeftBar 5
+    100282: CandyHolder_LeftBar 6
+    100284: CandyHolder_LeftBar 7
+    100286: CandyHolder_LeftBar 8
+    100288: CandyHolder_LeftBar 9
+    100290: CandyHolder_RightBar
+    100292: CandyHolder_RightBar 1
+    100294: CandyHolder_RightBar 10
+    100296: CandyHolder_RightBar 11
+    100298: CandyHolder_RightBar 2
+    100300: CandyHolder_RightBar 3
+    100302: CandyHolder_RightBar 4
+    100304: CandyHolder_RightBar 5
+    100306: CandyHolder_RightBar 6
+    100308: CandyHolder_RightBar 7
+    100310: CandyHolder_RightBar 8
+    100312: CandyHolder_RightBar 9
+    100314: //RootNode
+    100316: ChurchScene_0019:AltarArch
+    100318: ChurchScene_0019:AltarArch1
+    100320: ChurchScene_0019:AltarArch10
+    100322: ChurchScene_0019:AltarArch11
+    100324: ChurchScene_0019:AltarArch12
+    100326: ChurchScene_0019:AltarArch13
+    100328: ChurchScene_0019:AltarArch2
+    100330: ChurchScene_0019:AltarArch3
+    100332: ChurchScene_0019:AltarArch4
+    100334: ChurchScene_0019:AltarArch5
+    100336: ChurchScene_0019:AltarArch6
+    100338: ChurchScene_0019:AltarArch7
+    100340: ChurchScene_0019:AltarArch8
+    100342: ChurchScene_0019:AltarArch9
+    100344: ChurchScene_0019:AltarArch_Foot
+    100346: ChurchScene_0019:AltarArch_Foot1
+    100348: ChurchScene_0019:AltarArch_Foot10
+    100350: ChurchScene_0019:AltarArch_Foot11
+    100352: ChurchScene_0019:AltarArch_Foot12
+    100354: ChurchScene_0019:AltarArch_Foot13
+    100356: ChurchScene_0019:AltarArch_Foot14
+    100358: ChurchScene_0019:AltarArch_Foot15
+    100360: ChurchScene_0019:AltarArch_Foot16
+    100362: ChurchScene_0019:AltarArch_Foot17
+    100364: ChurchScene_0019:AltarArch_Foot18
+    100366: ChurchScene_0019:AltarArch_Foot19
+    100368: ChurchScene_0019:AltarArch_Foot2
+    100370: ChurchScene_0019:AltarArch_Foot20
+    100372: ChurchScene_0019:AltarArch_Foot21
+    100374: ChurchScene_0019:AltarArch_Foot22
+    100376: ChurchScene_0019:AltarArch_Foot23
+    100378: ChurchScene_0019:AltarArch_Foot3
+    100380: ChurchScene_0019:AltarArch_Foot4
+    100382: ChurchScene_0019:AltarArch_Foot5
+    100384: ChurchScene_0019:AltarArch_Foot6
+    100386: ChurchScene_0019:AltarArch_Foot7
+    100388: ChurchScene_0019:AltarArch_Foot8
+    100390: ChurchScene_0019:AltarArch_Foot9
+    100392: ChurchScene_0019:Candle01
+    100394: ChurchScene_0019:Candle01 1
+    100396: ChurchScene_0019:Candle01 10
+    100398: ChurchScene_0019:Candle01 11
+    100400: ChurchScene_0019:Candle01 2
+    100402: ChurchScene_0019:Candle01 3
+    100404: ChurchScene_0019:Candle01 4
+    100406: ChurchScene_0019:Candle01 5
+    100408: ChurchScene_0019:Candle01 6
+    100410: ChurchScene_0019:Candle01 7
+    100412: ChurchScene_0019:Candle01 8
+    100414: ChurchScene_0019:Candle01 9
+    100416: ChurchScene_0019:Candle02
+    100418: ChurchScene_0019:Candle02 1
+    100420: ChurchScene_0019:Candle02 10
+    100422: ChurchScene_0019:Candle02 11
+    100424: ChurchScene_0019:Candle02 2
+    100426: ChurchScene_0019:Candle02 3
+    100428: ChurchScene_0019:Candle02 4
+    100430: ChurchScene_0019:Candle02 5
+    100432: ChurchScene_0019:Candle02 6
+    100434: ChurchScene_0019:Candle02 7
+    100436: ChurchScene_0019:Candle02 8
+    100438: ChurchScene_0019:Candle02 9
+    100440: ChurchScene_0019:Candle03
+    100442: ChurchScene_0019:Candle03 1
+    100444: ChurchScene_0019:Candle03 10
+    100446: ChurchScene_0019:Candle03 11
+    100448: ChurchScene_0019:Candle03 2
+    100450: ChurchScene_0019:Candle03 3
+    100452: ChurchScene_0019:Candle03 4
+    100454: ChurchScene_0019:Candle03 5
+    100456: ChurchScene_0019:Candle03 6
+    100458: ChurchScene_0019:Candle03 7
+    100460: ChurchScene_0019:Candle03 8
+    100462: ChurchScene_0019:Candle03 9
+    100464: ChurchScene_0019:Candle04
+    100466: ChurchScene_0019:Candle04 1
+    100468: ChurchScene_0019:Candle04 10
+    100470: ChurchScene_0019:Candle04 11
+    100472: ChurchScene_0019:Candle04 2
+    100474: ChurchScene_0019:Candle04 3
+    100476: ChurchScene_0019:Candle04 4
+    100478: ChurchScene_0019:Candle04 5
+    100480: ChurchScene_0019:Candle04 6
+    100482: ChurchScene_0019:Candle04 7
+    100484: ChurchScene_0019:Candle04 8
+    100486: ChurchScene_0019:Candle04 9
+    100488: ChurchScene_0019:CandleGroup01
+    100490: ChurchScene_0019:CandleGroup010
+    100492: ChurchScene_0019:CandleGroup011
+    100494: ChurchScene_0019:CandleGroup012
+    100496: ChurchScene_0019:CandleGroup02
+    100498: ChurchScene_0019:CandleGroup03
+    100500: ChurchScene_0019:CandleGroup04
+    100502: ChurchScene_0019:CandleGroup05
+    100504: ChurchScene_0019:CandleGroup06
+    100506: ChurchScene_0019:CandleGroup07
+    100508: ChurchScene_0019:CandleGroup08
+    100510: ChurchScene_0019:CandleGroup09
+    100512: ChurchScene_0019:CandleHolder
+    100514: ChurchScene_0019:CandleHolder1
+    100516: ChurchScene_0019:CandleHolder10
+    100518: ChurchScene_0019:CandleHolder11
+    100520: ChurchScene_0019:CandleHolder2
+    100522: ChurchScene_0019:CandleHolder3
+    100524: ChurchScene_0019:CandleHolder4
+    100526: ChurchScene_0019:CandleHolder5
+    100528: ChurchScene_0019:CandleHolder6
+    100530: ChurchScene_0019:CandleHolder7
+    100532: ChurchScene_0019:CandleHolder8
+    100534: ChurchScene_0019:CandleHolder9
+    100536: ChurchScene_0019:CandleHolder_Body
+    100538: ChurchScene_0019:CandleHolder_Body 1
+    100540: ChurchScene_0019:CandleHolder_Body 10
+    100542: ChurchScene_0019:CandleHolder_Body 11
+    100544: ChurchScene_0019:CandleHolder_Body 2
+    100546: ChurchScene_0019:CandleHolder_Body 3
+    100548: ChurchScene_0019:CandleHolder_Body 4
+    100550: ChurchScene_0019:CandleHolder_Body 5
+    100552: ChurchScene_0019:CandleHolder_Body 6
+    100554: ChurchScene_0019:CandleHolder_Body 7
+    100556: ChurchScene_0019:CandleHolder_Body 8
+    100558: ChurchScene_0019:CandleHolder_Body 9
+    100560: ChurchScene_0019:CandleHolder_LeftSupport
+    100562: ChurchScene_0019:CandleHolder_LeftSupport 1
+    100564: ChurchScene_0019:CandleHolder_LeftSupport 10
+    100566: ChurchScene_0019:CandleHolder_LeftSupport 11
+    100568: ChurchScene_0019:CandleHolder_LeftSupport 2
+    100570: ChurchScene_0019:CandleHolder_LeftSupport 3
+    100572: ChurchScene_0019:CandleHolder_LeftSupport 4
+    100574: ChurchScene_0019:CandleHolder_LeftSupport 5
+    100576: ChurchScene_0019:CandleHolder_LeftSupport 6
+    100578: ChurchScene_0019:CandleHolder_LeftSupport 7
+    100580: ChurchScene_0019:CandleHolder_LeftSupport 8
+    100582: ChurchScene_0019:CandleHolder_LeftSupport 9
+    100584: ChurchScene_0019:CandleHolder_LeftSupport1
+    100586: ChurchScene_0019:CandleHolder_LeftSupport1 1
+    100588: ChurchScene_0019:CandleHolder_LeftSupport1 10
+    100590: ChurchScene_0019:CandleHolder_LeftSupport1 11
+    100592: ChurchScene_0019:CandleHolder_LeftSupport1 2
+    100594: ChurchScene_0019:CandleHolder_LeftSupport1 3
+    100596: ChurchScene_0019:CandleHolder_LeftSupport1 4
+    100598: ChurchScene_0019:CandleHolder_LeftSupport1 5
+    100600: ChurchScene_0019:CandleHolder_LeftSupport1 6
+    100602: ChurchScene_0019:CandleHolder_LeftSupport1 7
+    100604: ChurchScene_0019:CandleHolder_LeftSupport1 8
+    100606: ChurchScene_0019:CandleHolder_LeftSupport1 9
+    100608: ChurchScene_0019:CandleTable
+    100610: ChurchScene_0019:CandleTable_LeftLeg
+    100612: ChurchScene_0019:CandleTable_LegLeft_Ankle
+    100614: ChurchScene_0019:CandleTable_LegLeft_CenterShin
+    100616: ChurchScene_0019:CandleTable_LegLeft_CenterShin1
+    100618: ChurchScene_0019:CandleTable_LegLeft_CenterShin2
+    100620: ChurchScene_0019:CandleTable_LegLeft_Foot
+    100622: ChurchScene_0019:CandleTable_LegLeft_Toe
+    100624: ChurchScene_0019:CandleTable_LegLeft_Toe1
+    100626: ChurchScene_0019:CandleTable_LegLeft_Ulna
+    100628: ChurchScene_0019:CandleTable_LegLeft_Ulna1
+    100630: ChurchScene_0019:CandleTable_RightLeg
+    100632: ChurchScene_0019:CandleTable_RightLeg_Ankle
+    100634: ChurchScene_0019:CandleTable_RightLeg_CenterShin
+    100636: ChurchScene_0019:CandleTable_RightLeg_CenterShin1
+    100638: ChurchScene_0019:CandleTable_RightLeg_CenterShin2
+    100640: ChurchScene_0019:CandleTable_RightLeg_Foot
+    100642: ChurchScene_0019:CandleTable_RightLeg_Toe
+    100644: ChurchScene_0019:CandleTable_RightLeg_Toe1
+    100646: ChurchScene_0019:CandleTable_RightLeg_Ulna
+    100648: ChurchScene_0019:CandleTable_RightLeg_Ulna1
+    100650: ChurchScene_0019:CandleTable_Table
+    100652: ChurchScene_0019:CandyHolder_LeftBar
+    100654: ChurchScene_0019:CandyHolder_LeftBar 1
+    100656: ChurchScene_0019:CandyHolder_LeftBar 10
+    100658: ChurchScene_0019:CandyHolder_LeftBar 11
+    100660: ChurchScene_0019:CandyHolder_LeftBar 2
+    100662: ChurchScene_0019:CandyHolder_LeftBar 3
+    100664: ChurchScene_0019:CandyHolder_LeftBar 4
+    100666: ChurchScene_0019:CandyHolder_LeftBar 5
+    100668: ChurchScene_0019:CandyHolder_LeftBar 6
+    100670: ChurchScene_0019:CandyHolder_LeftBar 7
+    100672: ChurchScene_0019:CandyHolder_LeftBar 8
+    100674: ChurchScene_0019:CandyHolder_LeftBar 9
+    100676: ChurchScene_0019:CandyHolder_RightBar
+    100678: ChurchScene_0019:CandyHolder_RightBar 1
+    100680: ChurchScene_0019:CandyHolder_RightBar 10
+    100682: ChurchScene_0019:CandyHolder_RightBar 11
+    100684: ChurchScene_0019:CandyHolder_RightBar 2
+    100686: ChurchScene_0019:CandyHolder_RightBar 3
+    100688: ChurchScene_0019:CandyHolder_RightBar 4
+    100690: ChurchScene_0019:CandyHolder_RightBar 5
+    100692: ChurchScene_0019:CandyHolder_RightBar 6
+    100694: ChurchScene_0019:CandyHolder_RightBar 7
+    100696: ChurchScene_0019:CandyHolder_RightBar 8
+    100698: ChurchScene_0019:CandyHolder_RightBar 9
+    100700: ChurchScene_0019:pCube10
+    100702: ChurchScene_0019:pCube11
+    100704: ChurchScene_0019:pCube9
+    100706: flag1
+    100708: flag2
+    100710: flag3
+    100712: flag4
+    100714: flags
+    100716: pCube9
+    100718: pew_row_1_pew1
+    100720: pew_row_1_pew2_ChurchPew_BackSupport
+    100722: pew_row_1_pew3
+    100724: pew_row_1_pew4_ChurchPew_BackSupport
+    100726: pew_row_2_pew1
+    100728: pew_row_2_pew2
+    100730: pew_row_2_pew3
+    100732: pew_row_2_pew4
+    100734: pew_row_3_pew1
+    100736: pew_row_3_pew2
+    100738: pew_row_3_pew3
+    100740: pew_row_3_pew4
+    100742: pew_row_4_pew1
+    100744: pew_row_4_pew2
+    100746: pew_row_4_pew3
+    100748: pew_row_4_pew4
+    100750: pews
+    100752: rafterpair1
+    100754: rafterpair2
+    100756: rafterpair3
+    100758: rafterpair4
+    100760: rafterpair5
+    100762: rafterpair6
+    100764: right_supports
+    100766: SideRafter7
+    100768: SideRafter7 1
+    100770: SideRafter7 2
+    100772: SideRafter7 3
+    100774: SideRafter7 4
+    100776: SideRafter7 5
+    100778: SideRafter8
+    100780: SideRafter8 1
+    100782: SideRafter8 2
+    100784: SideRafter8 3
+    100786: SideRafter8 4
+    100788: SideRafter8 5
+    100790: SideRafter_Bot3
+    100792: SideRafter_Bot3 1
+    100794: SideRafter_Bot3 10
+    100796: SideRafter_Bot3 11
+    100798: SideRafter_Bot3 2
+    100800: SideRafter_Bot3 3
+    100802: SideRafter_Bot3 4
+    100804: SideRafter_Bot3 5
+    100806: SideRafter_Bot3 6
+    100808: SideRafter_Bot3 7
+    100810: SideRafter_Bot3 8
+    100812: SideRafter_Bot3 9
+    100814: SideRafter_Hypotenuse
+    100816: SideRafter_Hypotenuse 1
+    100818: SideRafter_Hypotenuse 10
+    100820: SideRafter_Hypotenuse 11
+    100822: SideRafter_Hypotenuse 2
+    100824: SideRafter_Hypotenuse 3
+    100826: SideRafter_Hypotenuse 4
+    100828: SideRafter_Hypotenuse 5
+    100830: SideRafter_Hypotenuse 6
+    100832: SideRafter_Hypotenuse 7
+    100834: SideRafter_Hypotenuse 8
+    100836: SideRafter_Hypotenuse 9
+    100838: SideRafter_Left
+    100840: SideRafter_Left 1
+    100842: SideRafter_Left 10
+    100844: SideRafter_Left 11
+    100846: SideRafter_Left 2
+    100848: SideRafter_Left 3
+    100850: SideRafter_Left 4
+    100852: SideRafter_Left 5
+    100854: SideRafter_Left 6
+    100856: SideRafter_Left 7
+    100858: SideRafter_Left 8
+    100860: SideRafter_Left 9
+    100862: SideRafter_Middle
+    100864: SideRafter_Middle 1
+    100866: SideRafter_Middle 10
+    100868: SideRafter_Middle 11
+    100870: SideRafter_Middle 2
+    100872: SideRafter_Middle 3
+    100874: SideRafter_Middle 4
+    100876: SideRafter_Middle 5
+    100878: SideRafter_Middle 6
+    100880: SideRafter_Middle 7
+    100882: SideRafter_Middle 8
+    100884: SideRafter_Middle 9
+    100886: SideRafter_Wood
+    100888: SideRafter_Wood 1
+    100890: SideRafter_Wood 10
+    100892: SideRafter_Wood 11
+    100894: SideRafter_Wood 2
+    100896: SideRafter_Wood 3
+    100898: SideRafter_Wood 4
+    100900: SideRafter_Wood 5
+    100902: SideRafter_Wood 6
+    100904: SideRafter_Wood 7
+    100906: SideRafter_Wood 8
+    100908: SideRafter_Wood 9
+    100910: supports
+    400000: altar
+    400002: Candle01
+    400004: Candle01 1
+    400006: Candle01 10
+    400008: Candle01 11
+    400010: Candle01 2
+    400012: Candle01 3
+    400014: Candle01 4
+    400016: Candle01 5
+    400018: Candle01 6
+    400020: Candle01 7
+    400022: Candle01 8
+    400024: Candle01 9
+    400026: Candle02
+    400028: Candle02 1
+    400030: Candle02 10
+    400032: Candle02 11
+    400034: Candle02 2
+    400036: Candle02 3
+    400038: Candle02 4
+    400040: Candle02 5
+    400042: Candle02 6
+    400044: Candle02 7
+    400046: Candle02 8
+    400048: Candle02 9
+    400050: Candle03
+    400052: Candle03 1
+    400054: Candle03 10
+    400056: Candle03 11
+    400058: Candle03 2
+    400060: Candle03 3
+    400062: Candle03 4
+    400064: Candle03 5
+    400066: Candle03 6
+    400068: Candle03 7
+    400070: Candle03 8
+    400072: Candle03 9
+    400074: Candle04
+    400076: Candle04 1
+    400078: Candle04 10
+    400080: Candle04 11
+    400082: Candle04 2
+    400084: Candle04 3
+    400086: Candle04 4
+    400088: Candle04 5
+    400090: Candle04 6
+    400092: Candle04 7
+    400094: Candle04 8
+    400096: Candle04 9
+    400098: CandleGroup01
+    400100: CandleGroup010
+    400102: CandleGroup011
+    400104: CandleGroup012
+    400106: CandleGroup02
+    400108: CandleGroup03
+    400110: CandleGroup04
+    400112: CandleGroup05
+    400114: CandleGroup06
+    400116: CandleGroup07
+    400118: CandleGroup08
+    400120: CandleGroup09
+    400122: CandleHolder
+    400124: CandleHolder1
+    400126: CandleHolder10
+    400128: CandleHolder11
+    400130: CandleHolder2
+    400132: CandleHolder3
+    400134: CandleHolder4
+    400136: CandleHolder5
+    400138: CandleHolder6
+    400140: CandleHolder7
+    400142: CandleHolder8
+    400144: CandleHolder9
+    400146: CandleHolder_Body
+    400148: CandleHolder_Body 1
+    400150: CandleHolder_Body 10
+    400152: CandleHolder_Body 11
+    400154: CandleHolder_Body 2
+    400156: CandleHolder_Body 3
+    400158: CandleHolder_Body 4
+    400160: CandleHolder_Body 5
+    400162: CandleHolder_Body 6
+    400164: CandleHolder_Body 7
+    400166: CandleHolder_Body 8
+    400168: CandleHolder_Body 9
+    400170: CandleHolder_LeftSupport
+    400172: CandleHolder_LeftSupport 1
+    400174: CandleHolder_LeftSupport 10
+    400176: CandleHolder_LeftSupport 11
+    400178: CandleHolder_LeftSupport 2
+    400180: CandleHolder_LeftSupport 3
+    400182: CandleHolder_LeftSupport 4
+    400184: CandleHolder_LeftSupport 5
+    400186: CandleHolder_LeftSupport 6
+    400188: CandleHolder_LeftSupport 7
+    400190: CandleHolder_LeftSupport 8
+    400192: CandleHolder_LeftSupport 9
+    400194: CandleHolder_LeftSupport1
+    400196: CandleHolder_LeftSupport1 1
+    400198: CandleHolder_LeftSupport1 10
+    400200: CandleHolder_LeftSupport1 11
+    400202: CandleHolder_LeftSupport1 2
+    400204: CandleHolder_LeftSupport1 3
+    400206: CandleHolder_LeftSupport1 4
+    400208: CandleHolder_LeftSupport1 5
+    400210: CandleHolder_LeftSupport1 6
+    400212: CandleHolder_LeftSupport1 7
+    400214: CandleHolder_LeftSupport1 8
+    400216: CandleHolder_LeftSupport1 9
+    400218: CandleTable
+    400220: candletable
+    400222: candletable1
+    400224: CandleTable_LeftLeg
+    400226: CandleTable_LegLeft_Ankle
+    400228: CandleTable_LegLeft_CenterShin
+    400230: CandleTable_LegLeft_CenterShin1
+    400232: CandleTable_LegLeft_CenterShin2
+    400234: CandleTable_LegLeft_Foot
+    400236: CandleTable_LegLeft_Toe
+    400238: CandleTable_LegLeft_Toe1
+    400240: CandleTable_LegLeft_Ulna
+    400242: CandleTable_LegLeft_Ulna1
+    400244: CandleTable_RightLeg
+    400246: CandleTable_RightLeg_Ankle
+    400248: CandleTable_RightLeg_CenterShin
+    400250: CandleTable_RightLeg_CenterShin1
+    400252: CandleTable_RightLeg_CenterShin2
+    400254: CandleTable_RightLeg_Foot
+    400256: CandleTable_RightLeg_Toe
+    400258: CandleTable_RightLeg_Toe1
+    400260: CandleTable_RightLeg_Ulna
+    400262: CandleTable_RightLeg_Ulna1
+    400264: CandleTable_Table
+    400266: CandyHolder_LeftBar
+    400268: CandyHolder_LeftBar 1
+    400270: CandyHolder_LeftBar 10
+    400272: CandyHolder_LeftBar 11
+    400274: CandyHolder_LeftBar 2
+    400276: CandyHolder_LeftBar 3
+    400278: CandyHolder_LeftBar 4
+    400280: CandyHolder_LeftBar 5
+    400282: CandyHolder_LeftBar 6
+    400284: CandyHolder_LeftBar 7
+    400286: CandyHolder_LeftBar 8
+    400288: CandyHolder_LeftBar 9
+    400290: CandyHolder_RightBar
+    400292: CandyHolder_RightBar 1
+    400294: CandyHolder_RightBar 10
+    400296: CandyHolder_RightBar 11
+    400298: CandyHolder_RightBar 2
+    400300: CandyHolder_RightBar 3
+    400302: CandyHolder_RightBar 4
+    400304: CandyHolder_RightBar 5
+    400306: CandyHolder_RightBar 6
+    400308: CandyHolder_RightBar 7
+    400310: CandyHolder_RightBar 8
+    400312: CandyHolder_RightBar 9
+    400314: //RootNode
+    400316: ChurchScene_0019:AltarArch
+    400318: ChurchScene_0019:AltarArch1
+    400320: ChurchScene_0019:AltarArch10
+    400322: ChurchScene_0019:AltarArch11
+    400324: ChurchScene_0019:AltarArch12
+    400326: ChurchScene_0019:AltarArch13
+    400328: ChurchScene_0019:AltarArch2
+    400330: ChurchScene_0019:AltarArch3
+    400332: ChurchScene_0019:AltarArch4
+    400334: ChurchScene_0019:AltarArch5
+    400336: ChurchScene_0019:AltarArch6
+    400338: ChurchScene_0019:AltarArch7
+    400340: ChurchScene_0019:AltarArch8
+    400342: ChurchScene_0019:AltarArch9
+    400344: ChurchScene_0019:AltarArch_Foot
+    400346: ChurchScene_0019:AltarArch_Foot1
+    400348: ChurchScene_0019:AltarArch_Foot10
+    400350: ChurchScene_0019:AltarArch_Foot11
+    400352: ChurchScene_0019:AltarArch_Foot12
+    400354: ChurchScene_0019:AltarArch_Foot13
+    400356: ChurchScene_0019:AltarArch_Foot14
+    400358: ChurchScene_0019:AltarArch_Foot15
+    400360: ChurchScene_0019:AltarArch_Foot16
+    400362: ChurchScene_0019:AltarArch_Foot17
+    400364: ChurchScene_0019:AltarArch_Foot18
+    400366: ChurchScene_0019:AltarArch_Foot19
+    400368: ChurchScene_0019:AltarArch_Foot2
+    400370: ChurchScene_0019:AltarArch_Foot20
+    400372: ChurchScene_0019:AltarArch_Foot21
+    400374: ChurchScene_0019:AltarArch_Foot22
+    400376: ChurchScene_0019:AltarArch_Foot23
+    400378: ChurchScene_0019:AltarArch_Foot3
+    400380: ChurchScene_0019:AltarArch_Foot4
+    400382: ChurchScene_0019:AltarArch_Foot5
+    400384: ChurchScene_0019:AltarArch_Foot6
+    400386: ChurchScene_0019:AltarArch_Foot7
+    400388: ChurchScene_0019:AltarArch_Foot8
+    400390: ChurchScene_0019:AltarArch_Foot9
+    400392: ChurchScene_0019:Candle01
+    400394: ChurchScene_0019:Candle01 1
+    400396: ChurchScene_0019:Candle01 10
+    400398: ChurchScene_0019:Candle01 11
+    400400: ChurchScene_0019:Candle01 2
+    400402: ChurchScene_0019:Candle01 3
+    400404: ChurchScene_0019:Candle01 4
+    400406: ChurchScene_0019:Candle01 5
+    400408: ChurchScene_0019:Candle01 6
+    400410: ChurchScene_0019:Candle01 7
+    400412: ChurchScene_0019:Candle01 8
+    400414: ChurchScene_0019:Candle01 9
+    400416: ChurchScene_0019:Candle02
+    400418: ChurchScene_0019:Candle02 1
+    400420: ChurchScene_0019:Candle02 10
+    400422: ChurchScene_0019:Candle02 11
+    400424: ChurchScene_0019:Candle02 2
+    400426: ChurchScene_0019:Candle02 3
+    400428: ChurchScene_0019:Candle02 4
+    400430: ChurchScene_0019:Candle02 5
+    400432: ChurchScene_0019:Candle02 6
+    400434: ChurchScene_0019:Candle02 7
+    400436: ChurchScene_0019:Candle02 8
+    400438: ChurchScene_0019:Candle02 9
+    400440: ChurchScene_0019:Candle03
+    400442: ChurchScene_0019:Candle03 1
+    400444: ChurchScene_0019:Candle03 10
+    400446: ChurchScene_0019:Candle03 11
+    400448: ChurchScene_0019:Candle03 2
+    400450: ChurchScene_0019:Candle03 3
+    400452: ChurchScene_0019:Candle03 4
+    400454: ChurchScene_0019:Candle03 5
+    400456: ChurchScene_0019:Candle03 6
+    400458: ChurchScene_0019:Candle03 7
+    400460: ChurchScene_0019:Candle03 8
+    400462: ChurchScene_0019:Candle03 9
+    400464: ChurchScene_0019:Candle04
+    400466: ChurchScene_0019:Candle04 1
+    400468: ChurchScene_0019:Candle04 10
+    400470: ChurchScene_0019:Candle04 11
+    400472: ChurchScene_0019:Candle04 2
+    400474: ChurchScene_0019:Candle04 3
+    400476: ChurchScene_0019:Candle04 4
+    400478: ChurchScene_0019:Candle04 5
+    400480: ChurchScene_0019:Candle04 6
+    400482: ChurchScene_0019:Candle04 7
+    400484: ChurchScene_0019:Candle04 8
+    400486: ChurchScene_0019:Candle04 9
+    400488: ChurchScene_0019:CandleGroup01
+    400490: ChurchScene_0019:CandleGroup010
+    400492: ChurchScene_0019:CandleGroup011
+    400494: ChurchScene_0019:CandleGroup012
+    400496: ChurchScene_0019:CandleGroup02
+    400498: ChurchScene_0019:CandleGroup03
+    400500: ChurchScene_0019:CandleGroup04
+    400502: ChurchScene_0019:CandleGroup05
+    400504: ChurchScene_0019:CandleGroup06
+    400506: ChurchScene_0019:CandleGroup07
+    400508: ChurchScene_0019:CandleGroup08
+    400510: ChurchScene_0019:CandleGroup09
+    400512: ChurchScene_0019:CandleHolder
+    400514: ChurchScene_0019:CandleHolder1
+    400516: ChurchScene_0019:CandleHolder10
+    400518: ChurchScene_0019:CandleHolder11
+    400520: ChurchScene_0019:CandleHolder2
+    400522: ChurchScene_0019:CandleHolder3
+    400524: ChurchScene_0019:CandleHolder4
+    400526: ChurchScene_0019:CandleHolder5
+    400528: ChurchScene_0019:CandleHolder6
+    400530: ChurchScene_0019:CandleHolder7
+    400532: ChurchScene_0019:CandleHolder8
+    400534: ChurchScene_0019:CandleHolder9
+    400536: ChurchScene_0019:CandleHolder_Body
+    400538: ChurchScene_0019:CandleHolder_Body 1
+    400540: ChurchScene_0019:CandleHolder_Body 10
+    400542: ChurchScene_0019:CandleHolder_Body 11
+    400544: ChurchScene_0019:CandleHolder_Body 2
+    400546: ChurchScene_0019:CandleHolder_Body 3
+    400548: ChurchScene_0019:CandleHolder_Body 4
+    400550: ChurchScene_0019:CandleHolder_Body 5
+    400552: ChurchScene_0019:CandleHolder_Body 6
+    400554: ChurchScene_0019:CandleHolder_Body 7
+    400556: ChurchScene_0019:CandleHolder_Body 8
+    400558: ChurchScene_0019:CandleHolder_Body 9
+    400560: ChurchScene_0019:CandleHolder_LeftSupport
+    400562: ChurchScene_0019:CandleHolder_LeftSupport 1
+    400564: ChurchScene_0019:CandleHolder_LeftSupport 10
+    400566: ChurchScene_0019:CandleHolder_LeftSupport 11
+    400568: ChurchScene_0019:CandleHolder_LeftSupport 2
+    400570: ChurchScene_0019:CandleHolder_LeftSupport 3
+    400572: ChurchScene_0019:CandleHolder_LeftSupport 4
+    400574: ChurchScene_0019:CandleHolder_LeftSupport 5
+    400576: ChurchScene_0019:CandleHolder_LeftSupport 6
+    400578: ChurchScene_0019:CandleHolder_LeftSupport 7
+    400580: ChurchScene_0019:CandleHolder_LeftSupport 8
+    400582: ChurchScene_0019:CandleHolder_LeftSupport 9
+    400584: ChurchScene_0019:CandleHolder_LeftSupport1
+    400586: ChurchScene_0019:CandleHolder_LeftSupport1 1
+    400588: ChurchScene_0019:CandleHolder_LeftSupport1 10
+    400590: ChurchScene_0019:CandleHolder_LeftSupport1 11
+    400592: ChurchScene_0019:CandleHolder_LeftSupport1 2
+    400594: ChurchScene_0019:CandleHolder_LeftSupport1 3
+    400596: ChurchScene_0019:CandleHolder_LeftSupport1 4
+    400598: ChurchScene_0019:CandleHolder_LeftSupport1 5
+    400600: ChurchScene_0019:CandleHolder_LeftSupport1 6
+    400602: ChurchScene_0019:CandleHolder_LeftSupport1 7
+    400604: ChurchScene_0019:CandleHolder_LeftSupport1 8
+    400606: ChurchScene_0019:CandleHolder_LeftSupport1 9
+    400608: ChurchScene_0019:CandleTable
+    400610: ChurchScene_0019:CandleTable_LeftLeg
+    400612: ChurchScene_0019:CandleTable_LegLeft_Ankle
+    400614: ChurchScene_0019:CandleTable_LegLeft_CenterShin
+    400616: ChurchScene_0019:CandleTable_LegLeft_CenterShin1
+    400618: ChurchScene_0019:CandleTable_LegLeft_CenterShin2
+    400620: ChurchScene_0019:CandleTable_LegLeft_Foot
+    400622: ChurchScene_0019:CandleTable_LegLeft_Toe
+    400624: ChurchScene_0019:CandleTable_LegLeft_Toe1
+    400626: ChurchScene_0019:CandleTable_LegLeft_Ulna
+    400628: ChurchScene_0019:CandleTable_LegLeft_Ulna1
+    400630: ChurchScene_0019:CandleTable_RightLeg
+    400632: ChurchScene_0019:CandleTable_RightLeg_Ankle
+    400634: ChurchScene_0019:CandleTable_RightLeg_CenterShin
+    400636: ChurchScene_0019:CandleTable_RightLeg_CenterShin1
+    400638: ChurchScene_0019:CandleTable_RightLeg_CenterShin2
+    400640: ChurchScene_0019:CandleTable_RightLeg_Foot
+    400642: ChurchScene_0019:CandleTable_RightLeg_Toe
+    400644: ChurchScene_0019:CandleTable_RightLeg_Toe1
+    400646: ChurchScene_0019:CandleTable_RightLeg_Ulna
+    400648: ChurchScene_0019:CandleTable_RightLeg_Ulna1
+    400650: ChurchScene_0019:CandleTable_Table
+    400652: ChurchScene_0019:CandyHolder_LeftBar
+    400654: ChurchScene_0019:CandyHolder_LeftBar 1
+    400656: ChurchScene_0019:CandyHolder_LeftBar 10
+    400658: ChurchScene_0019:CandyHolder_LeftBar 11
+    400660: ChurchScene_0019:CandyHolder_LeftBar 2
+    400662: ChurchScene_0019:CandyHolder_LeftBar 3
+    400664: ChurchScene_0019:CandyHolder_LeftBar 4
+    400666: ChurchScene_0019:CandyHolder_LeftBar 5
+    400668: ChurchScene_0019:CandyHolder_LeftBar 6
+    400670: ChurchScene_0019:CandyHolder_LeftBar 7
+    400672: ChurchScene_0019:CandyHolder_LeftBar 8
+    400674: ChurchScene_0019:CandyHolder_LeftBar 9
+    400676: ChurchScene_0019:CandyHolder_RightBar
+    400678: ChurchScene_0019:CandyHolder_RightBar 1
+    400680: ChurchScene_0019:CandyHolder_RightBar 10
+    400682: ChurchScene_0019:CandyHolder_RightBar 11
+    400684: ChurchScene_0019:CandyHolder_RightBar 2
+    400686: ChurchScene_0019:CandyHolder_RightBar 3
+    400688: ChurchScene_0019:CandyHolder_RightBar 4
+    400690: ChurchScene_0019:CandyHolder_RightBar 5
+    400692: ChurchScene_0019:CandyHolder_RightBar 6
+    400694: ChurchScene_0019:CandyHolder_RightBar 7
+    400696: ChurchScene_0019:CandyHolder_RightBar 8
+    400698: ChurchScene_0019:CandyHolder_RightBar 9
+    400700: ChurchScene_0019:pCube10
+    400702: ChurchScene_0019:pCube11
+    400704: ChurchScene_0019:pCube9
+    400706: flag1
+    400708: flag2
+    400710: flag3
+    400712: flag4
+    400714: flags
+    400716: pCube9
+    400718: pew_row_1_pew1
+    400720: pew_row_1_pew2_ChurchPew_BackSupport
+    400722: pew_row_1_pew3
+    400724: pew_row_1_pew4_ChurchPew_BackSupport
+    400726: pew_row_2_pew1
+    400728: pew_row_2_pew2
+    400730: pew_row_2_pew3
+    400732: pew_row_2_pew4
+    400734: pew_row_3_pew1
+    400736: pew_row_3_pew2
+    400738: pew_row_3_pew3
+    400740: pew_row_3_pew4
+    400742: pew_row_4_pew1
+    400744: pew_row_4_pew2
+    400746: pew_row_4_pew3
+    400748: pew_row_4_pew4
+    400750: pews
+    400752: rafterpair1
+    400754: rafterpair2
+    400756: rafterpair3
+    400758: rafterpair4
+    400760: rafterpair5
+    400762: rafterpair6
+    400764: right_supports
+    400766: SideRafter7
+    400768: SideRafter7 1
+    400770: SideRafter7 2
+    400772: SideRafter7 3
+    400774: SideRafter7 4
+    400776: SideRafter7 5
+    400778: SideRafter8
+    400780: SideRafter8 1
+    400782: SideRafter8 2
+    400784: SideRafter8 3
+    400786: SideRafter8 4
+    400788: SideRafter8 5
+    400790: SideRafter_Bot3
+    400792: SideRafter_Bot3 1
+    400794: SideRafter_Bot3 10
+    400796: SideRafter_Bot3 11
+    400798: SideRafter_Bot3 2
+    400800: SideRafter_Bot3 3
+    400802: SideRafter_Bot3 4
+    400804: SideRafter_Bot3 5
+    400806: SideRafter_Bot3 6
+    400808: SideRafter_Bot3 7
+    400810: SideRafter_Bot3 8
+    400812: SideRafter_Bot3 9
+    400814: SideRafter_Hypotenuse
+    400816: SideRafter_Hypotenuse 1
+    400818: SideRafter_Hypotenuse 10
+    400820: SideRafter_Hypotenuse 11
+    400822: SideRafter_Hypotenuse 2
+    400824: SideRafter_Hypotenuse 3
+    400826: SideRafter_Hypotenuse 4
+    400828: SideRafter_Hypotenuse 5
+    400830: SideRafter_Hypotenuse 6
+    400832: SideRafter_Hypotenuse 7
+    400834: SideRafter_Hypotenuse 8
+    400836: SideRafter_Hypotenuse 9
+    400838: SideRafter_Left
+    400840: SideRafter_Left 1
+    400842: SideRafter_Left 10
+    400844: SideRafter_Left 11
+    400846: SideRafter_Left 2
+    400848: SideRafter_Left 3
+    400850: SideRafter_Left 4
+    400852: SideRafter_Left 5
+    400854: SideRafter_Left 6
+    400856: SideRafter_Left 7
+    400858: SideRafter_Left 8
+    400860: SideRafter_Left 9
+    400862: SideRafter_Middle
+    400864: SideRafter_Middle 1
+    400866: SideRafter_Middle 10
+    400868: SideRafter_Middle 11
+    400870: SideRafter_Middle 2
+    400872: SideRafter_Middle 3
+    400874: SideRafter_Middle 4
+    400876: SideRafter_Middle 5
+    400878: SideRafter_Middle 6
+    400880: SideRafter_Middle 7
+    400882: SideRafter_Middle 8
+    400884: SideRafter_Middle 9
+    400886: SideRafter_Wood
+    400888: SideRafter_Wood 1
+    400890: SideRafter_Wood 10
+    400892: SideRafter_Wood 11
+    400894: SideRafter_Wood 2
+    400896: SideRafter_Wood 3
+    400898: SideRafter_Wood 4
+    400900: SideRafter_Wood 5
+    400902: SideRafter_Wood 6
+    400904: SideRafter_Wood 7
+    400906: SideRafter_Wood 8
+    400908: SideRafter_Wood 9
+    400910: supports
+    2300000: Candle01
+    2300002: Candle01 1
+    2300004: Candle01 10
+    2300006: Candle01 11
+    2300008: Candle01 2
+    2300010: Candle01 3
+    2300012: Candle01 4
+    2300014: Candle01 5
+    2300016: Candle01 6
+    2300018: Candle01 7
+    2300020: Candle01 8
+    2300022: Candle01 9
+    2300024: Candle02
+    2300026: Candle02 1
+    2300028: Candle02 10
+    2300030: Candle02 11
+    2300032: Candle02 2
+    2300034: Candle02 3
+    2300036: Candle02 4
+    2300038: Candle02 5
+    2300040: Candle02 6
+    2300042: Candle02 7
+    2300044: Candle02 8
+    2300046: Candle02 9
+    2300048: Candle03
+    2300050: Candle03 1
+    2300052: Candle03 10
+    2300054: Candle03 11
+    2300056: Candle03 2
+    2300058: Candle03 3
+    2300060: Candle03 4
+    2300062: Candle03 5
+    2300064: Candle03 6
+    2300066: Candle03 7
+    2300068: Candle03 8
+    2300070: Candle03 9
+    2300072: Candle04
+    2300074: Candle04 1
+    2300076: Candle04 10
+    2300078: Candle04 11
+    2300080: Candle04 2
+    2300082: Candle04 3
+    2300084: Candle04 4
+    2300086: Candle04 5
+    2300088: Candle04 6
+    2300090: Candle04 7
+    2300092: Candle04 8
+    2300094: Candle04 9
+    2300096: CandleHolder_Body
+    2300098: CandleHolder_Body 1
+    2300100: CandleHolder_Body 10
+    2300102: CandleHolder_Body 11
+    2300104: CandleHolder_Body 2
+    2300106: CandleHolder_Body 3
+    2300108: CandleHolder_Body 4
+    2300110: CandleHolder_Body 5
+    2300112: CandleHolder_Body 6
+    2300114: CandleHolder_Body 7
+    2300116: CandleHolder_Body 8
+    2300118: CandleHolder_Body 9
+    2300120: CandleHolder_LeftSupport
+    2300122: CandleHolder_LeftSupport 1
+    2300124: CandleHolder_LeftSupport 10
+    2300126: CandleHolder_LeftSupport 11
+    2300128: CandleHolder_LeftSupport 2
+    2300130: CandleHolder_LeftSupport 3
+    2300132: CandleHolder_LeftSupport 4
+    2300134: CandleHolder_LeftSupport 5
+    2300136: CandleHolder_LeftSupport 6
+    2300138: CandleHolder_LeftSupport 7
+    2300140: CandleHolder_LeftSupport 8
+    2300142: CandleHolder_LeftSupport 9
+    2300144: CandleHolder_LeftSupport1
+    2300146: CandleHolder_LeftSupport1 1
+    2300148: CandleHolder_LeftSupport1 10
+    2300150: CandleHolder_LeftSupport1 11
+    2300152: CandleHolder_LeftSupport1 2
+    2300154: CandleHolder_LeftSupport1 3
+    2300156: CandleHolder_LeftSupport1 4
+    2300158: CandleHolder_LeftSupport1 5
+    2300160: CandleHolder_LeftSupport1 6
+    2300162: CandleHolder_LeftSupport1 7
+    2300164: CandleHolder_LeftSupport1 8
+    2300166: CandleHolder_LeftSupport1 9
+    2300168: CandleTable_LegLeft_Ankle
+    2300170: CandleTable_LegLeft_CenterShin
+    2300172: CandleTable_LegLeft_CenterShin1
+    2300174: CandleTable_LegLeft_CenterShin2
+    2300176: CandleTable_LegLeft_Foot
+    2300178: CandleTable_LegLeft_Toe
+    2300180: CandleTable_LegLeft_Toe1
+    2300182: CandleTable_LegLeft_Ulna
+    2300184: CandleTable_LegLeft_Ulna1
+    2300186: CandleTable_RightLeg_Ankle
+    2300188: CandleTable_RightLeg_CenterShin
+    2300190: CandleTable_RightLeg_CenterShin1
+    2300192: CandleTable_RightLeg_CenterShin2
+    2300194: CandleTable_RightLeg_Foot
+    2300196: CandleTable_RightLeg_Toe
+    2300198: CandleTable_RightLeg_Toe1
+    2300200: CandleTable_RightLeg_Ulna
+    2300202: CandleTable_RightLeg_Ulna1
+    2300204: CandyHolder_LeftBar
+    2300206: CandyHolder_LeftBar 1
+    2300208: CandyHolder_LeftBar 10
+    2300210: CandyHolder_LeftBar 11
+    2300212: CandyHolder_LeftBar 2
+    2300214: CandyHolder_LeftBar 3
+    2300216: CandyHolder_LeftBar 4
+    2300218: CandyHolder_LeftBar 5
+    2300220: CandyHolder_LeftBar 6
+    2300222: CandyHolder_LeftBar 7
+    2300224: CandyHolder_LeftBar 8
+    2300226: CandyHolder_LeftBar 9
+    2300228: CandyHolder_RightBar
+    2300230: CandyHolder_RightBar 1
+    2300232: CandyHolder_RightBar 10
+    2300234: CandyHolder_RightBar 11
+    2300236: CandyHolder_RightBar 2
+    2300238: CandyHolder_RightBar 3
+    2300240: CandyHolder_RightBar 4
+    2300242: CandyHolder_RightBar 5
+    2300244: CandyHolder_RightBar 6
+    2300246: CandyHolder_RightBar 7
+    2300248: CandyHolder_RightBar 8
+    2300250: CandyHolder_RightBar 9
+    2300252: ChurchScene_0019:AltarArch
+    2300254: ChurchScene_0019:AltarArch1
+    2300256: ChurchScene_0019:AltarArch10
+    2300258: ChurchScene_0019:AltarArch11
+    2300260: ChurchScene_0019:AltarArch12
+    2300262: ChurchScene_0019:AltarArch13
+    2300264: ChurchScene_0019:AltarArch2
+    2300266: ChurchScene_0019:AltarArch3
+    2300268: ChurchScene_0019:AltarArch4
+    2300270: ChurchScene_0019:AltarArch5
+    2300272: ChurchScene_0019:AltarArch6
+    2300274: ChurchScene_0019:AltarArch7
+    2300276: ChurchScene_0019:AltarArch8
+    2300278: ChurchScene_0019:AltarArch9
+    2300280: ChurchScene_0019:AltarArch_Foot
+    2300282: ChurchScene_0019:AltarArch_Foot1
+    2300284: ChurchScene_0019:AltarArch_Foot10
+    2300286: ChurchScene_0019:AltarArch_Foot11
+    2300288: ChurchScene_0019:AltarArch_Foot12
+    2300290: ChurchScene_0019:AltarArch_Foot13
+    2300292: ChurchScene_0019:AltarArch_Foot14
+    2300294: ChurchScene_0019:AltarArch_Foot15
+    2300296: ChurchScene_0019:AltarArch_Foot16
+    2300298: ChurchScene_0019:AltarArch_Foot17
+    2300300: ChurchScene_0019:AltarArch_Foot18
+    2300302: ChurchScene_0019:AltarArch_Foot19
+    2300304: ChurchScene_0019:AltarArch_Foot2
+    2300306: ChurchScene_0019:AltarArch_Foot20
+    2300308: ChurchScene_0019:AltarArch_Foot21
+    2300310: ChurchScene_0019:AltarArch_Foot22
+    2300312: ChurchScene_0019:AltarArch_Foot23
+    2300314: ChurchScene_0019:AltarArch_Foot3
+    2300316: ChurchScene_0019:AltarArch_Foot4
+    2300318: ChurchScene_0019:AltarArch_Foot5
+    2300320: ChurchScene_0019:AltarArch_Foot6
+    2300322: ChurchScene_0019:AltarArch_Foot7
+    2300324: ChurchScene_0019:AltarArch_Foot8
+    2300326: ChurchScene_0019:AltarArch_Foot9
+    2300328: ChurchScene_0019:Candle01
+    2300330: ChurchScene_0019:Candle01 1
+    2300332: ChurchScene_0019:Candle01 10
+    2300334: ChurchScene_0019:Candle01 11
+    2300336: ChurchScene_0019:Candle01 2
+    2300338: ChurchScene_0019:Candle01 3
+    2300340: ChurchScene_0019:Candle01 4
+    2300342: ChurchScene_0019:Candle01 5
+    2300344: ChurchScene_0019:Candle01 6
+    2300346: ChurchScene_0019:Candle01 7
+    2300348: ChurchScene_0019:Candle01 8
+    2300350: ChurchScene_0019:Candle01 9
+    2300352: ChurchScene_0019:Candle02
+    2300354: ChurchScene_0019:Candle02 1
+    2300356: ChurchScene_0019:Candle02 10
+    2300358: ChurchScene_0019:Candle02 11
+    2300360: ChurchScene_0019:Candle02 2
+    2300362: ChurchScene_0019:Candle02 3
+    2300364: ChurchScene_0019:Candle02 4
+    2300366: ChurchScene_0019:Candle02 5
+    2300368: ChurchScene_0019:Candle02 6
+    2300370: ChurchScene_0019:Candle02 7
+    2300372: ChurchScene_0019:Candle02 8
+    2300374: ChurchScene_0019:Candle02 9
+    2300376: ChurchScene_0019:Candle03
+    2300378: ChurchScene_0019:Candle03 1
+    2300380: ChurchScene_0019:Candle03 10
+    2300382: ChurchScene_0019:Candle03 11
+    2300384: ChurchScene_0019:Candle03 2
+    2300386: ChurchScene_0019:Candle03 3
+    2300388: ChurchScene_0019:Candle03 4
+    2300390: ChurchScene_0019:Candle03 5
+    2300392: ChurchScene_0019:Candle03 6
+    2300394: ChurchScene_0019:Candle03 7
+    2300396: ChurchScene_0019:Candle03 8
+    2300398: ChurchScene_0019:Candle03 9
+    2300400: ChurchScene_0019:Candle04
+    2300402: ChurchScene_0019:Candle04 1
+    2300404: ChurchScene_0019:Candle04 10
+    2300406: ChurchScene_0019:Candle04 11
+    2300408: ChurchScene_0019:Candle04 2
+    2300410: ChurchScene_0019:Candle04 3
+    2300412: ChurchScene_0019:Candle04 4
+    2300414: ChurchScene_0019:Candle04 5
+    2300416: ChurchScene_0019:Candle04 6
+    2300418: ChurchScene_0019:Candle04 7
+    2300420: ChurchScene_0019:Candle04 8
+    2300422: ChurchScene_0019:Candle04 9
+    2300424: ChurchScene_0019:CandleHolder_Body
+    2300426: ChurchScene_0019:CandleHolder_Body 1
+    2300428: ChurchScene_0019:CandleHolder_Body 10
+    2300430: ChurchScene_0019:CandleHolder_Body 11
+    2300432: ChurchScene_0019:CandleHolder_Body 2
+    2300434: ChurchScene_0019:CandleHolder_Body 3
+    2300436: ChurchScene_0019:CandleHolder_Body 4
+    2300438: ChurchScene_0019:CandleHolder_Body 5
+    2300440: ChurchScene_0019:CandleHolder_Body 6
+    2300442: ChurchScene_0019:CandleHolder_Body 7
+    2300444: ChurchScene_0019:CandleHolder_Body 8
+    2300446: ChurchScene_0019:CandleHolder_Body 9
+    2300448: ChurchScene_0019:CandleHolder_LeftSupport
+    2300450: ChurchScene_0019:CandleHolder_LeftSupport 1
+    2300452: ChurchScene_0019:CandleHolder_LeftSupport 10
+    2300454: ChurchScene_0019:CandleHolder_LeftSupport 11
+    2300456: ChurchScene_0019:CandleHolder_LeftSupport 2
+    2300458: ChurchScene_0019:CandleHolder_LeftSupport 3
+    2300460: ChurchScene_0019:CandleHolder_LeftSupport 4
+    2300462: ChurchScene_0019:CandleHolder_LeftSupport 5
+    2300464: ChurchScene_0019:CandleHolder_LeftSupport 6
+    2300466: ChurchScene_0019:CandleHolder_LeftSupport 7
+    2300468: ChurchScene_0019:CandleHolder_LeftSupport 8
+    2300470: ChurchScene_0019:CandleHolder_LeftSupport 9
+    2300472: ChurchScene_0019:CandleHolder_LeftSupport1
+    2300474: ChurchScene_0019:CandleHolder_LeftSupport1 1
+    2300476: ChurchScene_0019:CandleHolder_LeftSupport1 10
+    2300478: ChurchScene_0019:CandleHolder_LeftSupport1 11
+    2300480: ChurchScene_0019:CandleHolder_LeftSupport1 2
+    2300482: ChurchScene_0019:CandleHolder_LeftSupport1 3
+    2300484: ChurchScene_0019:CandleHolder_LeftSupport1 4
+    2300486: ChurchScene_0019:CandleHolder_LeftSupport1 5
+    2300488: ChurchScene_0019:CandleHolder_LeftSupport1 6
+    2300490: ChurchScene_0019:CandleHolder_LeftSupport1 7
+    2300492: ChurchScene_0019:CandleHolder_LeftSupport1 8
+    2300494: ChurchScene_0019:CandleHolder_LeftSupport1 9
+    2300496: ChurchScene_0019:CandleTable_LegLeft_Ankle
+    2300498: ChurchScene_0019:CandleTable_LegLeft_CenterShin
+    2300500: ChurchScene_0019:CandleTable_LegLeft_CenterShin1
+    2300502: ChurchScene_0019:CandleTable_LegLeft_CenterShin2
+    2300504: ChurchScene_0019:CandleTable_LegLeft_Foot
+    2300506: ChurchScene_0019:CandleTable_LegLeft_Toe
+    2300508: ChurchScene_0019:CandleTable_LegLeft_Toe1
+    2300510: ChurchScene_0019:CandleTable_LegLeft_Ulna
+    2300512: ChurchScene_0019:CandleTable_LegLeft_Ulna1
+    2300514: ChurchScene_0019:CandleTable_RightLeg_Ankle
+    2300516: ChurchScene_0019:CandleTable_RightLeg_CenterShin
+    2300518: ChurchScene_0019:CandleTable_RightLeg_CenterShin1
+    2300520: ChurchScene_0019:CandleTable_RightLeg_CenterShin2
+    2300522: ChurchScene_0019:CandleTable_RightLeg_Foot
+    2300524: ChurchScene_0019:CandleTable_RightLeg_Toe
+    2300526: ChurchScene_0019:CandleTable_RightLeg_Toe1
+    2300528: ChurchScene_0019:CandleTable_RightLeg_Ulna
+    2300530: ChurchScene_0019:CandleTable_RightLeg_Ulna1
+    2300532: ChurchScene_0019:CandyHolder_LeftBar
+    2300534: ChurchScene_0019:CandyHolder_LeftBar 1
+    2300536: ChurchScene_0019:CandyHolder_LeftBar 10
+    2300538: ChurchScene_0019:CandyHolder_LeftBar 11
+    2300540: ChurchScene_0019:CandyHolder_LeftBar 2
+    2300542: ChurchScene_0019:CandyHolder_LeftBar 3
+    2300544: ChurchScene_0019:CandyHolder_LeftBar 4
+    2300546: ChurchScene_0019:CandyHolder_LeftBar 5
+    2300548: ChurchScene_0019:CandyHolder_LeftBar 6
+    2300550: ChurchScene_0019:CandyHolder_LeftBar 7
+    2300552: ChurchScene_0019:CandyHolder_LeftBar 8
+    2300554: ChurchScene_0019:CandyHolder_LeftBar 9
+    2300556: ChurchScene_0019:CandyHolder_RightBar
+    2300558: ChurchScene_0019:CandyHolder_RightBar 1
+    2300560: ChurchScene_0019:CandyHolder_RightBar 10
+    2300562: ChurchScene_0019:CandyHolder_RightBar 11
+    2300564: ChurchScene_0019:CandyHolder_RightBar 2
+    2300566: ChurchScene_0019:CandyHolder_RightBar 3
+    2300568: ChurchScene_0019:CandyHolder_RightBar 4
+    2300570: ChurchScene_0019:CandyHolder_RightBar 5
+    2300572: ChurchScene_0019:CandyHolder_RightBar 6
+    2300574: ChurchScene_0019:CandyHolder_RightBar 7
+    2300576: ChurchScene_0019:CandyHolder_RightBar 8
+    2300578: ChurchScene_0019:CandyHolder_RightBar 9
+    2300580: ChurchScene_0019:pCube10
+    2300582: ChurchScene_0019:pCube11
+    2300584: ChurchScene_0019:pCube9
+    2300586: flag1
+    2300588: flag2
+    2300590: flag3
+    2300592: flag4
+    2300594: pCube9
+    2300596: pew_row_1_pew1
+    2300598: pew_row_1_pew2_ChurchPew_BackSupport
+    2300600: pew_row_1_pew3
+    2300602: pew_row_1_pew4_ChurchPew_BackSupport
+    2300604: pew_row_2_pew1
+    2300606: pew_row_2_pew2
+    2300608: pew_row_2_pew3
+    2300610: pew_row_2_pew4
+    2300612: pew_row_3_pew1
+    2300614: pew_row_3_pew2
+    2300616: pew_row_3_pew3
+    2300618: pew_row_3_pew4
+    2300620: pew_row_4_pew1
+    2300622: pew_row_4_pew2
+    2300624: pew_row_4_pew3
+    2300626: pew_row_4_pew4
+    2300628: SideRafter_Bot3
+    2300630: SideRafter_Bot3 1
+    2300632: SideRafter_Bot3 10
+    2300634: SideRafter_Bot3 11
+    2300636: SideRafter_Bot3 2
+    2300638: SideRafter_Bot3 3
+    2300640: SideRafter_Bot3 4
+    2300642: SideRafter_Bot3 5
+    2300644: SideRafter_Bot3 6
+    2300646: SideRafter_Bot3 7
+    2300648: SideRafter_Bot3 8
+    2300650: SideRafter_Bot3 9
+    2300652: SideRafter_Hypotenuse
+    2300654: SideRafter_Hypotenuse 1
+    2300656: SideRafter_Hypotenuse 10
+    2300658: SideRafter_Hypotenuse 11
+    2300660: SideRafter_Hypotenuse 2
+    2300662: SideRafter_Hypotenuse 3
+    2300664: SideRafter_Hypotenuse 4
+    2300666: SideRafter_Hypotenuse 5
+    2300668: SideRafter_Hypotenuse 6
+    2300670: SideRafter_Hypotenuse 7
+    2300672: SideRafter_Hypotenuse 8
+    2300674: SideRafter_Hypotenuse 9
+    2300676: SideRafter_Left
+    2300678: SideRafter_Left 1
+    2300680: SideRafter_Left 10
+    2300682: SideRafter_Left 11
+    2300684: SideRafter_Left 2
+    2300686: SideRafter_Left 3
+    2300688: SideRafter_Left 4
+    2300690: SideRafter_Left 5
+    2300692: SideRafter_Left 6
+    2300694: SideRafter_Left 7
+    2300696: SideRafter_Left 8
+    2300698: SideRafter_Left 9
+    2300700: SideRafter_Middle
+    2300702: SideRafter_Middle 1
+    2300704: SideRafter_Middle 10
+    2300706: SideRafter_Middle 11
+    2300708: SideRafter_Middle 2
+    2300710: SideRafter_Middle 3
+    2300712: SideRafter_Middle 4
+    2300714: SideRafter_Middle 5
+    2300716: SideRafter_Middle 6
+    2300718: SideRafter_Middle 7
+    2300720: SideRafter_Middle 8
+    2300722: SideRafter_Middle 9
+    3300000: Candle01
+    3300002: Candle01 1
+    3300004: Candle01 10
+    3300006: Candle01 11
+    3300008: Candle01 2
+    3300010: Candle01 3
+    3300012: Candle01 4
+    3300014: Candle01 5
+    3300016: Candle01 6
+    3300018: Candle01 7
+    3300020: Candle01 8
+    3300022: Candle01 9
+    3300024: Candle02
+    3300026: Candle02 1
+    3300028: Candle02 10
+    3300030: Candle02 11
+    3300032: Candle02 2
+    3300034: Candle02 3
+    3300036: Candle02 4
+    3300038: Candle02 5
+    3300040: Candle02 6
+    3300042: Candle02 7
+    3300044: Candle02 8
+    3300046: Candle02 9
+    3300048: Candle03
+    3300050: Candle03 1
+    3300052: Candle03 10
+    3300054: Candle03 11
+    3300056: Candle03 2
+    3300058: Candle03 3
+    3300060: Candle03 4
+    3300062: Candle03 5
+    3300064: Candle03 6
+    3300066: Candle03 7
+    3300068: Candle03 8
+    3300070: Candle03 9
+    3300072: Candle04
+    3300074: Candle04 1
+    3300076: Candle04 10
+    3300078: Candle04 11
+    3300080: Candle04 2
+    3300082: Candle04 3
+    3300084: Candle04 4
+    3300086: Candle04 5
+    3300088: Candle04 6
+    3300090: Candle04 7
+    3300092: Candle04 8
+    3300094: Candle04 9
+    3300096: CandleHolder_Body
+    3300098: CandleHolder_Body 1
+    3300100: CandleHolder_Body 10
+    3300102: CandleHolder_Body 11
+    3300104: CandleHolder_Body 2
+    3300106: CandleHolder_Body 3
+    3300108: CandleHolder_Body 4
+    3300110: CandleHolder_Body 5
+    3300112: CandleHolder_Body 6
+    3300114: CandleHolder_Body 7
+    3300116: CandleHolder_Body 8
+    3300118: CandleHolder_Body 9
+    3300120: CandleHolder_LeftSupport
+    3300122: CandleHolder_LeftSupport 1
+    3300124: CandleHolder_LeftSupport 10
+    3300126: CandleHolder_LeftSupport 11
+    3300128: CandleHolder_LeftSupport 2
+    3300130: CandleHolder_LeftSupport 3
+    3300132: CandleHolder_LeftSupport 4
+    3300134: CandleHolder_LeftSupport 5
+    3300136: CandleHolder_LeftSupport 6
+    3300138: CandleHolder_LeftSupport 7
+    3300140: CandleHolder_LeftSupport 8
+    3300142: CandleHolder_LeftSupport 9
+    3300144: CandleHolder_LeftSupport1
+    3300146: CandleHolder_LeftSupport1 1
+    3300148: CandleHolder_LeftSupport1 10
+    3300150: CandleHolder_LeftSupport1 11
+    3300152: CandleHolder_LeftSupport1 2
+    3300154: CandleHolder_LeftSupport1 3
+    3300156: CandleHolder_LeftSupport1 4
+    3300158: CandleHolder_LeftSupport1 5
+    3300160: CandleHolder_LeftSupport1 6
+    3300162: CandleHolder_LeftSupport1 7
+    3300164: CandleHolder_LeftSupport1 8
+    3300166: CandleHolder_LeftSupport1 9
+    3300168: CandleTable_LegLeft_Ankle
+    3300170: CandleTable_LegLeft_CenterShin
+    3300172: CandleTable_LegLeft_CenterShin1
+    3300174: CandleTable_LegLeft_CenterShin2
+    3300176: CandleTable_LegLeft_Foot
+    3300178: CandleTable_LegLeft_Toe
+    3300180: CandleTable_LegLeft_Toe1
+    3300182: CandleTable_LegLeft_Ulna
+    3300184: CandleTable_LegLeft_Ulna1
+    3300186: CandleTable_RightLeg_Ankle
+    3300188: CandleTable_RightLeg_CenterShin
+    3300190: CandleTable_RightLeg_CenterShin1
+    3300192: CandleTable_RightLeg_CenterShin2
+    3300194: CandleTable_RightLeg_Foot
+    3300196: CandleTable_RightLeg_Toe
+    3300198: CandleTable_RightLeg_Toe1
+    3300200: CandleTable_RightLeg_Ulna
+    3300202: CandleTable_RightLeg_Ulna1
+    3300204: CandyHolder_LeftBar
+    3300206: CandyHolder_LeftBar 1
+    3300208: CandyHolder_LeftBar 10
+    3300210: CandyHolder_LeftBar 11
+    3300212: CandyHolder_LeftBar 2
+    3300214: CandyHolder_LeftBar 3
+    3300216: CandyHolder_LeftBar 4
+    3300218: CandyHolder_LeftBar 5
+    3300220: CandyHolder_LeftBar 6
+    3300222: CandyHolder_LeftBar 7
+    3300224: CandyHolder_LeftBar 8
+    3300226: CandyHolder_LeftBar 9
+    3300228: CandyHolder_RightBar
+    3300230: CandyHolder_RightBar 1
+    3300232: CandyHolder_RightBar 10
+    3300234: CandyHolder_RightBar 11
+    3300236: CandyHolder_RightBar 2
+    3300238: CandyHolder_RightBar 3
+    3300240: CandyHolder_RightBar 4
+    3300242: CandyHolder_RightBar 5
+    3300244: CandyHolder_RightBar 6
+    3300246: CandyHolder_RightBar 7
+    3300248: CandyHolder_RightBar 8
+    3300250: CandyHolder_RightBar 9
+    3300252: ChurchScene_0019:AltarArch
+    3300254: ChurchScene_0019:AltarArch1
+    3300256: ChurchScene_0019:AltarArch10
+    3300258: ChurchScene_0019:AltarArch11
+    3300260: ChurchScene_0019:AltarArch12
+    3300262: ChurchScene_0019:AltarArch13
+    3300264: ChurchScene_0019:AltarArch2
+    3300266: ChurchScene_0019:AltarArch3
+    3300268: ChurchScene_0019:AltarArch4
+    3300270: ChurchScene_0019:AltarArch5
+    3300272: ChurchScene_0019:AltarArch6
+    3300274: ChurchScene_0019:AltarArch7
+    3300276: ChurchScene_0019:AltarArch8
+    3300278: ChurchScene_0019:AltarArch9
+    3300280: ChurchScene_0019:AltarArch_Foot
+    3300282: ChurchScene_0019:AltarArch_Foot1
+    3300284: ChurchScene_0019:AltarArch_Foot10
+    3300286: ChurchScene_0019:AltarArch_Foot11
+    3300288: ChurchScene_0019:AltarArch_Foot12
+    3300290: ChurchScene_0019:AltarArch_Foot13
+    3300292: ChurchScene_0019:AltarArch_Foot14
+    3300294: ChurchScene_0019:AltarArch_Foot15
+    3300296: ChurchScene_0019:AltarArch_Foot16
+    3300298: ChurchScene_0019:AltarArch_Foot17
+    3300300: ChurchScene_0019:AltarArch_Foot18
+    3300302: ChurchScene_0019:AltarArch_Foot19
+    3300304: ChurchScene_0019:AltarArch_Foot2
+    3300306: ChurchScene_0019:AltarArch_Foot20
+    3300308: ChurchScene_0019:AltarArch_Foot21
+    3300310: ChurchScene_0019:AltarArch_Foot22
+    3300312: ChurchScene_0019:AltarArch_Foot23
+    3300314: ChurchScene_0019:AltarArch_Foot3
+    3300316: ChurchScene_0019:AltarArch_Foot4
+    3300318: ChurchScene_0019:AltarArch_Foot5
+    3300320: ChurchScene_0019:AltarArch_Foot6
+    3300322: ChurchScene_0019:AltarArch_Foot7
+    3300324: ChurchScene_0019:AltarArch_Foot8
+    3300326: ChurchScene_0019:AltarArch_Foot9
+    3300328: ChurchScene_0019:Candle01
+    3300330: ChurchScene_0019:Candle01 1
+    3300332: ChurchScene_0019:Candle01 10
+    3300334: ChurchScene_0019:Candle01 11
+    3300336: ChurchScene_0019:Candle01 2
+    3300338: ChurchScene_0019:Candle01 3
+    3300340: ChurchScene_0019:Candle01 4
+    3300342: ChurchScene_0019:Candle01 5
+    3300344: ChurchScene_0019:Candle01 6
+    3300346: ChurchScene_0019:Candle01 7
+    3300348: ChurchScene_0019:Candle01 8
+    3300350: ChurchScene_0019:Candle01 9
+    3300352: ChurchScene_0019:Candle02
+    3300354: ChurchScene_0019:Candle02 1
+    3300356: ChurchScene_0019:Candle02 10
+    3300358: ChurchScene_0019:Candle02 11
+    3300360: ChurchScene_0019:Candle02 2
+    3300362: ChurchScene_0019:Candle02 3
+    3300364: ChurchScene_0019:Candle02 4
+    3300366: ChurchScene_0019:Candle02 5
+    3300368: ChurchScene_0019:Candle02 6
+    3300370: ChurchScene_0019:Candle02 7
+    3300372: ChurchScene_0019:Candle02 8
+    3300374: ChurchScene_0019:Candle02 9
+    3300376: ChurchScene_0019:Candle03
+    3300378: ChurchScene_0019:Candle03 1
+    3300380: ChurchScene_0019:Candle03 10
+    3300382: ChurchScene_0019:Candle03 11
+    3300384: ChurchScene_0019:Candle03 2
+    3300386: ChurchScene_0019:Candle03 3
+    3300388: ChurchScene_0019:Candle03 4
+    3300390: ChurchScene_0019:Candle03 5
+    3300392: ChurchScene_0019:Candle03 6
+    3300394: ChurchScene_0019:Candle03 7
+    3300396: ChurchScene_0019:Candle03 8
+    3300398: ChurchScene_0019:Candle03 9
+    3300400: ChurchScene_0019:Candle04
+    3300402: ChurchScene_0019:Candle04 1
+    3300404: ChurchScene_0019:Candle04 10
+    3300406: ChurchScene_0019:Candle04 11
+    3300408: ChurchScene_0019:Candle04 2
+    3300410: ChurchScene_0019:Candle04 3
+    3300412: ChurchScene_0019:Candle04 4
+    3300414: ChurchScene_0019:Candle04 5
+    3300416: ChurchScene_0019:Candle04 6
+    3300418: ChurchScene_0019:Candle04 7
+    3300420: ChurchScene_0019:Candle04 8
+    3300422: ChurchScene_0019:Candle04 9
+    3300424: ChurchScene_0019:CandleHolder_Body
+    3300426: ChurchScene_0019:CandleHolder_Body 1
+    3300428: ChurchScene_0019:CandleHolder_Body 10
+    3300430: ChurchScene_0019:CandleHolder_Body 11
+    3300432: ChurchScene_0019:CandleHolder_Body 2
+    3300434: ChurchScene_0019:CandleHolder_Body 3
+    3300436: ChurchScene_0019:CandleHolder_Body 4
+    3300438: ChurchScene_0019:CandleHolder_Body 5
+    3300440: ChurchScene_0019:CandleHolder_Body 6
+    3300442: ChurchScene_0019:CandleHolder_Body 7
+    3300444: ChurchScene_0019:CandleHolder_Body 8
+    3300446: ChurchScene_0019:CandleHolder_Body 9
+    3300448: ChurchScene_0019:CandleHolder_LeftSupport
+    3300450: ChurchScene_0019:CandleHolder_LeftSupport 1
+    3300452: ChurchScene_0019:CandleHolder_LeftSupport 10
+    3300454: ChurchScene_0019:CandleHolder_LeftSupport 11
+    3300456: ChurchScene_0019:CandleHolder_LeftSupport 2
+    3300458: ChurchScene_0019:CandleHolder_LeftSupport 3
+    3300460: ChurchScene_0019:CandleHolder_LeftSupport 4
+    3300462: ChurchScene_0019:CandleHolder_LeftSupport 5
+    3300464: ChurchScene_0019:CandleHolder_LeftSupport 6
+    3300466: ChurchScene_0019:CandleHolder_LeftSupport 7
+    3300468: ChurchScene_0019:CandleHolder_LeftSupport 8
+    3300470: ChurchScene_0019:CandleHolder_LeftSupport 9
+    3300472: ChurchScene_0019:CandleHolder_LeftSupport1
+    3300474: ChurchScene_0019:CandleHolder_LeftSupport1 1
+    3300476: ChurchScene_0019:CandleHolder_LeftSupport1 10
+    3300478: ChurchScene_0019:CandleHolder_LeftSupport1 11
+    3300480: ChurchScene_0019:CandleHolder_LeftSupport1 2
+    3300482: ChurchScene_0019:CandleHolder_LeftSupport1 3
+    3300484: ChurchScene_0019:CandleHolder_LeftSupport1 4
+    3300486: ChurchScene_0019:CandleHolder_LeftSupport1 5
+    3300488: ChurchScene_0019:CandleHolder_LeftSupport1 6
+    3300490: ChurchScene_0019:CandleHolder_LeftSupport1 7
+    3300492: ChurchScene_0019:CandleHolder_LeftSupport1 8
+    3300494: ChurchScene_0019:CandleHolder_LeftSupport1 9
+    3300496: ChurchScene_0019:CandleTable_LegLeft_Ankle
+    3300498: ChurchScene_0019:CandleTable_LegLeft_CenterShin
+    3300500: ChurchScene_0019:CandleTable_LegLeft_CenterShin1
+    3300502: ChurchScene_0019:CandleTable_LegLeft_CenterShin2
+    3300504: ChurchScene_0019:CandleTable_LegLeft_Foot
+    3300506: ChurchScene_0019:CandleTable_LegLeft_Toe
+    3300508: ChurchScene_0019:CandleTable_LegLeft_Toe1
+    3300510: ChurchScene_0019:CandleTable_LegLeft_Ulna
+    3300512: ChurchScene_0019:CandleTable_LegLeft_Ulna1
+    3300514: ChurchScene_0019:CandleTable_RightLeg_Ankle
+    3300516: ChurchScene_0019:CandleTable_RightLeg_CenterShin
+    3300518: ChurchScene_0019:CandleTable_RightLeg_CenterShin1
+    3300520: ChurchScene_0019:CandleTable_RightLeg_CenterShin2
+    3300522: ChurchScene_0019:CandleTable_RightLeg_Foot
+    3300524: ChurchScene_0019:CandleTable_RightLeg_Toe
+    3300526: ChurchScene_0019:CandleTable_RightLeg_Toe1
+    3300528: ChurchScene_0019:CandleTable_RightLeg_Ulna
+    3300530: ChurchScene_0019:CandleTable_RightLeg_Ulna1
+    3300532: ChurchScene_0019:CandyHolder_LeftBar
+    3300534: ChurchScene_0019:CandyHolder_LeftBar 1
+    3300536: ChurchScene_0019:CandyHolder_LeftBar 10
+    3300538: ChurchScene_0019:CandyHolder_LeftBar 11
+    3300540: ChurchScene_0019:CandyHolder_LeftBar 2
+    3300542: ChurchScene_0019:CandyHolder_LeftBar 3
+    3300544: ChurchScene_0019:CandyHolder_LeftBar 4
+    3300546: ChurchScene_0019:CandyHolder_LeftBar 5
+    3300548: ChurchScene_0019:CandyHolder_LeftBar 6
+    3300550: ChurchScene_0019:CandyHolder_LeftBar 7
+    3300552: ChurchScene_0019:CandyHolder_LeftBar 8
+    3300554: ChurchScene_0019:CandyHolder_LeftBar 9
+    3300556: ChurchScene_0019:CandyHolder_RightBar
+    3300558: ChurchScene_0019:CandyHolder_RightBar 1
+    3300560: ChurchScene_0019:CandyHolder_RightBar 10
+    3300562: ChurchScene_0019:CandyHolder_RightBar 11
+    3300564: ChurchScene_0019:CandyHolder_RightBar 2
+    3300566: ChurchScene_0019:CandyHolder_RightBar 3
+    3300568: ChurchScene_0019:CandyHolder_RightBar 4
+    3300570: ChurchScene_0019:CandyHolder_RightBar 5
+    3300572: ChurchScene_0019:CandyHolder_RightBar 6
+    3300574: ChurchScene_0019:CandyHolder_RightBar 7
+    3300576: ChurchScene_0019:CandyHolder_RightBar 8
+    3300578: ChurchScene_0019:CandyHolder_RightBar 9
+    3300580: ChurchScene_0019:pCube10
+    3300582: ChurchScene_0019:pCube11
+    3300584: ChurchScene_0019:pCube9
+    3300586: flag1
+    3300588: flag2
+    3300590: flag3
+    3300592: flag4
+    3300594: pCube9
+    3300596: pew_row_1_pew1
+    3300598: pew_row_1_pew2_ChurchPew_BackSupport
+    3300600: pew_row_1_pew3
+    3300602: pew_row_1_pew4_ChurchPew_BackSupport
+    3300604: pew_row_2_pew1
+    3300606: pew_row_2_pew2
+    3300608: pew_row_2_pew3
+    3300610: pew_row_2_pew4
+    3300612: pew_row_3_pew1
+    3300614: pew_row_3_pew2
+    3300616: pew_row_3_pew3
+    3300618: pew_row_3_pew4
+    3300620: pew_row_4_pew1
+    3300622: pew_row_4_pew2
+    3300624: pew_row_4_pew3
+    3300626: pew_row_4_pew4
+    3300628: SideRafter_Bot3
+    3300630: SideRafter_Bot3 1
+    3300632: SideRafter_Bot3 10
+    3300634: SideRafter_Bot3 11
+    3300636: SideRafter_Bot3 2
+    3300638: SideRafter_Bot3 3
+    3300640: SideRafter_Bot3 4
+    3300642: SideRafter_Bot3 5
+    3300644: SideRafter_Bot3 6
+    3300646: SideRafter_Bot3 7
+    3300648: SideRafter_Bot3 8
+    3300650: SideRafter_Bot3 9
+    3300652: SideRafter_Hypotenuse
+    3300654: SideRafter_Hypotenuse 1
+    3300656: SideRafter_Hypotenuse 10
+    3300658: SideRafter_Hypotenuse 11
+    3300660: SideRafter_Hypotenuse 2
+    3300662: SideRafter_Hypotenuse 3
+    3300664: SideRafter_Hypotenuse 4
+    3300666: SideRafter_Hypotenuse 5
+    3300668: SideRafter_Hypotenuse 6
+    3300670: SideRafter_Hypotenuse 7
+    3300672: SideRafter_Hypotenuse 8
+    3300674: SideRafter_Hypotenuse 9
+    3300676: SideRafter_Left
+    3300678: SideRafter_Left 1
+    3300680: SideRafter_Left 10
+    3300682: SideRafter_Left 11
+    3300684: SideRafter_Left 2
+    3300686: SideRafter_Left 3
+    3300688: SideRafter_Left 4
+    3300690: SideRafter_Left 5
+    3300692: SideRafter_Left 6
+    3300694: SideRafter_Left 7
+    3300696: SideRafter_Left 8
+    3300698: SideRafter_Left 9
+    3300700: SideRafter_Middle
+    3300702: SideRafter_Middle 1
+    3300704: SideRafter_Middle 10
+    3300706: SideRafter_Middle 11
+    3300708: SideRafter_Middle 2
+    3300710: SideRafter_Middle 3
+    3300712: SideRafter_Middle 4
+    3300714: SideRafter_Middle 5
+    3300716: SideRafter_Middle 6
+    3300718: SideRafter_Middle 7
+    3300720: SideRafter_Middle 8
+    3300722: SideRafter_Middle 9
+    4300000: ChurchScene_0019:pCube9
+    4300002: ChurchScene_0019:CandyHolder_RightBar
+    4300004: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300006: ChurchScene_0019:CandleHolder_Body
+    4300008: ChurchScene_0019:CandyHolder_LeftBar
+    4300010: ChurchScene_0019:CandleHolder_LeftSupport
+    4300012: ChurchScene_0019:CandyHolder_RightBar
+    4300014: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300016: ChurchScene_0019:CandleHolder_Body
+    4300018: ChurchScene_0019:CandyHolder_LeftBar
+    4300020: ChurchScene_0019:CandleHolder_LeftSupport
+    4300022: ChurchScene_0019:CandyHolder_RightBar
+    4300024: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300026: ChurchScene_0019:CandleHolder_Body
+    4300028: ChurchScene_0019:CandyHolder_LeftBar
+    4300030: ChurchScene_0019:CandleHolder_LeftSupport
+    4300032: ChurchScene_0019:CandyHolder_RightBar
+    4300034: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300036: ChurchScene_0019:CandleHolder_Body
+    4300038: ChurchScene_0019:CandyHolder_LeftBar
+    4300040: ChurchScene_0019:CandleHolder_LeftSupport
+    4300042: ChurchScene_0019:CandyHolder_RightBar
+    4300044: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300046: ChurchScene_0019:CandleHolder_Body
+    4300048: ChurchScene_0019:CandyHolder_LeftBar
+    4300050: ChurchScene_0019:CandleHolder_LeftSupport
+    4300052: ChurchScene_0019:CandyHolder_RightBar
+    4300054: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300056: ChurchScene_0019:CandleHolder_Body
+    4300058: ChurchScene_0019:CandyHolder_LeftBar
+    4300060: ChurchScene_0019:CandleHolder_LeftSupport
+    4300062: ChurchScene_0019:CandyHolder_RightBar
+    4300064: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300066: ChurchScene_0019:CandleHolder_Body
+    4300068: ChurchScene_0019:CandyHolder_LeftBar
+    4300070: ChurchScene_0019:CandleHolder_LeftSupport
+    4300072: ChurchScene_0019:CandyHolder_RightBar
+    4300074: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300076: ChurchScene_0019:CandleHolder_Body
+    4300078: ChurchScene_0019:CandyHolder_LeftBar
+    4300080: ChurchScene_0019:CandleHolder_LeftSupport
+    4300082: ChurchScene_0019:CandyHolder_RightBar
+    4300084: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300086: ChurchScene_0019:CandleHolder_Body
+    4300088: ChurchScene_0019:CandyHolder_LeftBar
+    4300090: ChurchScene_0019:CandleHolder_LeftSupport
+    4300092: ChurchScene_0019:CandyHolder_RightBar
+    4300094: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300096: ChurchScene_0019:CandleHolder_Body
+    4300098: ChurchScene_0019:CandyHolder_LeftBar
+    4300100: ChurchScene_0019:CandleHolder_LeftSupport
+    4300102: ChurchScene_0019:CandyHolder_RightBar
+    4300104: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300106: ChurchScene_0019:CandleHolder_Body
+    4300108: ChurchScene_0019:CandyHolder_LeftBar
+    4300110: ChurchScene_0019:CandleHolder_LeftSupport
+    4300112: ChurchScene_0019:CandyHolder_RightBar
+    4300114: ChurchScene_0019:CandleHolder_LeftSupport1
+    4300116: ChurchScene_0019:CandleHolder_Body
+    4300118: ChurchScene_0019:CandyHolder_LeftBar
+    4300120: ChurchScene_0019:CandleHolder_LeftSupport
+    4300122: ChurchScene_0019:CandleTable_LegLeft_Foot
+    4300124: ChurchScene_0019:CandleTable_LegLeft_Toe
+    4300126: ChurchScene_0019:CandleTable_LegLeft_Toe1
+    4300128: ChurchScene_0019:CandleTable_LegLeft_Ankle
+    4300130: ChurchScene_0019:CandleTable_LegLeft_Ulna
+    4300132: ChurchScene_0019:CandleTable_LegLeft_Ulna1
+    4300134: ChurchScene_0019:CandleTable_LegLeft_CenterShin
+    4300136: ChurchScene_0019:CandleTable_LegLeft_CenterShin1
+    4300138: ChurchScene_0019:CandleTable_LegLeft_CenterShin2
+    4300140: ChurchScene_0019:CandleTable_RightLeg_Foot
+    4300142: ChurchScene_0019:CandleTable_RightLeg_Toe
+    4300144: ChurchScene_0019:CandleTable_RightLeg_Toe1
+    4300146: ChurchScene_0019:CandleTable_RightLeg_Ankle
+    4300148: ChurchScene_0019:CandleTable_RightLeg_Ulna
+    4300150: ChurchScene_0019:CandleTable_RightLeg_Ulna1
+    4300152: ChurchScene_0019:CandleTable_RightLeg_CenterShin
+    4300154: ChurchScene_0019:CandleTable_RightLeg_CenterShin1
+    4300156: ChurchScene_0019:CandleTable_RightLeg_CenterShin2
+    4300158: ChurchScene_0019:Candle04
+    4300160: ChurchScene_0019:Candle03
+    4300162: ChurchScene_0019:Candle02
+    4300164: ChurchScene_0019:Candle01
+    4300166: ChurchScene_0019:Candle04
+    4300168: ChurchScene_0019:Candle03
+    4300170: ChurchScene_0019:Candle02
+    4300172: ChurchScene_0019:Candle01
+    4300174: ChurchScene_0019:Candle04
+    4300176: ChurchScene_0019:Candle03
+    4300178: ChurchScene_0019:Candle02
+    4300180: ChurchScene_0019:Candle01
+    4300182: ChurchScene_0019:Candle04
+    4300184: ChurchScene_0019:Candle03
+    4300186: ChurchScene_0019:Candle02
+    4300188: ChurchScene_0019:Candle01
+    4300190: ChurchScene_0019:Candle04
+    4300192: ChurchScene_0019:Candle03
+    4300194: ChurchScene_0019:Candle02
+    4300196: ChurchScene_0019:Candle01
+    4300198: ChurchScene_0019:Candle04
+    4300200: ChurchScene_0019:Candle03
+    4300202: ChurchScene_0019:Candle02
+    4300204: ChurchScene_0019:Candle01
+    4300206: ChurchScene_0019:Candle04
+    4300208: ChurchScene_0019:Candle03
+    4300210: ChurchScene_0019:Candle02
+    4300212: ChurchScene_0019:Candle01
+    4300214: ChurchScene_0019:Candle04
+    4300216: ChurchScene_0019:Candle03
+    4300218: ChurchScene_0019:Candle02
+    4300220: ChurchScene_0019:Candle01
+    4300222: ChurchScene_0019:Candle04
+    4300224: ChurchScene_0019:Candle03
+    4300226: ChurchScene_0019:Candle02
+    4300228: ChurchScene_0019:Candle01
+    4300230: ChurchScene_0019:Candle04
+    4300232: ChurchScene_0019:Candle03
+    4300234: ChurchScene_0019:Candle02
+    4300236: ChurchScene_0019:Candle01
+    4300238: ChurchScene_0019:Candle04
+    4300240: ChurchScene_0019:Candle03
+    4300242: ChurchScene_0019:Candle02
+    4300244: ChurchScene_0019:Candle01
+    4300246: ChurchScene_0019:Candle04
+    4300248: ChurchScene_0019:Candle03
+    4300250: ChurchScene_0019:Candle02
+    4300252: ChurchScene_0019:Candle01
+    4300254: pCube9
+    4300256: CandyHolder_RightBar
+    4300258: CandleHolder_LeftSupport1
+    4300260: CandleHolder_Body
+    4300262: CandyHolder_LeftBar
+    4300264: CandleHolder_LeftSupport
+    4300266: CandyHolder_RightBar
+    4300268: CandleHolder_LeftSupport1
+    4300270: CandleHolder_Body
+    4300272: CandyHolder_LeftBar
+    4300274: CandleHolder_LeftSupport
+    4300276: CandyHolder_RightBar
+    4300278: CandleHolder_LeftSupport1
+    4300280: CandleHolder_Body
+    4300282: CandyHolder_LeftBar
+    4300284: CandleHolder_LeftSupport
+    4300286: CandyHolder_RightBar
+    4300288: CandleHolder_LeftSupport1
+    4300290: CandleHolder_Body
+    4300292: CandyHolder_LeftBar
+    4300294: CandleHolder_LeftSupport
+    4300296: CandyHolder_RightBar
+    4300298: CandleHolder_LeftSupport1
+    4300300: CandleHolder_Body
+    4300302: CandyHolder_LeftBar
+    4300304: CandleHolder_LeftSupport
+    4300306: CandyHolder_RightBar
+    4300308: CandleHolder_LeftSupport1
+    4300310: CandleHolder_Body
+    4300312: CandyHolder_LeftBar
+    4300314: CandleHolder_LeftSupport
+    4300316: CandyHolder_RightBar
+    4300318: CandleHolder_LeftSupport1
+    4300320: CandleHolder_Body
+    4300322: CandyHolder_LeftBar
+    4300324: CandleHolder_LeftSupport
+    4300326: CandyHolder_RightBar
+    4300328: CandleHolder_LeftSupport1
+    4300330: CandleHolder_Body
+    4300332: CandyHolder_LeftBar
+    4300334: CandleHolder_LeftSupport
+    4300336: CandyHolder_RightBar
+    4300338: CandleHolder_LeftSupport1
+    4300340: CandleHolder_Body
+    4300342: CandyHolder_LeftBar
+    4300344: CandleHolder_LeftSupport
+    4300346: CandyHolder_RightBar
+    4300348: CandleHolder_LeftSupport1
+    4300350: CandleHolder_Body
+    4300352: CandyHolder_LeftBar
+    4300354: CandleHolder_LeftSupport
+    4300356: CandyHolder_RightBar
+    4300358: CandleHolder_LeftSupport1
+    4300360: CandleHolder_Body
+    4300362: CandyHolder_LeftBar
+    4300364: CandleHolder_LeftSupport
+    4300366: CandyHolder_RightBar
+    4300368: CandleHolder_LeftSupport1
+    4300370: CandleHolder_Body
+    4300372: CandyHolder_LeftBar
+    4300374: CandleHolder_LeftSupport
+    4300376: CandleTable_LegLeft_Foot
+    4300378: CandleTable_LegLeft_Toe
+    4300380: CandleTable_LegLeft_Toe1
+    4300382: CandleTable_LegLeft_Ankle
+    4300384: CandleTable_LegLeft_Ulna
+    4300386: CandleTable_LegLeft_Ulna1
+    4300388: CandleTable_LegLeft_CenterShin
+    4300390: CandleTable_LegLeft_CenterShin1
+    4300392: CandleTable_LegLeft_CenterShin2
+    4300394: CandleTable_RightLeg_Foot
+    4300396: CandleTable_RightLeg_Toe
+    4300398: CandleTable_RightLeg_Toe1
+    4300400: CandleTable_RightLeg_Ankle
+    4300402: CandleTable_RightLeg_Ulna
+    4300404: CandleTable_RightLeg_Ulna1
+    4300406: CandleTable_RightLeg_CenterShin
+    4300408: CandleTable_RightLeg_CenterShin1
+    4300410: CandleTable_RightLeg_CenterShin2
+    4300412: Candle04
+    4300414: Candle03
+    4300416: Candle02
+    4300418: Candle01
+    4300420: Candle04
+    4300422: Candle03
+    4300424: Candle02
+    4300426: Candle01
+    4300428: Candle04
+    4300430: Candle03
+    4300432: Candle02
+    4300434: Candle01
+    4300436: Candle04
+    4300438: Candle03
+    4300440: Candle02
+    4300442: Candle01
+    4300444: Candle04
+    4300446: Candle03
+    4300448: Candle02
+    4300450: Candle01
+    4300452: Candle04
+    4300454: Candle03
+    4300456: Candle02
+    4300458: Candle01
+    4300460: Candle04
+    4300462: Candle03
+    4300464: Candle02
+    4300466: Candle01
+    4300468: Candle04
+    4300470: Candle03
+    4300472: Candle02
+    4300474: Candle01
+    4300476: Candle04
+    4300478: Candle03
+    4300480: Candle02
+    4300482: Candle01
+    4300484: Candle04
+    4300486: Candle03
+    4300488: Candle02
+    4300490: Candle01
+    4300492: Candle04
+    4300494: Candle03
+    4300496: Candle02
+    4300498: Candle01
+    4300500: Candle04
+    4300502: Candle03
+    4300504: Candle02
+    4300506: Candle01
+    4300508: ChurchScene_0019:AltarArch
+    4300510: ChurchScene_0019:AltarArch1
+    4300512: ChurchScene_0019:AltarArch_Foot
+    4300514: ChurchScene_0019:AltarArch_Foot1
+    4300516: ChurchScene_0019:AltarArch_Foot2
+    4300518: ChurchScene_0019:AltarArch2
+    4300520: ChurchScene_0019:AltarArch3
+    4300522: ChurchScene_0019:AltarArch_Foot3
+    4300524: ChurchScene_0019:AltarArch_Foot4
+    4300526: ChurchScene_0019:AltarArch_Foot5
+    4300528: ChurchScene_0019:AltarArch4
+    4300530: ChurchScene_0019:AltarArch5
+    4300532: ChurchScene_0019:AltarArch_Foot6
+    4300534: ChurchScene_0019:AltarArch_Foot7
+    4300536: ChurchScene_0019:AltarArch_Foot8
+    4300538: ChurchScene_0019:AltarArch_Foot9
+    4300540: ChurchScene_0019:AltarArch_Foot10
+    4300542: ChurchScene_0019:AltarArch_Foot11
+    4300544: ChurchScene_0019:AltarArch6
+    4300546: ChurchScene_0019:AltarArch7
+    4300548: ChurchScene_0019:AltarArch8
+    4300550: ChurchScene_0019:AltarArch9
+    4300552: ChurchScene_0019:AltarArch10
+    4300554: ChurchScene_0019:AltarArch_Foot12
+    4300556: ChurchScene_0019:AltarArch_Foot13
+    4300558: ChurchScene_0019:AltarArch_Foot14
+    4300560: ChurchScene_0019:AltarArch_Foot15
+    4300562: ChurchScene_0019:AltarArch_Foot16
+    4300564: ChurchScene_0019:AltarArch_Foot17
+    4300566: ChurchScene_0019:AltarArch_Foot18
+    4300568: ChurchScene_0019:AltarArch_Foot19
+    4300570: ChurchScene_0019:AltarArch_Foot20
+    4300572: ChurchScene_0019:AltarArch_Foot21
+    4300574: ChurchScene_0019:AltarArch_Foot22
+    4300576: ChurchScene_0019:AltarArch_Foot23
+    4300578: ChurchScene_0019:AltarArch11
+    4300580: ChurchScene_0019:AltarArch12
+    4300582: ChurchScene_0019:AltarArch13
+    4300584: ChurchScene_0019:pCube10
+    4300586: ChurchScene_0019:pCube11
+    4300588: SideRafter_Hypotenuse
+    4300590: SideRafter_Left
+    4300592: SideRafter_Middle
+    4300594: SideRafter_Bot3
+    4300596: SideRafter_Hypotenuse
+    4300598: SideRafter_Left
+    4300600: SideRafter_Middle
+    4300602: SideRafter_Bot3
+    4300604: SideRafter_Hypotenuse
+    4300606: SideRafter_Left
+    4300608: SideRafter_Middle
+    4300610: SideRafter_Bot3
+    4300612: SideRafter_Hypotenuse
+    4300614: SideRafter_Left
+    4300616: SideRafter_Middle
+    4300618: SideRafter_Bot3
+    4300620: SideRafter_Hypotenuse
+    4300622: SideRafter_Left
+    4300624: SideRafter_Middle
+    4300626: SideRafter_Bot3
+    4300628: SideRafter_Hypotenuse
+    4300630: SideRafter_Left
+    4300632: SideRafter_Middle
+    4300634: SideRafter_Bot3
+    4300636: SideRafter_Hypotenuse
+    4300638: SideRafter_Left
+    4300640: SideRafter_Middle
+    4300642: SideRafter_Bot3
+    4300644: SideRafter_Hypotenuse
+    4300646: SideRafter_Left
+    4300648: SideRafter_Middle
+    4300650: SideRafter_Bot3
+    4300652: SideRafter_Hypotenuse
+    4300654: SideRafter_Left
+    4300656: SideRafter_Middle
+    4300658: SideRafter_Bot3
+    4300660: SideRafter_Hypotenuse
+    4300662: SideRafter_Left
+    4300664: SideRafter_Middle
+    4300666: SideRafter_Bot3
+    4300668: SideRafter_Hypotenuse
+    4300670: SideRafter_Left
+    4300672: SideRafter_Middle
+    4300674: SideRafter_Bot3
+    4300676: SideRafter_Hypotenuse
+    4300678: SideRafter_Left
+    4300680: SideRafter_Middle
+    4300682: SideRafter_Bot3
+    4300684: flag1
+    4300686: flag2
+    4300688: flag3
+    4300690: flag4
+    4300692: pew_row_1_pew2_ChurchPew_BackSupport
+    4300694: pew_row_1_pew4_ChurchPew_BackSupport
+    4300696: pew_row_4_pew1
+    4300698: pew_row_4_pew2
+    4300700: pew_row_4_pew3
+    4300702: pew_row_4_pew4
+    4300704: pew_row_3_pew1
+    4300706: pew_row_3_pew2
+    4300708: pew_row_3_pew3
+    4300710: pew_row_3_pew4
+    4300712: pew_row_2_pew1
+    4300714: pew_row_2_pew2
+    4300716: pew_row_2_pew3
+    4300718: pew_row_2_pew4
+    4300720: pew_row_1_pew1
+    4300722: pew_row_1_pew3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
