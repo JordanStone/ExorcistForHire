@@ -7710,7 +7710,7 @@ MonoBehaviour:
   antiBunnyHopFactor: 1
   walkSound: {fileID: 8257628}
   minPitch: .699999988
-  maxPitch: 1.39999998
+  maxPitch: 1
   crouchDifference: .5
   crouchTweenTime: .200000003
 --- !u!124 &12442184
@@ -7953,6 +7953,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxPitch
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

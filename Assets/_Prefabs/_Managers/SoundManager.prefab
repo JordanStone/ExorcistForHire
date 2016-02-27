@@ -185,7 +185,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24336792, guid: e6f60861a75bc6d45bb5acead407b0da,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f551ebc53a0af87458de196f15687f9e, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: .600000024
   m_Pitch: 1
   Loop: 1
@@ -333,7 +333,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 415c0cf3eafa9e345b19a3b1040753f0, type: 3}
   walks:
   - {fileID: 8300000, guid: aea9e3cd9544adf4793628d9596b766c, type: 3}
-  - {fileID: 8300000, guid: c0a87512b319f35479fcbe4fdb2220e8, type: 3}
+  - {fileID: 8300000, guid: 0a8108a8158228a48a6f55326aeb454f, type: 3}
   gunshots:
   - {fileID: 8300000, guid: dbb97f740b78de8439cfe303b8c82f9b, type: 3}
   sfx:
@@ -369,7 +369,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_PlayOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_audioClip
@@ -404,6 +404,18 @@ Prefab:
       propertyPath: sfx.Array.data[3]
       value: 
       objectReference: {fileID: 8286972}
+    - target: {fileID: 0}
+      propertyPath: walks.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: aea9e3cd9544adf4793628d9596b766c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: walks.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0a8108a8158228a48a6f55326aeb454f, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ambience.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: f551ebc53a0af87458de196f15687f9e, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 179548}
