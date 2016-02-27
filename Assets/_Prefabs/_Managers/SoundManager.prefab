@@ -328,9 +328,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ambience:
-  - {fileID: 8300000, guid: f551ebc53a0af87458de196f15687f9e, type: 3}
-  - {fileID: 8300000, guid: 5fe970d07c89e79469d2853379a26695, type: 3}
-  - {fileID: 8300000, guid: 415c0cf3eafa9e345b19a3b1040753f0, type: 3}
+  - {fileID: 8300000, guid: 02ae8411fe7177b4eb317be3d1668029, type: 3}
+  - {fileID: 8300000, guid: 78d09651805c4ee4eb85eb27756aa026, type: 3}
+  - {fileID: 8300000, guid: 900d6467020f6594f9ac2a2b9905d059, type: 3}
   walks:
   - {fileID: 8300000, guid: aea9e3cd9544adf4793628d9596b766c, type: 3}
   - {fileID: 8300000, guid: 0a8108a8158228a48a6f55326aeb454f, type: 3}
@@ -339,7 +339,7 @@ MonoBehaviour:
   sfx:
   - {fileID: 8300000, guid: cbedf7388d68c164d9b6945c28516505, type: 3}
   - {fileID: 8300000, guid: ec59bf32dfd20b546b96302c6f93e9d4, type: 3}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: a15f9fc52f264f544892c2fdec347a21, type: 3}
   - {fileID: 8300000, guid: cda0abe71c768c548b8e126eaae87ada, type: 3}
   ambienceFadeTime: 1
   ambienceSound: {fileID: 8283596}
@@ -378,7 +378,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: sfx.Array.data[2]
       value: 
-      objectReference: {fileID: 8205388}
+      objectReference: {fileID: 8300000, guid: a15f9fc52f264f544892c2fdec347a21, type: 3}
     - target: {fileID: 0}
       propertyPath: m_Volume
       value: .600000024
@@ -391,7 +391,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: ambience.Array.data[2]
       value: 
-      objectReference: {fileID: 8283596}
+      objectReference: {fileID: 8300000, guid: 900d6467020f6594f9ac2a2b9905d059, type: 3}
     - target: {fileID: 0}
       propertyPath: Priority
       value: 30
@@ -415,7 +415,11 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: ambience.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: f551ebc53a0af87458de196f15687f9e, type: 3}
+      objectReference: {fileID: 8300000, guid: 02ae8411fe7177b4eb317be3d1668029, type: 3}
+    - target: {fileID: 0}
+      propertyPath: ambience.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 78d09651805c4ee4eb85eb27756aa026, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 179548}
