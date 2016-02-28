@@ -14,6 +14,8 @@ public class FollowBossPath : MonoBehaviour {
 	public float GoalDistance = .1f;
 	private IEnumerator<Transform> currentPoint;
 	public Transform AttackTarget;
+	public float cooldown = 3f;
+	private bool attackCool;
 	private Vector3 _lastTransform;
 	private float minDistanceToTarget;
 	private Vector3 fountainPosition;
@@ -31,6 +33,8 @@ public class FollowBossPath : MonoBehaviour {
 		minDistanceToTarget = 3f;
 		maxDistanceToTarget = 80f;
 		baseAttackChance = 25f;
+		attackCool = false;
+
 
 		_BossDetectionScript = gameObject.GetComponent<DarkGodStateMachine>();
 		_bossBehaviorScript = gameObject.GetComponent<BossBehavior>();
@@ -88,7 +92,7 @@ public class FollowBossPath : MonoBehaviour {
 		float targetDistance = Vector3.Distance(AttackTarget.position, transform.position);
 		if(targetDistance <= minDistanceToTarget)
 			_bossBehaviorScript.AttackPlayer(targetDistance);
-		else if ((targetDistance > minDistanceToTarget) && _BossDetectionScript.currentPhase != DarkGodStateMachine.BossPhase.One)
+		else if ((targetDistance > minDistanceToTarget) && _BossDetectionScript.currentPhase != DarkGodStateMachine.BossPhase.One && attackCool == false)
 			{
 				float randomChance = Random.value * 100f;
 				float chanceToAttack = ChanceOfAttack(targetDistance);
@@ -96,6 +100,7 @@ public class FollowBossPath : MonoBehaviour {
 				{
 					_bossBehaviorScript.AttackPlayer(targetDistance);
 				}
+				StartCoroutine(cooloff());
 			}
 
 	}
@@ -119,6 +124,13 @@ public class FollowBossPath : MonoBehaviour {
 		float chance = phaseAttack + aggressiveness;
 		return chance;
 
+	}
+
+	private IEnumerator cooloff()
+	{
+		attackCool = true;
+		yield return new WaitForSeconds(cooldown);
+		attackCool = false;
 	}
 
 

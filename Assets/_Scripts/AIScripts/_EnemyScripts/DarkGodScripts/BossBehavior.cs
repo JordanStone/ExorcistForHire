@@ -19,7 +19,12 @@ public class BossBehavior : MonoBehaviour {
 	public float petrificationBaseProbability = 5f;
 	public float aoeBaseProbability = 10f;
 	public float rangedBaseProbability = 35f;
+	public float aoeKnockback = 1000f;
 	private BossAttack lastAttack;
+	public GameObject petrificationObject;
+	private SphereCollider aoeCollider;
+	private BossAttack currentAttack;
+	private GameObject aoeSphere;
 
 	public struct AttackData
 	{
@@ -71,6 +76,10 @@ public class BossBehavior : MonoBehaviour {
 		spookyAttack = GetComponents<AudioSource>()[1];
 		spookDeath = GetComponents<AudioSource>()[2];
 		healingObject.SetActive(false);
+		aoeCollider = GetComponent<SphereCollider>();
+		aoeCollider.enabled = false;
+		aoeSphere = transform.Find("AoeSphere").gameObject;
+		aoeSphere.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -193,9 +202,11 @@ public class BossBehavior : MonoBehaviour {
 		switch(phase)
 		{
 		case DarkGodStateMachine.BossPhase.Two:
+			Debug.Log("Adding phase 2 Attacks");
 			availableAttacks.Add(rangedData);
 			break;
 		case DarkGodStateMachine.BossPhase.Three:
+			Debug.Log("Adding phase 3 attacks");
 			availableAttacks.Add(petrificationData);
 			availableAttacks.Add(aoeData);
 			break;
@@ -207,6 +218,7 @@ public class BossBehavior : MonoBehaviour {
 	{
 		if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
 		{
+			currentAttack = BossAttack.Claw;
 			_bossDetectionScript.Speed = 0f;
 			spookyAttack.Play();
 			_myAnimator.SetTrigger("Attack");
@@ -222,9 +234,12 @@ public class BossBehavior : MonoBehaviour {
 	{
 		if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
 		{
+			currentAttack = BossAttack.Petrification;
 			_bossDetectionScript.Speed = 0f;
 			_myAnimator.SetBool("Chasing", false);
 			Debug.Log ("PETRRRRRIFFFFY!!!");
+			GameObject petrify = Instantiate(petrificationObject, transform.position + new Vector3(0f, 1f, 1f), Quaternion.identity)as GameObject;
+			petrify.transform.SetParent(this.transform);
 			//petrificationData.totalTimesUsed += 1;
 			lastAttack = BossAttack.Petrification;
 		}
@@ -233,10 +248,12 @@ public class BossBehavior : MonoBehaviour {
 	{
 		if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
 		{
+			currentAttack = BossAttack.Aoe;
 			_bossDetectionScript.Speed = 0f;
 			_myAnimator.SetBool("Chasing", false);
 			Debug.Log ("AAAAAAOOOOOOOOEEEEE!!!");
 			//aoeData.totalTimesUsed += 1;
+			StartCoroutine(ActivateAOE());
 			lastAttack = BossAttack.Aoe;
 		}
 	}
@@ -244,6 +261,7 @@ public class BossBehavior : MonoBehaviour {
 	{
 		if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
 		{
+			currentAttack = BossAttack.Ranged;
 			//_bossDetectionScript.Speed = 0f;
 			_myAnimator.SetBool("Chasing", false);
 			//StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
@@ -251,6 +269,25 @@ public class BossBehavior : MonoBehaviour {
 			//rangedData.totalTimesUsed += 1;
 			lastAttack = BossAttack.Ranged;
 		}
+	}
+
+	private IEnumerator ActivateAOE()
+	{
+		aoeCollider.enabled = true;
+		aoeSphere.SetActive(true);
+		while(aoeCollider.radius < 1.7f)
+		{
+			aoeCollider.radius += 0.3f;
+			aoeSphere.transform.localScale += new Vector3(0.3f, 0.3f, 0.3f);
+			yield return new WaitForSeconds(0.2f);
+		}
+
+		yield return new WaitForSeconds(0.7f);
+
+		aoeSphere.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+		aoeSphere.SetActive(false);
+		aoeCollider.radius = 0.5f;
+		aoeCollider.enabled = false;
 	}
 
 	private void SetProbabilitiesOfAttacks(float distanceToTarget)
@@ -265,6 +302,8 @@ public class BossBehavior : MonoBehaviour {
 				SetProbabilityOfAoe(i, distanceToTarget);
 			else if(availableAttacks[i].attack == BossAttack.Ranged)
 				SetProbabilityOfRanged(i, distanceToTarget);
+
+			//Debug.Log("Probability of " + i + ": " + availableAttacks[i].probability);
 		}
 	}
 
@@ -502,6 +541,11 @@ public class BossBehavior : MonoBehaviour {
 			if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
 			{
 				EventManager.PostNotification((int) GameManagerScript.GameEvents.DamagePlayer, this, MeleeDamageDeltToPlayer);
+				if(currentAttack == BossAttack.Aoe)
+				{
+					Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
+					rb.AddForce(collision.gameObject.transform.forward * (-1f) * aoeKnockback);
+				}
 			}
 		}
 		if (collision.gameObject.tag == "Bullet" && _bossDetectionScript.currentPhase != DarkGodStateMachine.BossPhase.One)

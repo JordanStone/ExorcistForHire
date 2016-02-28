@@ -1047,6 +1047,7 @@ GameObject:
   - 82: {fileID: 277752523}
   - 82: {fileID: 277752522}
   - 114: {fileID: 277752532}
+  - 120: {fileID: 277752533}
   m_Layer: 13
   m_Name: BossAdd1
   m_TagString: BossAdd
@@ -1448,6 +1449,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3550f0cbf5c22495ebd7eec17cd7faa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BossToTrack: {fileID: 1561779408}
+  lengthOfTether: 20
+--- !u!120 &277752533
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277752520}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 2100000, guid: eb90f8a54cfba764584f10eb5ec72e3d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    startWidth: 1
+    endWidth: 1
+    m_StartColor:
+      serializedVersion: 2
+      rgba: 4294967295
+    m_EndColor:
+      serializedVersion: 2
+      rgba: 4294967295
+  m_UseWorldSpace: 1
 --- !u!1 &320358177
 GameObject:
   m_ObjectHideFlags: 0
@@ -4843,6 +4885,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 145871464}
   m_RootOrder: 2
+--- !u!1 &1561779408 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 158232, guid: 458f677e4994f4e0786cdf7c39af6215, type: 2}
+  m_PrefabInternal: {fileID: 1667558573}
 --- !u!1 &1565358013
 GameObject:
   m_ObjectHideFlags: 0
