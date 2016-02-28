@@ -21,7 +21,7 @@ public class LoadNextZone : MonoBehaviour {
 	{
 		if(other.name == "Player")
 		{
-			_loadingScreen.LoadLevel("Catacombs2");
+			_loadingScreen.LoadLevel("Catacombs");
 
 		}
 	

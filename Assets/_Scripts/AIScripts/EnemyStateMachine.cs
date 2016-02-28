@@ -76,7 +76,7 @@ namespace EnemyDetectionScript
 
 		private NavMeshAgent _myNavMeshAgent;
 
-		[Header("How long do I stay in search before givinh up?")]
+		[Header("How long do I stay in search before giving up?")]
 		public float SearchTime = 10f;
 
 		//Our vision cone angle
@@ -87,8 +87,11 @@ namespace EnemyDetectionScript
 		public bool _playerVisable;
 
 		[Header("How far away can I see the player from?")]
-		public float SightDistance = 30f;
-
+		public float SightDistance = 15f;
+		public float flashlightOnSightDistance = 30f;
+		private float DefaultSightDistance;
+		private Light _PlayerFlashlight;
+		
 		[Header("the player, I can find this myself, don't bother setting it.")]
 		//The player transform.
 		public Transform _player;
@@ -140,10 +143,15 @@ namespace EnemyDetectionScript
 
 		private Vector3 _startingPosition;
 
+
+
+
+
+
 		void Awake () 
 		{
 			_startingPosition = transform.position;
-
+			DefaultSightDistance = SightDistance;
 		}
 
 		void OnEnable() 
@@ -167,6 +175,8 @@ namespace EnemyDetectionScript
 			_lastState = EnemyState.Patrol;
 			_changingState = false;
 			_waitTimer = 0f;
+
+			_PlayerFlashlight = GameObject.Find("Flashlight").GetComponent<Light>();
 			
 
 		}
@@ -312,6 +322,7 @@ namespace EnemyDetectionScript
 
 		void UpdatePatroll()
 		{ 	
+			setSight();
 			//For followpath enemies
 			if(MovementType == EnemyMovementType.FollowPath)
 			{
@@ -403,10 +414,12 @@ namespace EnemyDetectionScript
 
 		void UpdateAttack()
 		{
+			_myAnimator.SetBool("Attack", false);
+			//if im close to the player. And if my current state is called grounded.
 			if( Vector3.Distance(transform.position, _player.position) <= 2f && _myAnimator.GetCurrentAnimatorStateInfo(0).IsName("Grounded"))
 			{
 				Speed = 2f;
-				_myAnimator.SetTrigger("Attack");
+				_myAnimator.SetBool("Attack", true);
 			}
 			else if(!_myAnimator.IsInTransition(0) && !_myAnimator.GetCurrentAnimatorStateInfo(0).IsName("HumanAttack_Axe"))
 			{
@@ -546,6 +559,7 @@ namespace EnemyDetectionScript
 
 		void UpdateSearch()
 		{
+			setSight();
 			Speed = SearchSpeed;
 
 			_myNavMeshAgent.SetDestination(searchLocation);
@@ -676,6 +690,21 @@ namespace EnemyDetectionScript
 
 			return (Mathf.Rad2Deg * Theta);
 
+		}
+
+
+
+		void setSight()
+		{
+			//
+			if(_PlayerFlashlight.enabled)
+			{
+				SightDistance = flashlightOnSightDistance;
+			}
+			else
+			{
+				SightDistance = DefaultSightDistance;
+			}
 		}
 
 				/*

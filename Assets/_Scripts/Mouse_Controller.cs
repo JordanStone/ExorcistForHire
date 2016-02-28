@@ -98,11 +98,11 @@ namespace MouseController
 		private SpringJoint[] _grabbedBoxSprings;
 		
 		[Header("Pushing Spring Variables")]
-		public float PushingAnchorZ = 1.6f;
 		public float PushingSpring = 2400f;
 		public float PushingDamper = 800f;
 		public float PushingBreakForce = 50f;
 		public float PushingBreakDistance = 7f;
+		public Vector3 PushingAnchor;
 
 		[Header("Ladder Variables")]
 		public float LadderSnapTime = .8f;
@@ -171,7 +171,6 @@ namespace MouseController
 			
 			//Get the image script we're using.
 			_myImageScript = GetComponent<Image>();
-			//Debug.Log("pass");
 			
 			
 			//Set the image to the gun reticle if we're not using the hand.
@@ -317,10 +316,12 @@ namespace MouseController
 
 		void UpdateGrabbingPushable()
 		{
+			/*
 			if( _xInput != 0f ||  _yInput != 0f)
 			{		
 				_myPlayerCamera.UpdateFreeCamera();
 			}
+			*/
 		}
 
 		#endregion
@@ -419,7 +420,6 @@ namespace MouseController
 						//Too High
 					if(Mathf.Sign(vertAxis) == 1)
 					{
-						//Debug.DrawRay(_player.transform.position, _player.transform.forward)
 
 						//Raycast Forward, if we don't hit the ladder we're at the top.
 						if(!Physics.Raycast(_player.transform.position + new Vector3(0f, rayDistance, 0f), _player.transform.forward, 3f,LadderRaycasts))
@@ -451,8 +451,6 @@ namespace MouseController
 				{
 					_ladderAnimations.speed = 0f;
 				}
-
-				Debug.Log(climbTimer.ToString());
 
 				if(Input.GetButtonDown("Jump"))
 				{
@@ -609,56 +607,23 @@ namespace MouseController
 			CurrentState = State.GrabbingPushable;
 
 
+
 			//Get the grabbed box info.
 			_grabbedBox = GrabInfo.transform.gameObject;
-			//put spring joints in the array.
-			_grabbedBoxSprings = new SpringJoint[2];
-
-
-			//_grabbedBox.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
-
-//Removing this because I'm going to add springs with code now.
-//			//If the box has spring joints on it (It shouldn't) lets just get those.
-//				_grabbedBoxSprings = _grabbedBox.GetComponents<SpringJoint>();
-
-			_grabbedBoxSprings[0] = _grabbedBox.AddComponent<SpringJoint>();
-			_grabbedBoxSprings[1] = _grabbedBox.AddComponent<SpringJoint>();
-
-			//Set the grabbed box's connected body to the player.
-			_grabbedBoxSprings[0].connectedBody = _playerRigidbody;
-			_grabbedBoxSprings[1].connectedBody = _playerRigidbody;
-			//Set the anchors
-			_grabbedBoxSprings[0].anchor = new Vector3(0f, 0f, PushingAnchorZ);
-			_grabbedBoxSprings[1].anchor = new Vector3(0f, 0f, -PushingAnchorZ);
-			//Set the Spring
-			_grabbedBoxSprings[0].spring = PushingSpring;
-			_grabbedBoxSprings[1].spring = PushingSpring;
-			//Set the Damper
-			_grabbedBoxSprings[0].damper = PushingDamper;
-			_grabbedBoxSprings[1].damper = PushingDamper;
-			//Set the break torque
-			_grabbedBoxSprings[0].breakForce = PushingBreakForce;
-			_grabbedBoxSprings[1].breakForce = PushingBreakForce;
 
 
 			_myImageScript.sprite = ClosedHand;
 
+			CharacterController	_playerCharacterController = _player.GetComponent<CharacterController>();
+			Rigidbody _grabbedBoxBody = _grabbedBox.GetComponent<Rigidbody>();
 
-			while (_leftMouse && _equiped && _grabbedBoxSprings[0] && Vector3.Distance(_grabbedBox.transform.position, _player.transform.position) <= PushingBreakDistance)
+
+			while (_leftMouse && _equiped && Vector3.Distance(_grabbedBox.transform.position, _player.transform.position) <= PushingBreakDistance)
 			{
+				_grabbedBoxBody.velocity = _playerCharacterController.velocity;
 
 				yield return null;
 			}
-
-// Removing this because I'm just gonna delete the springs instead.
-//			//spring connections back to null.
-//			_grabbedBoxSprings[0].connectedBody = null;
-//			_grabbedBoxSprings[1].connectedBody = null;
-
-			Destroy(_grabbedBoxSprings[0]);
-			Destroy(_grabbedBoxSprings[1]);
-
-		//	_grabbedBox.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
 
 			//Hand image back to open.
 			_myImageScript.sprite = OpenHand;
