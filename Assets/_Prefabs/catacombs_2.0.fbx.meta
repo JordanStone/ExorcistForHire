@@ -262,6 +262,8 @@ ModelImporter:
     100508: tunnel
     100510: tunnel_roofl
     100512: tunnels
+    100514: tunnel_roof
+    100516: walls
     400000: anatomy_room
     400002: banquet_hall
     400004: boss_roof
@@ -519,6 +521,8 @@ ModelImporter:
     400508: tunnel
     400510: tunnel_roofl
     400512: tunnels
+    400514: tunnel_roof
+    400516: walls
     2300000: boss_roof
     2300002: ceiling_frame
     2300004: ceiling_frame 1
@@ -761,6 +765,8 @@ ModelImporter:
     2300478: tunnel
     2300480: tunnel_roofl
     2300482: tunnels
+    2300484: tunnel_roof
+    2300486: walls
     3300000: boss_roof
     3300002: ceiling_frame
     3300004: ceiling_frame 1
@@ -1003,6 +1009,8 @@ ModelImporter:
     3300478: tunnel
     3300480: tunnel_roofl
     3300482: tunnels
+    3300484: tunnel_roof
+    3300486: walls
     4300000: stairwell4
     4300002: stairwell
     4300004: stairwell1
@@ -1245,6 +1253,8 @@ ModelImporter:
     4300478: tunnel_roofl
     4300480: floor1
     4300482: floor2
+    4300484: walls
+    4300486: tunnel_roof
     9500000: //RootNode
   materials:
     importMaterials: 1
