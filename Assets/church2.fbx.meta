@@ -1,0 +1,720 @@
+fileFormatVersion: 2
+guid: 7f3b8dc99638eaa448e0cd54de538e7c
+timeCreated: 1456599840
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: church_frame
+    100004: church_top
+    100006: door1
+    100008: door2
+    100010: doorwayhead
+    100012: emptywindoe19
+    100014: fencep16
+    100016: fencep17
+    100018: fencep18
+    100020: fencep19
+    100022: fencep20
+    100024: fencep21
+    100026: floor1
+    100028: floor2
+    100030: floor3
+    100032: frame47
+    100034: frame47 1
+    100036: frame47 2
+    100038: frame47 3
+    100040: frame47 4
+    100042: frame48
+    100044: frame48 1
+    100046: frame48 2
+    100048: frame48 3
+    100050: frame48 4
+    100052: frame48 5
+    100054: frame49
+    100056: frame49 1
+    100058: frame49 2
+    100060: frame49 3
+    100062: frame49 4
+    100064: frame49 5
+    100066: frame50
+    100068: frame50 1
+    100070: frame50 2
+    100072: frame50 3
+    100074: frame50 4
+    100076: frame50 5
+    100078: frame51
+    100080: frame51 1
+    100082: frame51 2
+    100084: frame51 3
+    100086: frame52
+    100088: frame52 1
+    100090: frame52 2
+    100092: frame52 3
+    100094: frame53
+    100096: frame53 1
+    100098: frame53 2
+    100100: frame53 3
+    100102: frame54
+    100104: frame54 1
+    100106: frame54 2
+    100108: frame54 3
+    100110: frame54 4
+    100112: frame54 5
+    100114: frame55
+    100116: frame55 1
+    100118: frame55 2
+    100120: frame55 3
+    100122: frame55 4
+    100124: frame55 5
+    100126: frame56
+    100128: frame56 1
+    100130: frame56 2
+    100132: frame56 3
+    100134: frame56 4
+    100136: frame56 5
+    100138: frame57
+    100140: frame57 1
+    100142: frame57 2
+    100144: frame57 3
+    100146: frame57 4
+    100148: frame57 5
+    100150: frame58
+    100152: frame58 1
+    100154: frame58 2
+    100156: frame58 3
+    100158: frame58 4
+    100160: frame58 5
+    100162: pCylinder2
+    100164: pPipe1
+    100166: roof2
+    100168: roofp
+    100170: roofp1
+    100172: stable_bars9
+    100174: stair
+    100176: stair2
+    100178: topfence10
+    100180: topfence11
+    100182: topfence6
+    100184: topfence7
+    100186: topfence8
+    100188: topfence9
+    100190: tower
+    100192: w102
+    100194: w107
+    100196: w112
+    100198: w117
+    100200: w122
+    100202: w127
+    100204: w132
+    100206: w137
+    100208: w142
+    100210: w147
+    100212: w152
+    100214: w157
+    100216: w162
+    100218: w167
+    100220: w17
+    100222: w172
+    100224: w177
+    100226: w182
+    100228: w187
+    100230: w192
+    100232: w197
+    100234: w202
+    100236: w207
+    100238: w212
+    100240: w22
+    100242: w27
+    100244: w3
+    100246: w32
+    100248: w37
+    100250: w42
+    100252: w52
+    100254: w57
+    100256: w6
+    100258: w62
+    100260: w67
+    100262: w7
+    100264: w72
+    100266: w77
+    100268: w82
+    100270: w87
+    100272: w92
+    100274: w97
+    400000: //RootNode
+    400002: church_frame
+    400004: church_top
+    400006: door1
+    400008: door2
+    400010: doorwayhead
+    400012: emptywindoe19
+    400014: fencep16
+    400016: fencep17
+    400018: fencep18
+    400020: fencep19
+    400022: fencep20
+    400024: fencep21
+    400026: floor1
+    400028: floor2
+    400030: floor3
+    400032: frame47
+    400034: frame47 1
+    400036: frame47 2
+    400038: frame47 3
+    400040: frame47 4
+    400042: frame48
+    400044: frame48 1
+    400046: frame48 2
+    400048: frame48 3
+    400050: frame48 4
+    400052: frame48 5
+    400054: frame49
+    400056: frame49 1
+    400058: frame49 2
+    400060: frame49 3
+    400062: frame49 4
+    400064: frame49 5
+    400066: frame50
+    400068: frame50 1
+    400070: frame50 2
+    400072: frame50 3
+    400074: frame50 4
+    400076: frame50 5
+    400078: frame51
+    400080: frame51 1
+    400082: frame51 2
+    400084: frame51 3
+    400086: frame52
+    400088: frame52 1
+    400090: frame52 2
+    400092: frame52 3
+    400094: frame53
+    400096: frame53 1
+    400098: frame53 2
+    400100: frame53 3
+    400102: frame54
+    400104: frame54 1
+    400106: frame54 2
+    400108: frame54 3
+    400110: frame54 4
+    400112: frame54 5
+    400114: frame55
+    400116: frame55 1
+    400118: frame55 2
+    400120: frame55 3
+    400122: frame55 4
+    400124: frame55 5
+    400126: frame56
+    400128: frame56 1
+    400130: frame56 2
+    400132: frame56 3
+    400134: frame56 4
+    400136: frame56 5
+    400138: frame57
+    400140: frame57 1
+    400142: frame57 2
+    400144: frame57 3
+    400146: frame57 4
+    400148: frame57 5
+    400150: frame58
+    400152: frame58 1
+    400154: frame58 2
+    400156: frame58 3
+    400158: frame58 4
+    400160: frame58 5
+    400162: pCylinder2
+    400164: pPipe1
+    400166: roof2
+    400168: roofp
+    400170: roofp1
+    400172: stable_bars9
+    400174: stair
+    400176: stair2
+    400178: topfence10
+    400180: topfence11
+    400182: topfence6
+    400184: topfence7
+    400186: topfence8
+    400188: topfence9
+    400190: tower
+    400192: w102
+    400194: w107
+    400196: w112
+    400198: w117
+    400200: w122
+    400202: w127
+    400204: w132
+    400206: w137
+    400208: w142
+    400210: w147
+    400212: w152
+    400214: w157
+    400216: w162
+    400218: w167
+    400220: w17
+    400222: w172
+    400224: w177
+    400226: w182
+    400228: w187
+    400230: w192
+    400232: w197
+    400234: w202
+    400236: w207
+    400238: w212
+    400240: w22
+    400242: w27
+    400244: w3
+    400246: w32
+    400248: w37
+    400250: w42
+    400252: w52
+    400254: w57
+    400256: w6
+    400258: w62
+    400260: w67
+    400262: w7
+    400264: w72
+    400266: w77
+    400268: w82
+    400270: w87
+    400272: w92
+    400274: w97
+    2300000: church_frame
+    2300002: door1
+    2300004: door2
+    2300006: doorwayhead
+    2300008: emptywindoe19
+    2300010: floor1
+    2300012: floor2
+    2300014: floor3
+    2300016: frame47
+    2300018: frame47 1
+    2300020: frame47 2
+    2300022: frame47 3
+    2300024: frame47 4
+    2300026: frame48
+    2300028: frame48 1
+    2300030: frame48 2
+    2300032: frame48 3
+    2300034: frame48 4
+    2300036: frame48 5
+    2300038: frame49
+    2300040: frame49 1
+    2300042: frame49 2
+    2300044: frame49 3
+    2300046: frame49 4
+    2300048: frame49 5
+    2300050: frame50
+    2300052: frame50 1
+    2300054: frame50 2
+    2300056: frame50 3
+    2300058: frame50 4
+    2300060: frame50 5
+    2300062: frame51
+    2300064: frame51 1
+    2300066: frame51 2
+    2300068: frame51 3
+    2300070: frame52
+    2300072: frame52 1
+    2300074: frame52 2
+    2300076: frame52 3
+    2300078: frame53
+    2300080: frame53 1
+    2300082: frame53 2
+    2300084: frame53 3
+    2300086: frame54
+    2300088: frame54 1
+    2300090: frame54 2
+    2300092: frame54 3
+    2300094: frame54 4
+    2300096: frame54 5
+    2300098: frame55
+    2300100: frame55 1
+    2300102: frame55 2
+    2300104: frame55 3
+    2300106: frame55 4
+    2300108: frame55 5
+    2300110: frame56
+    2300112: frame56 1
+    2300114: frame56 2
+    2300116: frame56 3
+    2300118: frame56 4
+    2300120: frame56 5
+    2300122: frame57
+    2300124: frame57 1
+    2300126: frame57 2
+    2300128: frame57 3
+    2300130: frame57 4
+    2300132: frame57 5
+    2300134: frame58
+    2300136: frame58 1
+    2300138: frame58 2
+    2300140: frame58 3
+    2300142: frame58 4
+    2300144: frame58 5
+    2300146: pCylinder2
+    2300148: pPipe1
+    2300150: roof2
+    2300152: roofp
+    2300154: roofp1
+    2300156: stable_bars9
+    2300158: stair
+    2300160: stair2
+    2300162: tower
+    2300164: w102
+    2300166: w107
+    2300168: w112
+    2300170: w117
+    2300172: w122
+    2300174: w127
+    2300176: w132
+    2300178: w137
+    2300180: w142
+    2300182: w147
+    2300184: w152
+    2300186: w157
+    2300188: w162
+    2300190: w167
+    2300192: w17
+    2300194: w172
+    2300196: w177
+    2300198: w182
+    2300200: w187
+    2300202: w192
+    2300204: w197
+    2300206: w202
+    2300208: w207
+    2300210: w212
+    2300212: w22
+    2300214: w27
+    2300216: w3
+    2300218: w32
+    2300220: w37
+    2300222: w42
+    2300224: w52
+    2300226: w57
+    2300228: w6
+    2300230: w62
+    2300232: w67
+    2300234: w7
+    2300236: w72
+    2300238: w77
+    2300240: w82
+    2300242: w87
+    2300244: w92
+    2300246: w97
+    3300000: church_frame
+    3300002: door1
+    3300004: door2
+    3300006: doorwayhead
+    3300008: emptywindoe19
+    3300010: floor1
+    3300012: floor2
+    3300014: floor3
+    3300016: frame47
+    3300018: frame47 1
+    3300020: frame47 2
+    3300022: frame47 3
+    3300024: frame47 4
+    3300026: frame48
+    3300028: frame48 1
+    3300030: frame48 2
+    3300032: frame48 3
+    3300034: frame48 4
+    3300036: frame48 5
+    3300038: frame49
+    3300040: frame49 1
+    3300042: frame49 2
+    3300044: frame49 3
+    3300046: frame49 4
+    3300048: frame49 5
+    3300050: frame50
+    3300052: frame50 1
+    3300054: frame50 2
+    3300056: frame50 3
+    3300058: frame50 4
+    3300060: frame50 5
+    3300062: frame51
+    3300064: frame51 1
+    3300066: frame51 2
+    3300068: frame51 3
+    3300070: frame52
+    3300072: frame52 1
+    3300074: frame52 2
+    3300076: frame52 3
+    3300078: frame53
+    3300080: frame53 1
+    3300082: frame53 2
+    3300084: frame53 3
+    3300086: frame54
+    3300088: frame54 1
+    3300090: frame54 2
+    3300092: frame54 3
+    3300094: frame54 4
+    3300096: frame54 5
+    3300098: frame55
+    3300100: frame55 1
+    3300102: frame55 2
+    3300104: frame55 3
+    3300106: frame55 4
+    3300108: frame55 5
+    3300110: frame56
+    3300112: frame56 1
+    3300114: frame56 2
+    3300116: frame56 3
+    3300118: frame56 4
+    3300120: frame56 5
+    3300122: frame57
+    3300124: frame57 1
+    3300126: frame57 2
+    3300128: frame57 3
+    3300130: frame57 4
+    3300132: frame57 5
+    3300134: frame58
+    3300136: frame58 1
+    3300138: frame58 2
+    3300140: frame58 3
+    3300142: frame58 4
+    3300144: frame58 5
+    3300146: pCylinder2
+    3300148: pPipe1
+    3300150: roof2
+    3300152: roofp
+    3300154: roofp1
+    3300156: stable_bars9
+    3300158: stair
+    3300160: stair2
+    3300162: tower
+    3300164: w102
+    3300166: w107
+    3300168: w112
+    3300170: w117
+    3300172: w122
+    3300174: w127
+    3300176: w132
+    3300178: w137
+    3300180: w142
+    3300182: w147
+    3300184: w152
+    3300186: w157
+    3300188: w162
+    3300190: w167
+    3300192: w17
+    3300194: w172
+    3300196: w177
+    3300198: w182
+    3300200: w187
+    3300202: w192
+    3300204: w197
+    3300206: w202
+    3300208: w207
+    3300210: w212
+    3300212: w22
+    3300214: w27
+    3300216: w3
+    3300218: w32
+    3300220: w37
+    3300222: w42
+    3300224: w52
+    3300226: w57
+    3300228: w6
+    3300230: w62
+    3300232: w67
+    3300234: w7
+    3300236: w72
+    3300238: w77
+    3300240: w82
+    3300242: w87
+    3300244: w92
+    3300246: w97
+    4300000: roofp1
+    4300002: roofp
+    4300004: tower
+    4300006: door1
+    4300008: church_frame
+    4300010: roof2
+    4300012: pPipe1
+    4300014: pCylinder2
+    4300016: floor1
+    4300018: floor2
+    4300020: door2
+    4300022: floor3
+    4300024: stair2
+    4300026: doorwayhead
+    4300028: stair
+    4300030: stable_bars9
+    4300032: frame47
+    4300034: frame48
+    4300036: frame49
+    4300038: frame50
+    4300040: frame51
+    4300042: frame52
+    4300044: frame53
+    4300046: frame54
+    4300048: frame55
+    4300050: frame56
+    4300052: frame57
+    4300054: frame58
+    4300056: frame47
+    4300058: frame48
+    4300060: frame49
+    4300062: frame50
+    4300064: frame51
+    4300066: frame52
+    4300068: frame47
+    4300070: frame48
+    4300072: frame49
+    4300074: frame50
+    4300076: frame53
+    4300078: frame54
+    4300080: frame55
+    4300082: frame56
+    4300084: frame57
+    4300086: frame58
+    4300088: frame54
+    4300090: frame55
+    4300092: frame56
+    4300094: frame57
+    4300096: frame58
+    4300098: frame54
+    4300100: frame55
+    4300102: frame56
+    4300104: frame57
+    4300106: frame58
+    4300108: frame53
+    4300110: frame54
+    4300112: frame55
+    4300114: frame56
+    4300116: frame57
+    4300118: frame58
+    4300120: frame53
+    4300122: frame54
+    4300124: frame55
+    4300126: frame56
+    4300128: frame57
+    4300130: frame58
+    4300132: frame47
+    4300134: frame48
+    4300136: frame49
+    4300138: frame50
+    4300140: frame48
+    4300142: frame49
+    4300144: frame50
+    4300146: frame51
+    4300148: frame52
+    4300150: frame47
+    4300152: frame48
+    4300154: frame49
+    4300156: frame50
+    4300158: frame51
+    4300160: frame52
+    4300162: emptywindoe19
+    4300164: w52
+    4300166: w57
+    4300168: w62
+    4300170: w67
+    4300172: w72
+    4300174: w77
+    4300176: w82
+    4300178: w87
+    4300180: w92
+    4300182: w97
+    4300184: w102
+    4300186: w107
+    4300188: w112
+    4300190: w117
+    4300192: w122
+    4300194: w127
+    4300196: w132
+    4300198: w137
+    4300200: w142
+    4300202: w147
+    4300204: w152
+    4300206: w157
+    4300208: w162
+    4300210: w167
+    4300212: w172
+    4300214: w177
+    4300216: w182
+    4300218: w187
+    4300220: w192
+    4300222: w197
+    4300224: w202
+    4300226: w207
+    4300228: w212
+    4300230: w3
+    4300232: w7
+    4300234: w6
+    4300236: w17
+    4300238: w22
+    4300240: w27
+    4300242: w32
+    4300244: w37
+    4300246: w42
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
