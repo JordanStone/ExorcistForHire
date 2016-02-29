@@ -143,7 +143,7 @@ public class NpcBehavior : MonoBehaviour {
 					
 					_myNavMeshAgent.speed = WalkSpeed;
 				}
-				else if(Vector3.Distance(transform.position, _currentTargetPositionInZone) < 1f)
+				else if(Vector3.Distance(transform.position, _currentTargetPositionInZone) < GoalDistance)
 				{
 					_myAnimator.SetFloat("Turn", 0f);
 
