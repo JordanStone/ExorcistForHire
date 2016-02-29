@@ -45,7 +45,7 @@ namespace SoundController
 		void Start()
 		{
 			DOTween.Init();
-			EventManager.AddListener((int) GameManagerScript.GameEvents.LoadlastCheckpoint, OnLoadLastCheckpoint);
+			//EventManager.AddListener((int) GameManagerScript.GameEvents.LoadlastCheckpoint, OnLoadLastCheckpoint);
 		}
 
 
@@ -108,6 +108,7 @@ namespace SoundController
 			}
 		}
 
+		/*
 		// On restarts, reactivate all sounds that play on awake and set ambience to start playing again
 		private void OnLoadLastCheckpoint(Component poster, object checkpointData)
 		{
@@ -120,7 +121,7 @@ namespace SoundController
 				}
 			}
 		}
-
+		*/
 		
 	// ---Public Functions---
 

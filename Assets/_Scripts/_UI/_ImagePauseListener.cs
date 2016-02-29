@@ -13,8 +13,8 @@ public class _ImagePauseListener : MonoBehaviour {
 	
 	[Header("Check if you want to disable all children of this game object when you hide this object")]
 	public bool DisableChildren;
-	
-	private Image _myImage;
+
+	public Image _myImage;
 
 	private SoundManager _soundManager;
 	
@@ -32,17 +32,19 @@ public class _ImagePauseListener : MonoBehaviour {
 		{
 			setImageTo(false);
 		}
-
-		EventManager.AddListener((int) GameManagerScript.GameEvents.Paused, OnPaused);	
-
-
 	}
 
-
-
-	void OnPaused(Component poster, object pausedState)
+	void Update()
 	{
-		if((bool) pausedState != ShownAtStart)
+		if(Input.GetButtonDown("Pause"))
+		{
+			OnPaused(GameManagerScript.isPaused);		
+		}
+	}
+
+	void OnPaused(bool pausedState)
+	{
+		if(pausedState != ShownAtStart)
 		{
 			setImageTo(true);
 			_soundManager.PauseAllButAmbience();
@@ -56,6 +58,7 @@ public class _ImagePauseListener : MonoBehaviour {
 
 	private void setImageTo(bool state)
 	{
+		Image _myImage = GetComponent<Image>();
 		_myImage.enabled = state;
 			
 		if(DisableChildren)

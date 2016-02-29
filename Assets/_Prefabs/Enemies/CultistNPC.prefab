@@ -2018,7 +2018,7 @@ GameObject:
   m_Layer: 13
   m_Name: CultistNPC
   m_TagString: Enemy
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3108,7 +3108,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 187032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -176.639999, y: -1.71123981, z: 1.57000005}
+  m_LocalPosition: {x: -270.100006, y: 12.5, z: 3.4000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 494126}
@@ -4739,7 +4739,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Points:
   - {fileID: 0}
-  - {fileID: 0}
   Type: 1
 --- !u!114 &11458314
 MonoBehaviour:
@@ -4752,7 +4751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f22a56669f0add64fa97e8efb038b650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementType: 1
+  MovementType: 2
   AttackType: 1
   currentState: 0
   ChaseTime: 5
@@ -4761,12 +4760,13 @@ MonoBehaviour:
   Speed: 0
   PathSpeed: 2
   ChaseSpeed: 6.5
-  DodgeChance: 14
+  DodgeChance: 50
   SearchSpeed: 4
   SearchTime: 10
   fieldOfViewAngle: 110
   _playerVisable: 0
   SightDistance: 30
+  flashlightOnSightDistance: 30
   _player: {fileID: 0}
   SearchingIgnoreLayer:
     serializedVersion: 2
@@ -4775,8 +4775,8 @@ MonoBehaviour:
   SearchRadius: 8
   PatrolPath: {fileID: 11479008}
   MyZone: {fileID: 0}
-  ZoneStayTime: 10
-  ZoneStayTimeVariance: 5
+  ZoneStayTime: 4
+  ZoneStayTimeVariance: 3
   Projectile: {fileID: 196720, guid: e05f95d65bb93834d869647bff0957a2, type: 2}
   ProjectileAttackRange: 60
   PVelocity: 1

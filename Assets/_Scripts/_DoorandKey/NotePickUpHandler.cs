@@ -31,8 +31,8 @@ public class NotePickUpHandler : MonoBehaviour
 
 		if (note)
 		{
-			note.SetActive(true);
-			GameManagerScript.LockSwitch();
+		//	note.SetActive(true);
+		//	GameManagerScript.LockSwitch();
 		}
 	}
 

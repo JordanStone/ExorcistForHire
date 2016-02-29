@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using LoadingScreenNamespace;
+using NashTools;
+
 
 public class LoadNextZone : MonoBehaviour {
 
@@ -21,7 +23,8 @@ public class LoadNextZone : MonoBehaviour {
 	{
 		if(other.name == "Player")
 		{
-			_loadingScreen.LoadLevel("Catacombs");
+			_loadingScreen.LoadLevel("Catacombs2");
+
 
 		}
 	

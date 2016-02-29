@@ -1255,6 +1255,248 @@ ModelImporter:
     4300482: floor2
     4300484: walls
     4300486: tunnel_roof
+    6400000: boss_roof
+    6400002: ceiling_frame
+    6400004: ceiling_frame 1
+    6400006: ceiling_frame 2
+    6400008: ceiling_frame1
+    6400010: ceiling_frame2
+    6400012: ceiling_frame3
+    6400014: ceiling_frame4
+    6400016: ceiling_frame5
+    6400018: ceiling_frame6
+    6400020: ceiling_frame7
+    6400022: ceiling_frame8
+    6400024: ceiling_frame9
+    6400026: ceiling_frame_corner
+    6400028: ceiling_frame_corner 1
+    6400030: ceiling_frame_corner1
+    6400032: ceiling_frame_corner2
+    6400034: ceiling_frame_corner3
+    6400036: ceiling_frame_corner4
+    6400038: ceiling_frame_corner5
+    6400040: ceiling_frame_corner6
+    6400042: ceiling_frame_corner_wide
+    6400044: ceiling_frame_corner_wide 1
+    6400046: ceiling_frame_corner_wide 2
+    6400048: ceiling_frame_corner_wide1
+    6400050: ceiling_frame_corner_wide2
+    6400052: ceiling_frame_corner_wide3
+    6400054: ceiling_frame_wide
+    6400056: ceiling_frame_wide 1
+    6400058: ceiling_frame_wide 2
+    6400060: ceiling_frame_wide1
+    6400062: ceiling_frame_wide2
+    6400064: ceiling_frame_wide3
+    6400066: ceiling_frame_wide4
+    6400068: ceiling_frame_wide5
+    6400070: ceiling_frame_wide6
+    6400072: corner_wall
+    6400074: corner_wall 1
+    6400076: corner_wall1
+    6400078: corner_wall2
+    6400080: corner_wall3
+    6400082: corner_wall4
+    6400084: corner_wall5
+    6400086: corner_wall6
+    6400088: door_plank
+    6400090: door_plank 1
+    6400092: door_plank 2
+    6400094: door_plank 3
+    6400096: door_plank 4
+    6400098: door_plank1
+    6400100: door_plank10
+    6400102: door_plank11
+    6400104: door_plank13
+    6400106: door_plank14
+    6400108: door_plank15
+    6400110: door_plank16
+    6400112: door_plank17
+    6400114: door_plank18
+    6400116: door_plank19
+    6400118: door_plank2
+    6400120: door_plank20
+    6400122: door_plank21
+    6400124: door_plank23
+    6400126: door_plank24
+    6400128: door_plank25
+    6400130: door_plank26
+    6400132: door_plank27
+    6400134: door_plank28
+    6400136: door_plank3
+    6400138: door_plank4
+    6400140: door_plank5
+    6400142: door_plank6
+    6400144: door_plank7
+    6400146: door_plank8
+    6400148: door_plank9
+    6400150: floor1
+    6400152: floor2
+    6400154: long_door
+    6400156: long_door 1
+    6400158: long_door 2
+    6400160: long_door 3
+    6400162: long_door 4
+    6400164: long_door 5
+    6400166: long_door 6
+    6400168: long_door1
+    6400170: long_door2
+    6400172: long_door3
+    6400174: long_door4
+    6400176: long_door5
+    6400178: long_door6
+    6400180: long_door7
+    6400182: long_door8
+    6400184: long_wall
+    6400186: long_wall 1
+    6400188: long_wall 10
+    6400190: long_wall 2
+    6400192: long_wall 3
+    6400194: long_wall 4
+    6400196: long_wall 5
+    6400198: long_wall 6
+    6400200: long_wall 7
+    6400202: long_wall 8
+    6400204: long_wall 9
+    6400206: long_wall1
+    6400208: long_wall1 1
+    6400210: long_wall10
+    6400212: long_wall11
+    6400214: long_wall12
+    6400216: long_wall13
+    6400218: long_wall14
+    6400220: long_wall15
+    6400222: long_wall16
+    6400224: long_wall17
+    6400226: long_wall18
+    6400228: long_wall19
+    6400230: long_wall2
+    6400232: long_wall2 1
+    6400234: long_wall20
+    6400236: long_wall21
+    6400238: long_wall22
+    6400240: long_wall23
+    6400242: long_wall24
+    6400244: long_wall25
+    6400246: long_wall26
+    6400248: long_wall27
+    6400250: long_wall28
+    6400252: long_wall29
+    6400254: long_wall3
+    6400256: long_wall3 1
+    6400258: long_wall30
+    6400260: long_wall31
+    6400262: long_wall32
+    6400264: long_wall33
+    6400266: long_wall34
+    6400268: long_wall35
+    6400270: long_wall36
+    6400272: long_wall37
+    6400274: long_wall38
+    6400276: long_wall39
+    6400278: long_wall4
+    6400280: long_wall4 1
+    6400282: long_wall40
+    6400284: long_wall41
+    6400286: long_wall42
+    6400288: long_wall43
+    6400290: long_wall44
+    6400292: long_wall45
+    6400294: long_wall46
+    6400296: long_wall47
+    6400298: long_wall48
+    6400300: long_wall49
+    6400302: long_wall5
+    6400304: long_wall5 1
+    6400306: long_wall50
+    6400308: long_wall51
+    6400310: long_wall52
+    6400312: long_wall53
+    6400314: long_wall54
+    6400316: long_wall55
+    6400318: long_wall56
+    6400320: long_wall57
+    6400322: long_wall58
+    6400324: long_wall59
+    6400326: long_wall6
+    6400328: long_wall6 1
+    6400330: long_wall60
+    6400332: long_wall61
+    6400334: long_wall62
+    6400336: long_wall63
+    6400338: long_wall64
+    6400340: long_wall65
+    6400342: long_wall66
+    6400344: long_wall67
+    6400346: long_wall68
+    6400348: long_wall69
+    6400350: long_wall7
+    6400352: long_wall7 1
+    6400354: long_wall70
+    6400356: long_wall71
+    6400358: long_wall72
+    6400360: long_wall73
+    6400362: long_wall74
+    6400364: long_wall75
+    6400366: long_wall76
+    6400368: long_wall77
+    6400370: long_wall78
+    6400372: long_wall79
+    6400374: long_wall8
+    6400376: long_wall80
+    6400378: long_wall81
+    6400380: long_wall82
+    6400382: long_wall83
+    6400384: long_wall84
+    6400386: long_wall85
+    6400388: long_wall86
+    6400390: long_wall87
+    6400392: long_wall88
+    6400394: long_wall89
+    6400396: long_wall9
+    6400398: long_wall90
+    6400400: long_wall91
+    6400402: long_wall92
+    6400404: long_wall93
+    6400406: long_wall94
+    6400408: long_wall95
+    6400410: long_wall96
+    6400412: long_wall97
+    6400414: long_wall98
+    6400416: short_door
+    6400418: short_door 1
+    6400420: short_door 2
+    6400422: short_door 3
+    6400424: short_door1
+    6400426: short_door2
+    6400428: short_door2 1
+    6400430: short_door3
+    6400432: short_door3 1
+    6400434: short_door4
+    6400436: short_door5
+    6400438: short_wall
+    6400440: short_wall 1
+    6400442: short_wall 2
+    6400444: short_wall 3
+    6400446: short_wall 4
+    6400448: short_wall 5
+    6400450: short_wall1
+    6400452: short_wall2
+    6400454: short_wall3
+    6400456: short_wall4
+    6400458: short_wall5
+    6400460: stairwell
+    6400462: stairwell 1
+    6400464: stairwell1
+    6400466: stairwell2
+    6400468: stairwell3
+    6400470: stairwell4
+    6400472: stairwell5
+    6400474: stairwell6
+    6400476: stairwell7
+    6400478: tunnel
+    6400480: tunnel_roof
+    6400482: walls
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -1281,7 +1523,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 60
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

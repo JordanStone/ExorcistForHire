@@ -8,6 +8,7 @@ using LoadingScreenNamespace;
 using UnityEngine.UI;
 
 public class GameManagerScript : MonoBehaviour {
+
 	private static GameManagerScript g_Instance = null;
 	
 	// This defines a static instance property that attempts to find the manager object in the scene and
@@ -40,13 +41,15 @@ public class GameManagerScript : MonoBehaviour {
 	{
 		g_Instance = null;
 	}
-	
-	
+
+
+
 	public static bool isPaused;
 	public static bool isAlive;
 	private int gate;
 	CursorLockMode wantedMode;
 	private Text _ammoHud;
+
 
 
 	//Any event we want to track goes here!
@@ -73,6 +76,14 @@ public class GameManagerScript : MonoBehaviour {
 	public List<CheckpointClass.Checkpoint.CheckpointData> Checkpoints = new List<CheckpointClass.Checkpoint.CheckpointData>();
 	private CheckpointClass.Checkpoint.CheckpointData _lastCheckpoint;
 
+	void Awake()
+	{
+	//	DontDestroyOnLoad(gameObject);
+		isPaused = false;
+		isAlive = true;
+		Time.timeScale = 1f;
+		_ammoHud = GameObject.Find("AmmoCount").GetComponent<Text>();	
+	}
 
 	// Use this for initialization
 	void Start () 
@@ -86,7 +97,7 @@ public class GameManagerScript : MonoBehaviour {
 		EventManager.AddListener((int) GameEvents.LoadLastCheckpointPressed, LoadLastCheckpointPressed);
 		EventManager.AddListener ((int)GameEvents.Dead, OnPlayerDead);
 
-		_ammoHud = GameObject.Find("AmmoCount").GetComponent<Text>();	
+
 	}
 
 
@@ -102,7 +113,7 @@ public class GameManagerScript : MonoBehaviour {
 
 		if(Input.GetButtonDown("Pause"))
 		{
-			LockSwitch((int)GameEvents.Paused);
+			LockSwitch((int)GameEvents.Paused);		
 		}
 		else if (Input.GetButtonDown("Inventory"))
 		{
@@ -128,7 +139,7 @@ public class GameManagerScript : MonoBehaviour {
 			_ammoHud.enabled = true;
 	}
 	
-	public static void LockSwitch(int gameEvent = -1)
+	public static void LockSwitch(int gameEvent)
 	{
 		if(isPaused == true)
 		{

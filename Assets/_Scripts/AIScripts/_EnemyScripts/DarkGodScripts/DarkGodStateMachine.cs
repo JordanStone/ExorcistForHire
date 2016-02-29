@@ -564,6 +564,7 @@ namespace BossDetectionScript
 
 		public void OnBossAddDeath()
 		{
+		
 			totalBossAdds -= 1;
 			if(totalBossAdds <= 0)
 			{
@@ -571,6 +572,7 @@ namespace BossDetectionScript
 				_bossBehaviorScript.AddPhaseAttacks(currentPhase);
 				GameObject shield = GameObject.Find("Shield");
 				shield.SetActive(false);
+
 
 			}
 		}

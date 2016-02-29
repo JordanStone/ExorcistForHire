@@ -38,6 +38,12 @@ public class BossAddBehavior : MonoBehaviour {
 		bossTether.SetPosition((lengthOfTether -1), BossToTrack.transform.position + offsetTether); //End position of tether (boss)
 	}
 
+	public void OnDisable()
+	{
+		_bossDetectionScript.OnBossAddDeath();
+		Destroy(bossTether);
+	}
+
 	public void AddDeath()
 	{
 		_bossDetectionScript.OnBossAddDeath();

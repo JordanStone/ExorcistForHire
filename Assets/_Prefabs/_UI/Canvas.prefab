@@ -3413,6 +3413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShownAtStart: 0
   DisableChildren: 1
+  _myImage: {fileID: 11407332}
 --- !u!114 &11424200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6771,11 +6772,11 @@ MonoBehaviour:
   SlerpDamp: .5
   DoorForce: 8
   DoorTargetVelocity: 50
-  PushingAnchorZ: 1.60000002
-  PushingSpring: 2400
-  PushingDamper: 800
+  PushingSpring: 2000
+  PushingDamper: 200
   PushingBreakForce: 400
   PushingBreakDistance: 12
+  PushingAnchor: {x: 0, y: .75999999, z: 1.60000002}
   LadderSnapTime: .800000012
   RungLengthMeters: .457199991
   LadderRungClimbTime: .5

@@ -27,14 +27,19 @@ public class _OptionMenuListener : MonoBehaviour {
 		{
 			setImageTo(false);
 		}
-		
-		EventManager.AddListener((int) GameManagerScript.GameEvents.Paused, OnPaused);		
 	}
 	
-	
-	void OnPaused(Component poster, object pausedState)
+	void Update()
 	{
-		if((bool) pausedState != ShownAtStart)
+		if(Input.GetButtonDown("Pause"))
+		{
+			OnPaused(GameManagerScript.isPaused);		
+		}
+
+	}
+	void OnPaused(bool pausedState)
+	{
+		if(pausedState != ShownAtStart)
 		{
 
 

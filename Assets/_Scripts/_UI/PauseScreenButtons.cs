@@ -26,7 +26,7 @@ public class PauseScreenButtons : MonoBehaviour {
 	public void RestartButton()
 	{
 		Application.Quit();
-		EventManager.Cleanup();
+	//	EventManager.Cleanup();
 		MyCanvas.enabled = true;
 
 		Application.LoadLevel(Application.loadedLevel);

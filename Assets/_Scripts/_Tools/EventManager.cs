@@ -12,24 +12,24 @@ namespace NashTools
 	{
 		// General delegate for events
 		public delegate void OnEvent(Component sender, object param = null);  	
-
+		
 		// Dictionary of Events and Listeners
 		private static Dictionary<int, List<OnEvent>> Listeners = new Dictionary<int, List<OnEvent>>();
-
-
-
+		
+		
+		
 		public static void Init()
 		{
 			Listeners = new Dictionary<int, List<OnEvent>>();
 		}
-
-
-
+		
+		
+		
 		public static void AddListener(int eventIndex, OnEvent listener)
 		{
 			// Temp listeners list
 			List<OnEvent> tempListenersList = null;
-
+			
 			// If there's already a list for this event type, copy it to the temp ListenList (the out parameter)
 			if(Listeners.TryGetValue(eventIndex, out tempListenersList))
 			{
@@ -41,14 +41,14 @@ namespace NashTools
 			//Otherwise, we'll need a new list and add this as the first listener.  
 			tempListenersList = new List<OnEvent>();
 			tempListenersList.Add(listener);
-
+			
 			// Add the temp list back to the main one. 
 			Listeners.Add(eventIndex, tempListenersList);
 		}
-
-
-
-
+		
+		
+		
+		
 		public static void PostNotification(int eventIndex, Component sender, object param = null)
 		{
 			// Temp list of listeners
@@ -66,21 +66,21 @@ namespace NashTools
 					tempListenersList[i](sender, param);
 			}
 		}
-
-
-
+		
+		
+		
 		public static void RemoveEvent(int eventIndex)
 		{
 			Listeners.Remove(eventIndex);
 		}
-
-
-
+		
+		
+		
 		public static void Cleanup()
 		{
 			// Temp dictionary of event types and listeners
 			Dictionary<int, List<OnEvent>> tempListenersDictionary = new Dictionary<int, List<OnEvent>>();
-
+			
 			foreach(KeyValuePair<int, List<OnEvent>> listenersList in Listeners)
 			{
 				//Cycle through all listeners in list, remove null objects

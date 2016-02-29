@@ -49,15 +49,22 @@ public class _ImageInventoryListener : MonoBehaviour {
 		{
 			setImageTo(false);
 		}
-		
-		EventManager.AddListener((int) GameManagerScript.GameEvents.Inventory, OnInventory);
+	}
+
+	void Update()
+	{
+
+		if(Input.GetButtonDown("Inventory"))
+		{
+			OnInventory(GameManagerScript.isPaused);		
+		}
 	}
 	
 	
-	void OnInventory(Component poster, object pausedState)
+	void OnInventory(bool pausedState)
 	{
 		// If pausedState is false and ShownAtStart is true or vice versa, pause. If both false or both true, unpause.
-		if((bool) pausedState != ShownAtStart)
+		if(pausedState != ShownAtStart)
 		{
 			setImageTo(true);
 			_soundManager.PauseAllButAmbience();
@@ -120,7 +127,7 @@ public class _ImageInventoryListener : MonoBehaviour {
 		note.SetActive(false);
 		if(!_myImage.enabled)
 		{
-			GameManagerScript.LockSwitch();
+		//	GameManagerScript.LockSwitch();
 		}
 
 		note.SetActive(false);

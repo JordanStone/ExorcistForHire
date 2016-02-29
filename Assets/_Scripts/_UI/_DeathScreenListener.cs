@@ -18,7 +18,9 @@ public class _DeathScreenListener : MonoBehaviour
 	private Image _myImage;
 
 	private SoundManager _soundManager;
-	
+
+	private PlayerStats _playerStats;
+
 	void Start () 
 	{
 		_myImage =gameObject.GetComponent<Image>();
@@ -32,19 +34,30 @@ public class _DeathScreenListener : MonoBehaviour
 		{
 			setImageTo(false);
 		}
-		
-		EventManager.AddListener((int) GameManagerScript.GameEvents.Dead, OnDead);
+
+		_playerStats = GameObject.Find("Player").GetComponent<PlayerStats>();
+	
 		EventManager.AddListener((int) GameManagerScript.GameEvents.LoadLastCheckpointPressed, OnLastCheckpointPressed);
 	}
-	
+
+	void Update()
+	{
+
+		if(_playerStats.GetHealth() <= 0f)
+		{
+			OnDead(true);
+		}
+
+	}
+
 	void OnLastCheckpointPressed(Component poster, object Nothing)
 	{
 		setImageTo(false);
 	}
 
-	void OnDead(Component poster, object pausedState)
+	void OnDead(bool pausedState)
 	{
-		if((bool) pausedState != ShownAtStart)
+		if(pausedState != ShownAtStart)
 		{
 			setImageTo(true);
 			_soundManager.StopAllAudio();
