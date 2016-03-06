@@ -571,7 +571,8 @@ namespace BossDetectionScript
 				currentPhase = BossPhase.Two;
 				_bossBehaviorScript.AddPhaseAttacks(currentPhase);
 				GameObject shield = GameObject.Find("Shield");
-				shield.SetActive(false);
+				if(shield != null)
+					shield.SetActive(false);
 
 
 			}

@@ -25,17 +25,20 @@ public class BossAddBehavior : MonoBehaviour {
 	void Update()
 	{
 		float t = Time.time;
-
-		bossTether.SetPosition(0, transform.position + offsetTether); //Start position of tether (cultist)
-		for(int i=1; i<(lengthOfTether -1); i++)
+		if(bossTether != null)
 		{
-			Vector3 pos = Vector3.Lerp(transform.position + offsetTether, BossToTrack.transform.position + offsetTether, (float)i/lengthOfTether); //Interpolate to vertices in between start and end points
+			bossTether.SetPosition(0, transform.position + offsetTether); //Start position of tether (cultist)
+			for(int i=1; i<(lengthOfTether -1); i++)
+			{
+				Vector3 pos = Vector3.Lerp(transform.position + offsetTether, BossToTrack.transform.position + offsetTether, (float)i/lengthOfTether); //Interpolate to vertices in between start and end points
 
-			pos += new Vector3(0f, Mathf.Sin(i + t), 0f); //Sine function makes tether behave like sine wave
+				pos += new Vector3(0f, Mathf.Sin(i + t), 0f); //Sine function makes tether behave like sine wave
 			
-			bossTether.SetPosition(i, pos);
+				bossTether.SetPosition(i, pos);
+			}
+			bossTether.SetPosition((lengthOfTether -1), BossToTrack.transform.position + offsetTether); //End position of tether (boss)
 		}
-		bossTether.SetPosition((lengthOfTether -1), BossToTrack.transform.position + offsetTether); //End position of tether (boss)
+
 	}
 
 	public void OnDisable()
