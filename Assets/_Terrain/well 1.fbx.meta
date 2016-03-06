@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 76318602ded744db8820711f4d67fca3
+timeCreated: 1457292166
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bucket
+    100002: pCube226
+    100004: pCylinder33
+    100006: pCylinder35
+    100008: pCylinder36
+    100010: pCylinder37
+    100012: pCylinder38
+    100014: pCylinder39
+    100016: pCylinder40
+    100018: pCylinder41
+    100020: pCylinder42
+    100022: pCylinder43
+    100024: pCylinder44
+    100026: pCylinder45
+    100028: //RootNode
+    100030: Well:polySurface1
+    400000: bucket
+    400002: pCube226
+    400004: pCylinder33
+    400006: pCylinder35
+    400008: pCylinder36
+    400010: pCylinder37
+    400012: pCylinder38
+    400014: pCylinder39
+    400016: pCylinder40
+    400018: pCylinder41
+    400020: pCylinder42
+    400022: pCylinder43
+    400024: pCylinder44
+    400026: pCylinder45
+    400028: //RootNode
+    400030: Well:polySurface1
+    2300000: pCube226
+    2300002: pCylinder33
+    2300004: pCylinder35
+    2300006: pCylinder36
+    2300008: pCylinder37
+    2300010: pCylinder38
+    2300012: pCylinder39
+    2300014: pCylinder40
+    2300016: pCylinder41
+    2300018: pCylinder42
+    2300020: pCylinder43
+    2300022: pCylinder44
+    2300024: pCylinder45
+    2300026: Well:polySurface1
+    3300000: pCube226
+    3300002: pCylinder33
+    3300004: pCylinder35
+    3300006: pCylinder36
+    3300008: pCylinder37
+    3300010: pCylinder38
+    3300012: pCylinder39
+    3300014: pCylinder40
+    3300016: pCylinder41
+    3300018: pCylinder42
+    3300020: pCylinder43
+    3300022: pCylinder44
+    3300024: pCylinder45
+    3300026: Well:polySurface1
+    4300000: pCylinder33
+    4300002: pCylinder35
+    4300004: pCylinder36
+    4300006: pCube226
+    4300008: pCylinder38
+    4300010: pCylinder39
+    4300012: pCylinder37
+    4300014: pCylinder40
+    4300016: pCylinder41
+    4300018: pCylinder42
+    4300020: pCylinder43
+    4300022: pCylinder44
+    4300024: pCylinder45
+    4300026: Well:polySurface1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
