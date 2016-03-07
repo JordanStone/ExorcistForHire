@@ -74,5 +74,9 @@ public class PlayerStats : MonoBehaviour
 		_health = newCheckpointData.Health;
 		transform.position = newCheckpointData.SpawnLocation;
 	}
+
+	public void Gethit(float damage){
+		_health-=damage;
+	}
 }
 
