@@ -25,6 +25,9 @@ namespace SoundController
 		// Current Ambience track. There should only ever be one playing.
 		public AudioSource ambienceSound;
 
+		float masterVolume;
+		float musicVolume;
+		float sfxVolume;
 
 		[Header("This Plays if a sound is null in the code.")]
 		public AudioClip ErrorSound;
@@ -33,6 +36,9 @@ namespace SoundController
 		void Awake () 
 		{
 			audioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[]; 
+			sfxVolume = GameObject.Find ("sfx_slider").GetComponent <Slider> ().value;
+			masterVolume = GameObject.Find ("master_slider").GetComponent <Slider> ().value;
+			musicVolume = GameObject.Find ("music_slider").GetComponent <Slider> ().value;
 
 			// Keep an array that tracks all sounds for convenience
 //			audioSources = ambience.Concat(walks).Concat(gunshots).Concat(ghostnoises).ToArray();
@@ -218,14 +224,70 @@ namespace SoundController
 			return NullTest(ambienceSound.clip);
 		}
 
-		public void ChangeVolume(){
-			float value_ = GameObject.Find ("Audio Slinder").GetComponent <Slider> ().value;
+		//controls Ambience sounds
+		public void ChangeAmbienceVolume()
+		{
+			musicVolume = GameObject.Find ("music_slider").GetComponent <Slider> ().value;
+
+			ambienceSound.volume = musicVolume;
+
+			if ((musicVolume == 1.0f) || (musicVolume == 0.0f)) 
+			{
+				this.CheckSoundsHigh ();
+			}
+		}
+
+		//controls masterVolume
+		public void ChangeMasterVolume(){
+			foreach(AudioSource source in audioSources)
+			{
+				masterVolume = GameObject.Find ("master_slider").GetComponent <Slider> ().value;
+
+				if (source) 
+				{
+					source.volume = masterVolume;
+				}
+			}
+		}
+
+		//override
+		//use this only to change the master volume to 1 when sfx and music equal 1
+		//called only by checkSoundsHigh
+		private void ChangeMasterVolume(float highVolume)
+		{
+			masterVolume = GameObject.Find ("master_slider").GetComponent <Slider> ().value;
+			masterVolume = highVolume;
+			GameObject.Find ("master_slider").GetComponent <Slider> ().DOValue (masterVolume,0.0f);
+		}
+
+		//controls sfx volume
+		public void ChangeSFXVolume()
+		{
+			sfxVolume = GameObject.Find ("sfx_slider").GetComponent <Slider> ().value;
 
 			foreach(AudioSource source in audioSources)
 			{
-				if(source)
-					source.volume=value_;
+				if((source.clip.name.ToString() == "Bounce_1_BG") || (source.clip.name.ToString() == "RegularTempoTheme") || (source.clip.name.ToString() == "TenseTheme"))
+				{
+					//do nothing
+				}else
+					source.volume=sfxVolume;
 			}
+
+			if ((sfxVolume == 1.0f) || (sfxVolume == 0.0f)) 
+			{
+				this.CheckSoundsHigh ();
+			}
+		}
+
+		//called whenever sfx or music equals 1 
+		//checks if both equal 1 to reposition slider of master volume
+		private void CheckSoundsHigh ()
+		{
+			if ((musicVolume + sfxVolume) == 2.0f) {
+				this.ChangeMasterVolume (1.0f);	
+			} else if ((musicVolume - sfxVolume) == 0.0f)
+				this.ChangeMasterVolume (0.0f);
 		}
 	
 	}

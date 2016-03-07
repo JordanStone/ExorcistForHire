@@ -1,0 +1,9 @@
+diff a/ProjectSettings/ProjectSettings.asset b/ProjectSettings/ProjectSettings.asset	(rejected hunks)
+@@ -68,6 +68,7 @@
+   n3dsEnableSharedListOpt: 1
+   n3dsEnableVSync: 0
+   uiUse16BitDepthBuffer: 0
++  ignoreAlphaClear: 0
+   xboxOneResolution: 0
+   ps3SplashScreen: {fileID: 0}
+   videoMemoryForVertexBuffers: 0
