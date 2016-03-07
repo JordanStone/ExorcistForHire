@@ -137,13 +137,13 @@ namespace SimplePlayerCamera
 		}
 
 		public void ChangeX(){
-			float value_ = GameObject.Find ("X_Sens").GetComponent <Slider> ().value;
+			float value_ = GameObject.Find ("x_slider").GetComponent <Slider> ().value;
 			XSensitivity=value_;
 				
 		}
 		
 		public void ChangeY(){
-			float value_ = GameObject.Find ("Y_Sens").GetComponent <Slider> ().value;
+			float value_ = GameObject.Find ("y_slider").GetComponent <Slider> ().value;
 			YSensitivity=value_;
 			
 		}
