@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 2f3db8970b31f4e318ddbae1799352e4
+timeCreated: 1457750688
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: House06_Good:polySurface1
+    100002: House_07:polySurface1
+    100004: //RootNode
+    100006: pCube123
+    100008: pCube123 1
+    100010: pCube123 2
+    100012: pCube123 3
+    100014: pCube125
+    100016: pCube125 1
+    100018: pCube125 2
+    100020: pCube125 3
+    100022: pCube126
+    100024: pCube126 1
+    100026: pCube127
+    100028: pCube128
+    100030: pCube129
+    100032: pCube130
+    100034: pCube131
+    100036: pCube132
+    100038: pCube133
+    100040: pCube134
+    100042: windows
+    100044: windows12
+    100046: windows13
+    100048: windows14
+    400000: House06_Good:polySurface1
+    400002: House_07:polySurface1
+    400004: //RootNode
+    400006: pCube123
+    400008: pCube123 1
+    400010: pCube123 2
+    400012: pCube123 3
+    400014: pCube125
+    400016: pCube125 1
+    400018: pCube125 2
+    400020: pCube125 3
+    400022: pCube126
+    400024: pCube126 1
+    400026: pCube127
+    400028: pCube128
+    400030: pCube129
+    400032: pCube130
+    400034: pCube131
+    400036: pCube132
+    400038: pCube133
+    400040: pCube134
+    400042: windows
+    400044: windows12
+    400046: windows13
+    400048: windows14
+    2300000: House06_Good:polySurface1
+    2300002: pCube123
+    2300004: pCube123 1
+    2300006: pCube123 2
+    2300008: pCube123 3
+    2300010: pCube125
+    2300012: pCube125 1
+    2300014: pCube125 2
+    2300016: pCube125 3
+    2300018: pCube126
+    2300020: pCube126 1
+    2300022: pCube127
+    2300024: pCube128
+    2300026: pCube129
+    2300028: pCube130
+    2300030: pCube131
+    2300032: pCube132
+    2300034: pCube133
+    2300036: pCube134
+    3300000: House06_Good:polySurface1
+    3300002: pCube123
+    3300004: pCube123 1
+    3300006: pCube123 2
+    3300008: pCube123 3
+    3300010: pCube125
+    3300012: pCube125 1
+    3300014: pCube125 2
+    3300016: pCube125 3
+    3300018: pCube126
+    3300020: pCube126 1
+    3300022: pCube127
+    3300024: pCube128
+    3300026: pCube129
+    3300028: pCube130
+    3300030: pCube131
+    3300032: pCube132
+    3300034: pCube133
+    3300036: pCube134
+    4300000: pCube123
+    4300002: pCube125
+    4300004: pCube123
+    4300006: pCube125
+    4300008: pCube126
+    4300010: pCube123
+    4300012: pCube125
+    4300014: pCube123
+    4300016: pCube125
+    4300018: pCube126
+    4300020: pCube127
+    4300022: pCube128
+    4300024: pCube129
+    4300026: pCube130
+    4300028: pCube131
+    4300030: pCube132
+    4300032: pCube133
+    4300034: pCube134
+    4300036: House06_Good:polySurface1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
