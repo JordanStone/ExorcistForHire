@@ -10,6 +10,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/BuildScenes/Level_01.unity
   - enabled: 1
+    path: Assets/_Scenes/BuildScenes/CutsceneScene.unity
+  - enabled: 1
     path: Assets/_Scenes/BuildScenes/Town_10.unity
   - enabled: 1
     path: Assets/_Scenes/BuildScenes/Catacombs2.unity

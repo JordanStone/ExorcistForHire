@@ -43,20 +43,16 @@ namespace LoadingScreenNamespace
 		
 			StartCoroutine("Loading", sceneName);
 		}
+	
 
 		public IEnumerator Loading(string sceneName)
 		{
-		
-
 			async = Application.LoadLevelAsync(sceneName);
 
 			yield return async;
 			
-			Debug.Log ("loading Complete");
-	
-			
+			Debug.Log ("loading Complete");			
 		}
-
 
 
 		static bool InstanceExists()
@@ -68,6 +64,6 @@ namespace LoadingScreenNamespace
 			return true;
 			
 		}
-		
+				
 	}
 }
