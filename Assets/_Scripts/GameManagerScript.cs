@@ -46,6 +46,7 @@ public class GameManagerScript : MonoBehaviour {
 
 	public static bool isPaused;
 	public static bool isAlive;
+	public GameObject[] NPCs;
 	private int gate;
 	CursorLockMode wantedMode;
 	private Text _ammoHud;
@@ -210,5 +211,8 @@ public class GameManagerScript : MonoBehaviour {
 	}
 	public void setGate(int i) {
 		gate = i;
+		foreach(GameObject npc in NPCs) {
+			npc.GetComponent<Subtitles>().hasTalked = false;
+		}
 	}
 }
