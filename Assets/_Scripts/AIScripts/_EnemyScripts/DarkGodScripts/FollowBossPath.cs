@@ -30,7 +30,7 @@ public class FollowBossPath : MonoBehaviour {
 		AttackTarget = GameObject.Find("Player").transform;
 		fountainPosition = GameObject.Find("Fountain").transform.position;
 
-		minDistanceToTarget = 3f;
+		minDistanceToTarget = 2f;
 		maxDistanceToTarget = 80f;
 		baseAttackChance = 25f;
 		attackCool = false;
@@ -91,9 +91,13 @@ public class FollowBossPath : MonoBehaviour {
 	{
 		float targetDistance = Vector3.Distance(AttackTarget.position, transform.position);
 		if(targetDistance <= minDistanceToTarget)
-			_bossBehaviorScript.AttackPlayer(targetDistance);
-		else if ((targetDistance > minDistanceToTarget) && _BossDetectionScript.currentPhase != DarkGodStateMachine.BossPhase.One && attackCool == false)
-			{
+		{
+			_bossBehaviorScript.AttackPlayer(targetDistance);	
+			//StartCoroutine(cooloff());
+		}
+
+		else if ((targetDistance > minDistanceToTarget) && (_BossDetectionScript.currentPhase != DarkGodStateMachine.BossPhase.One) && (attackCool == false))
+		{
 				float randomChance = Random.value * 100f;
 				float chanceToAttack = ChanceOfAttack(targetDistance);
 				if(randomChance < chanceToAttack)
@@ -101,7 +105,7 @@ public class FollowBossPath : MonoBehaviour {
 					_bossBehaviorScript.AttackPlayer(targetDistance);
 				}
 				StartCoroutine(cooloff());
-			}
+		}
 
 	}
 
@@ -128,6 +132,10 @@ public class FollowBossPath : MonoBehaviour {
 
 	private IEnumerator cooloff()
 	{
+		//Debug.Log("Cooling");
+		float cool = cooldown;
+		if(_BossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Three)
+			cool = cooldown * 1.5f;
 		attackCool = true;
 		yield return new WaitForSeconds(cooldown);
 		attackCool = false;

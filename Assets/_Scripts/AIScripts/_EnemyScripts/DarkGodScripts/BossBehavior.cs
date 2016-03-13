@@ -22,11 +22,13 @@ public class BossBehavior : MonoBehaviour {
 	public float aoeKnockback = 1000f;
 	private BossAttack lastAttack;
 	public GameObject petrificationObject;
+	public GameObject rangedObject;
 	private SphereCollider aoeCollider;
 	private BossAttack currentAttack;
 	private GameObject aoeSphere;
+	private bool changeState = false;
 
-	public struct AttackData
+	public class AttackData
 	{
 		public BossAttack attack;
 		public float probability;
@@ -34,6 +36,7 @@ public class BossBehavior : MonoBehaviour {
 		public int successfulHits;
 		public int totalTimesUsed;
 
+		public AttackData(){}
 		public void changeProbability(float value)
 		{
 			probability += value;
@@ -46,10 +49,10 @@ public class BossBehavior : MonoBehaviour {
 
 	}
 	private List<AttackData> availableAttacks;
-	private AttackData clawData;
-	private AttackData petrificationData;
-	private AttackData aoeData;
-	private AttackData rangedData;
+	private AttackData clawData = new AttackData();
+	private AttackData petrificationData = new AttackData(); 
+	private AttackData aoeData = new AttackData();
+	private AttackData rangedData = new AttackData();
 	private DarkGodStateMachine _bossDetectionScript;
 	private Animator _myAnimator;
 
@@ -61,6 +64,8 @@ public class BossBehavior : MonoBehaviour {
 	private bool healing = false;
 	private bool startHealing = false;
 	private GameObject healingObject;
+	private Transform petrifySpawn;
+	private Transform projectileSpawn;
 
 	// Use this for initialization
 	void Start () {
@@ -73,13 +78,15 @@ public class BossBehavior : MonoBehaviour {
 
 		bossHealth = bossStartingHealth;
 
-		spookyAttack = GetComponents<AudioSource>()[1];
-		spookDeath = GetComponents<AudioSource>()[2];
+		//spookyAttack = GetComponents<AudioSource>()[1];
+		//spookDeath = GetComponents<AudioSource>()[2];
 		healingObject.SetActive(false);
 		aoeCollider = GetComponent<SphereCollider>();
 		aoeCollider.enabled = false;
 		aoeSphere = transform.Find("AoeSphere").gameObject;
 		aoeSphere.SetActive(false);
+		petrifySpawn = transform.Find("PetrifyLocation").transform;
+		projectileSpawn = transform.Find("ProjectileSpawn").transform;
 	}
 	
 	// Update is called once per frame
@@ -88,6 +95,10 @@ public class BossBehavior : MonoBehaviour {
 		if(startHealing && !healing)
 		{
 			StartCoroutine(Heal());
+		}
+		if(changeState == true)
+		{
+			_bossDetectionScript.Speed = 0f;
 		}
 		/*if(Input.GetKeyDown(KeyCode.Tab))
 		{
@@ -195,6 +206,11 @@ public class BossBehavior : MonoBehaviour {
 	{
 		//Sort list by probability property of attack data struct. Greatest to smallest.
 		availableAttacks.Sort((b, a) => a.probability.CompareTo(b.probability));
+		/*for(int i=0; i<availableAttacks.Count; i++)
+		{
+			Debug.Log("Attack Type: " + availableAttacks[i].attack + " Probability: " + availableAttacks[i].probability);
+		}*/
+
 	}
 
 	public void AddPhaseAttacks(DarkGodStateMachine.BossPhase phase)
@@ -220,12 +236,13 @@ public class BossBehavior : MonoBehaviour {
 		{
 			currentAttack = BossAttack.Claw;
 			_bossDetectionScript.Speed = 0f;
-			spookyAttack.Play();
-			_myAnimator.SetTrigger("Attack");
-			_myAnimator.SetBool("Chasing", false);
+			//spookyAttack.Play();
+			_myAnimator.SetBool("IsWalking", false);
+			_myAnimator.SetTrigger("ClawAttack");
 			//clawData.totalTimesUsed += 1;
 			lastAttack = BossAttack.Claw;
-			//StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
+			StartCoroutine(WaitForAttackToFinish(1f, false, "none", 0.5f));
+
 			//Debug.Log ("CLAAAAAAAAAAAAAWWWW!!!");
 		}
 	}
@@ -236,10 +253,13 @@ public class BossBehavior : MonoBehaviour {
 		{
 			currentAttack = BossAttack.Petrification;
 			_bossDetectionScript.Speed = 0f;
-			_myAnimator.SetBool("Chasing", false);
-			Debug.Log ("PETRRRRRIFFFFY!!!");
-			GameObject petrify = Instantiate(petrificationObject, transform.position + new Vector3(0f, 1f, 1f), Quaternion.identity)as GameObject;
-			petrify.transform.SetParent(this.transform);
+			_myAnimator.SetBool("IsWalking", false);
+			_myAnimator.SetTrigger("PetrifyAttack");
+			//Debug.Log ("PETRRRRRIFFFFY!!!");
+			StartCoroutine(WaitForAttackToFinish(2.5f, true, "petrify", 0.7f));
+			//GameObject petrify = Instantiate(petrificationObject, transform.position + new Vector3(0f, 1f, 1f), Quaternion.identity)as GameObject;
+			//petrify.transform.SetParent(this.transform);
+
 			//petrificationData.totalTimesUsed += 1;
 			lastAttack = BossAttack.Petrification;
 		}
@@ -250,10 +270,13 @@ public class BossBehavior : MonoBehaviour {
 		{
 			currentAttack = BossAttack.Aoe;
 			_bossDetectionScript.Speed = 0f;
-			_myAnimator.SetBool("Chasing", false);
-			Debug.Log ("AAAAAAOOOOOOOOEEEEE!!!");
+			_myAnimator.SetBool("IsWalking", false);
+			_myAnimator.SetTrigger("TentacleAttack");
+			StartCoroutine(WaitForAttackToFinish(2f, false, "none", 0.5f));
+			//Debug.Log ("AAAAAAOOOOOOOOEEEEE!!!");
 			//aoeData.totalTimesUsed += 1;
 			StartCoroutine(ActivateAOE());
+
 			lastAttack = BossAttack.Aoe;
 		}
 	}
@@ -262,10 +285,14 @@ public class BossBehavior : MonoBehaviour {
 		if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
 		{
 			currentAttack = BossAttack.Ranged;
-			//_bossDetectionScript.Speed = 0f;
-			_myAnimator.SetBool("Chasing", false);
+			_bossDetectionScript.Speed = 0f;
+			_myAnimator.SetBool("IsWalking", false);
+			_myAnimator.SetTrigger("RangedAttack");
+			StartCoroutine(WaitForAttackToFinish(2f, true, "range", 0.5f));
+			//GameObject range = Instantiate(rangedObject, projectileSpawn.transform.position, Quaternion.identity)as GameObject;
 			//StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
-			Debug.Log ("RAAAAAAAAAAAAAAANGE!!!");
+			//Debug.Log ("RAAAAAAAAAAAAAAANGE!!!");
+
 			//rangedData.totalTimesUsed += 1;
 			lastAttack = BossAttack.Ranged;
 		}
@@ -320,7 +347,11 @@ public class BossBehavior : MonoBehaviour {
 		{
 			lostPoints += availableAttacks[index].probability;
 			//availableAttacks[index].probability = 0f;
+			//Debug.Log("Claw -> Ranged");
+
 			availableAttacks[index].changeProbability(-1f * availableAttacks[index].probability);
+			//Debug.Log("Claw probability: " + availableAttacks[index].probability);
+
 			rangedOnly = true;
 		}
 		if(lastAttack == clawData.attack && availableAttacks[index].probability != 0f && _bossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Three)
@@ -364,7 +395,7 @@ public class BossBehavior : MonoBehaviour {
 			}
 
 		}
-
+		//Debug.Log("Claw probability: " + availableAttacks[index].probability);
 	}
 
 	private void SetProbabilityOfPetrification(int index, float distanceToTarget)
@@ -389,11 +420,11 @@ public class BossBehavior : MonoBehaviour {
 			{
 				if(availableAttacks[i].attack == BossAttack.Claw)
 				{
-					availableAttacks[index].changeProbability(lostPoints * 0.75f);
+					availableAttacks[i].changeProbability(lostPoints * 0.75f);
 				}
 				else if(availableAttacks[i].attack == BossAttack.Aoe)
 				{
-					availableAttacks[index].changeProbability(lostPoints * 0.25f);
+					availableAttacks[i].changeProbability(lostPoints * 0.25f);
 				}
 
 			}
@@ -401,7 +432,7 @@ public class BossBehavior : MonoBehaviour {
 			{
 				if(availableAttacks[i].attack == BossAttack.Ranged)
 				{
-					availableAttacks[index].changeProbability(lostPoints);
+					availableAttacks[i].changeProbability(lostPoints);
 				}
 			}
 
@@ -430,11 +461,11 @@ public class BossBehavior : MonoBehaviour {
 			{
 				if(availableAttacks[i].attack == BossAttack.Ranged)
 				{
-					availableAttacks[index].changeProbability(lostPoints * 0.75f);
+					availableAttacks[i].changeProbability(lostPoints * 0.75f);
 				}
 				else if(availableAttacks[i].attack == BossAttack.Petrification)
 				{
-					availableAttacks[index].changeProbability(lostPoints * 0.25f);
+					availableAttacks[i].changeProbability(lostPoints * 0.25f);
 				}
 
 			}
@@ -442,7 +473,7 @@ public class BossBehavior : MonoBehaviour {
 			{
 				if(availableAttacks[i].attack == BossAttack.Claw)
 				{
-					availableAttacks[index].changeProbability(lostPoints);
+					availableAttacks[i].changeProbability(lostPoints);
 				}
 			}
 
@@ -472,11 +503,11 @@ public class BossBehavior : MonoBehaviour {
 			{
 				if(availableAttacks[i].attack == BossAttack.Claw)
 				{
-					availableAttacks[index].changeProbability(lostPoints * 0.75f);
+					availableAttacks[i].changeProbability(lostPoints * 0.75f);
 				}
 				else if(availableAttacks[i].attack == BossAttack.Aoe)
 				{
-					availableAttacks[index].changeProbability(lostPoints * 0.25f);
+					availableAttacks[i].changeProbability(lostPoints * 0.25f);
 				}
 
 			}
@@ -484,14 +515,14 @@ public class BossBehavior : MonoBehaviour {
 			{
 				if(availableAttacks[i].attack == BossAttack.Claw)
 				{
-					availableAttacks[index].changeProbability(lostPoints);
+					availableAttacks[i].changeProbability(lostPoints);
 				}
 			}
 			else
 			{
 				if(availableAttacks[i].attack == BossAttack.Petrification && _bossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Three)
 				{
-					availableAttacks[index].changeProbability(lostPoints);
+					availableAttacks[i].changeProbability(lostPoints);
 				}
 			}
 
@@ -507,9 +538,20 @@ public class BossBehavior : MonoBehaviour {
 	{
 		if(healingObject != null)
 		{
-			healingObject.SetActive(true);
-			startHealing = true;
+			_myAnimator.SetBool("IsWalking", false);
+			_myAnimator.SetBool("IsHealing", true);
+			StartCoroutine(DeployStraw(2f, 0.8f));
 		}
+
+	}
+
+	IEnumerator DeployStraw(float time, float split)
+	{
+		float remainder = 1f - split;
+		yield return new WaitForSeconds(time * split);
+		healingObject.SetActive(true);
+		startHealing = true;
+		yield return new WaitForSeconds(time * remainder);
 
 	}
 
@@ -517,6 +559,8 @@ public class BossBehavior : MonoBehaviour {
 	{
 		if(healingObject != null)
 			healingObject.SetActive(false);
+		_myAnimator.SetBool("IsWalking", true);
+		_myAnimator.SetBool("IsHealing", false);
 		startHealing = false;
 	}
 
@@ -531,6 +575,35 @@ public class BossBehavior : MonoBehaviour {
 			StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
 		}
 		healing = false;
+	}
+
+	IEnumerator WaitForAttackToFinish(float time, bool ranged, string name, float split)
+	{
+		changeState = false;
+		float remainder = 1f - split;
+		if (ranged)
+		{
+			yield return new WaitForSeconds(time * split);
+			if (name == "range")
+			{
+				GameObject range = Instantiate(rangedObject, projectileSpawn.transform.position, Quaternion.identity)as GameObject;
+			}
+
+			else
+			{
+				GameObject petrify = Instantiate(petrificationObject, petrifySpawn.transform.position, Quaternion.identity)as GameObject;
+				petrify.transform.SetParent(this.transform);
+			}
+
+			yield return new WaitForSeconds(time * remainder);
+		}
+		else
+		{
+			yield return new WaitForSeconds(time);
+		}
+
+		changeState = true;
+		StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
 	}
 
 	void OnCollisionEnter(Collision collision)
@@ -559,9 +632,10 @@ public class BossBehavior : MonoBehaviour {
 			}
 			if(bossHealth <= 0f)
 			{
-				if(spookDeath.clip)
-					AudioSource.PlayClipAtPoint(spookDeath.clip, transform.position);
-				_myAnimator.SetBool("Dead", true);
+				_bossDetectionScript.Speed = 0f;	
+				_myAnimator.SetBool("IsWalking", false);
+				_myAnimator.SetBool("IsHealing", false);
+				_myAnimator.SetBool("Dying", true);
 
 				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Die));
 			}

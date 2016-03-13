@@ -12,7 +12,7 @@ public class BossAddBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		_bossDetectionScript = GameObject.Find("DarkGod").GetComponent<DarkGodStateMachine>();
+		_bossDetectionScript = BossToTrack.GetComponent<DarkGodStateMachine>();
 		bossTether = GetComponent<LineRenderer>(); //Used to draw visual tether between cultists and boss
 		offsetTether = new Vector3(0f, 1f, 0f); //Offsets tether height
 		bossTether.SetWidth(0.2f, 0.2f); //Width of tether to boss and their shield
@@ -49,7 +49,7 @@ public class BossAddBehavior : MonoBehaviour {
 
 	public void AddDeath()
 	{
-		_bossDetectionScript.OnBossAddDeath();
-		Destroy(bossTether);
+	//	_bossDetectionScript.OnBossAddDeath();
+	//	Destroy(bossTether);
 	}
 }

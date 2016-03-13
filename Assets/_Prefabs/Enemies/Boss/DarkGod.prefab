@@ -3227,8 +3227,8 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158232}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 28b6ae85692dead4dac622698b4a4cb4, type: 3}
-  m_Controller: {fileID: 9100000, guid: e1979beb798a89b47bda453fb232fe0e, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 27bbb5a6b923c4c0b8f11223200761b6, type: 3}
+  m_Controller: {fileID: 9100000, guid: a29a4d950cbd74114b034f2190087029, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -3273,7 +3273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27f8a0812ba5f48d28eca4f6c3260f72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementType: 0
+  MovementType: 1
   AttackType: 1
   currentState: 0
   currentPhase: 0
@@ -3347,7 +3347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6f0a501cc6be8646bf3641a6ee73679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Points: []
+  Points:
+  - {fileID: 0}
   Type: 0
 --- !u!135 &13513562
 SphereCollider:
@@ -3490,7 +3491,7 @@ SkinnedMeshRenderer:
   - {fileID: 471704}
   - {fileID: 471990}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 447178}
+  m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: -.00146865845, y: -2.08130264, z: -5.22527313}
     m_Extent: {x: 12.1804838, y: 6.47352791, z: 31.5081139}
@@ -3526,6 +3527,18 @@ Prefab:
       propertyPath: petrificationObject
       value: 
       objectReference: {fileID: 165340, guid: d3c684801258348eeae1910989799288, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300008, guid: 28b6ae85692dead4dac622698b4a4cb4, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 27bbb5a6b923c4c0b8f11223200761b6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_RootBone
+      value: 
+      objectReference: {fileID: 400242, guid: 27bbb5a6b923c4c0b8f11223200761b6, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 158232}

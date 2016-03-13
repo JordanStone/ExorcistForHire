@@ -360,14 +360,15 @@ namespace BossDetectionScript
 			//If last state was attack don't play alert again
 			if(_lastState != BossState.Attack)
 			{
-				_myAnimator.SetTrigger("Alert");
-				while(_myAnimator.GetFloat("AlertUsed") <= .9f)
-				{
-					Speed = 0f;
-					yield return null;
-				}
+				//_myAnimator.SetTrigger("Alert");
+				//while(_myAnimator.GetFloat("AlertUsed") <= .9f)
+				//{
+				//	Speed = 0f;
+				//	yield return null;
+				//}
 			}
 			_loseTimer = LoseTime;
+			yield return null;
 		}
 
 		void UpdateAttack()
@@ -385,7 +386,7 @@ namespace BossDetectionScript
 			else
 			{
 				Speed = ChaseSpeed;
-				_myAnimator.SetBool("Chasing", true);
+				_myAnimator.SetBool("IsWalking", true);
 				PatrolPath.Attack();
 				_loseTimer = LoseTime;
 
@@ -396,7 +397,7 @@ namespace BossDetectionScript
 
 		IEnumerator ExitAttack()
 		{
-			if(!_myAnimator.GetBool("Chasing"))
+			if(!_myAnimator.GetBool("IsWalking"))
 			{	//Wait for attack animation to finish while attacking.
 			/*	while(_myAnimator.GetFloat("AttackUsed") <= .6f)
 				{
@@ -479,13 +480,6 @@ namespace BossDetectionScript
 		#endregion
 
 
-		#region Die
-		IEnumerator EnterDie()
-		{
-
-			yield return null;
-		}
-
 		#region Heal
 		IEnumerator EnterHeal()
 		{
@@ -543,14 +537,22 @@ namespace BossDetectionScript
 
 		#endregion
 
-
-		void UpdateDie()
+		#region Die
+		IEnumerator EnterDie()
 		{
 			Speed = 0f;
-			if(_myAnimator.GetFloat("DeathUsed") == 1f)
-			{
+
+			yield return new WaitForSeconds(5);
+			Destroy(gameObject);
+		}
+		void UpdateDie()
+		{
+			
+			//if(_myAnimator.GetFloat("DeathUsed") == 1f)
+			//{
+
 				Destroy(gameObject);
-			}
+			//}
 		}
 
 		IEnumerator ExitDie()
@@ -564,13 +566,12 @@ namespace BossDetectionScript
 
 		public void OnBossAddDeath()
 		{
-		
 			totalBossAdds -= 1;
 			if(totalBossAdds <= 0)
 			{
 				currentPhase = BossPhase.Two;
 				_bossBehaviorScript.AddPhaseAttacks(currentPhase);
-				GameObject shield = GameObject.Find("Shield");
+				GameObject shield = transform.Find("Shield").gameObject;
 				if(shield != null)
 					shield.SetActive(false);
 

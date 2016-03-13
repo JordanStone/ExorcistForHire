@@ -1,34 +1,46 @@
 ﻿using UnityEngine;
 using System.Collections;
+using NashTools;
 
 public class BossBullet : MonoBehaviour {
 
 
 	public float damage=0;
+	public float thrust = 100f;
 	Vector3 v;
+	private Transform player;
+	Rigidbody rb;
+
 
 	// Use this for initialization
 	void Start () {
-	
+		player = GameObject.FindWithTag("Player").transform;
+		transform.LookAt(player);
+
+		rb = GetComponent<Rigidbody>();
+		rb.AddForce(transform.forward * thrust);
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		this.gameObject.transform.position+=v;
+		//this.gameObject.transform.position+=v;
+		//rb.AddForce(transform.forward * thrust);
 
 
 	}
 
-	void OnTriggerEnter(Collider col){
+	void OnCollisionEnter(Collision col){
 
 
 
-		if(col.transform.tag=="Player"&&col.transform.name=="Player"){
-			col.gameObject.GetComponent<PlayerStats>().Gethit(damage);
+		if(col.transform.tag=="Player"){
+			EventManager.PostNotification((int) GameManagerScript.GameEvents.DamagePlayer, this, damage);
 		}
 
-
-		Destroy(this.gameObject);
+		if(col.transform.tag!="Enemy")
+			Destroy(this.gameObject);
 
 	}
+
 }
