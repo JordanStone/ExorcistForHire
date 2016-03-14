@@ -81,6 +81,8 @@ namespace EnemyDetectionScript
 
 		//Our vision cone angle
 		public float fieldOfViewAngle = 110f;
+		private float _currentfieldOfViewAngle;
+		public float flashlightfieldOfViewAngle = 360f;
 
 		[Header("Don't change this.")]
 		//Is the player visable?
@@ -177,6 +179,8 @@ namespace EnemyDetectionScript
 			_waitTimer = 0f;
 
 			_PlayerFlashlight = GameObject.Find("Flashlight").GetComponent<Light>();
+
+			_currentfieldOfViewAngle = fieldOfViewAngle;
 			
 
 		}
@@ -222,7 +226,7 @@ namespace EnemyDetectionScript
 				//Now we compare angles.
 				hitAngle = Vector3.Angle(_player.transform.position - transform.position, transform.forward);
 				//If we hit the current at the wrong angle. 
-				if( hitAngle < fieldOfViewAngle *.5f && Vector3.Distance(_player.transform.position, transform.position) < SightDistance) 
+				if( hitAngle < _currentfieldOfViewAngle *.5f && Vector3.Distance(_player.transform.position, transform.position) < SightDistance) 
 				{
 					 _playerVisable = true;	
 				}
@@ -700,10 +704,12 @@ namespace EnemyDetectionScript
 			if(_PlayerFlashlight.enabled)
 			{
 				SightDistance = flashlightOnSightDistance;
+				_currentfieldOfViewAngle = flashlightfieldOfViewAngle;
 			}
 			else
 			{
 				SightDistance = DefaultSightDistance;
+				_currentfieldOfViewAngle = fieldOfViewAngle;
 			}
 		}
 
