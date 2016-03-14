@@ -36,11 +36,9 @@ public class Subtitles : MonoBehaviour {
 			}
 			if(hasTalked == false) {
 				myText.text = InitialLines[gate];
-				Debug.Log("Initial");
 				hasTalked = true;
 			} else {
 				myText.text = HasTalkedLines[gate];
-				Debug.Log("HasTalked");
 			}
 		}
 	}

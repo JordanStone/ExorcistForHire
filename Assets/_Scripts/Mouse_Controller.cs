@@ -296,6 +296,11 @@ namespace MouseController
 						{
 							GrabInfo.transform.gameObject.GetComponent<Subtitles>().DisplayLine();
 						}
+						
+						if(GrabInfo.transform.gameObject.tag == "Agent")
+						{
+							GrabInfo.transform.gameObject.GetComponent<Agent>().DisplayLine();
+						}
 
 						if(GrabInfo.transform.gameObject.tag == "Ladder")
 						{
