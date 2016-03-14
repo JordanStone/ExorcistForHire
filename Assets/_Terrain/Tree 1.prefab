@@ -11,6 +11,7 @@ GameObject:
   - 193: {fileID: 19334052}
   - 33: {fileID: 3385680}
   - 23: {fileID: 2343570}
+  - 136: {fileID: 13620448}
   m_Layer: 0
   m_Name: Tree 1
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 176396}
   m_LocalRotation: {x: 0, y: .788840592, z: 0, w: .614597857}
-  m_LocalPosition: {x: 63.2000008, y: -3.10000038, z: -63.9000015}
+  m_LocalPosition: {x: 45.0654831, y: 15.4414864, z: 714.921387}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,13 +113,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _ShadowTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 7594ab79d11258644a481a534d59fc86, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _BumpSpecMap
         second:
           m_Texture: {fileID: 2800000, guid: 81acc486ea7f5264a93dfa1b7ff9d8d2, type: 3}
@@ -129,6 +123,13 @@ Material:
           name: _TranslucencyMap
         second:
           m_Texture: {fileID: 2800000, guid: a3af540b85601b5488bac833d0d9044f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ShadowTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 7594ab79d11258644a481a534d59fc86, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -7258,6 +7259,19 @@ MonoBehaviour:
   optimizedSolidMaterial: {fileID: 2145418}
   optimizedCutoutMaterial: {fileID: 2146618}
   isInPreviewMode: 0
+--- !u!136 &13620448
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.05999994
+  m_Height: 14.1000004
+  m_Direction: 1
+  m_Center: {x: .660000026, y: 4.0999999, z: 0}
 --- !u!193 &19334052
 Tree:
   m_ObjectHideFlags: 1
