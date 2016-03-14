@@ -84,6 +84,17 @@ public class CultistAttackAndHealth : MonoBehaviour {
 			_ghostHealth -= BulletDamage*1.5f;
 			_myAnimator.SetTrigger("HitFace");
 		}
+
+		if(_ghostHealth <= 0f)
+		{
+			if (spookDeath.clip)
+				AudioSource.PlayClipAtPoint(spookDeath.clip, transform.position);
+			_myAnimator.SetTrigger("DeathKnockdown");
+			if(_bossAdd != null)
+				_bossAdd.AddDeath();
+			
+			StartCoroutine(_enemyDetectionScript.ChangeState(EnemyStateMachine.EnemyState.Die));
+		}
 	}
 
 
