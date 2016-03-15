@@ -87,8 +87,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e6791e12eb73e649bc766ac89050797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardRayDistance: 2.5
+  forwardRayDistance: 500
   petrifyTime: 2
+  cubeExistTime: 4
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -99,6 +100,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: forwardRayDistance
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
