@@ -71,9 +71,9 @@ public class FPSController: MonoBehaviour {
 	private int jumpTimer;
 
 	// Crouch Variables
-	private Vector3 standardScale;
-	public float crouchDifference = 0.5f;
-	private float childCrouchY;
+	private float standardHeight;
+	public float CrouchHeight = 1f;
+	private Vector3 standardCenterHeight;
 	public float crouchTweenTime = 0.2f;
 
 	// Ladder Variables
@@ -90,9 +90,6 @@ public class FPSController: MonoBehaviour {
 		slideLimit = controller.slopeLimit - .1f;
 		jumpTimer = antiBunnyHopFactor;
 
-		standardScale = myTransform.localScale;
-		childCrouchY = 1 / crouchDifference;
-
 		_soundManager = GameObject.Find ("SoundManager").GetComponent<SoundManager> ();
 		//AudioSource[] audioSources = GetComponents<AudioSource>();
 		grassWalk = _soundManager.GetWalkSound(0);
@@ -104,6 +101,10 @@ public class FPSController: MonoBehaviour {
 
 		//For Ladde
 		EventManager.AddListener((int) GameManagerScript.GameEvents.Ladder, OnLadder);
+
+
+		standardHeight = controller.height;
+		standardCenterHeight = controller.center;
 	}
 	
 	void FixedUpdate() 
@@ -164,8 +165,9 @@ public class FPSController: MonoBehaviour {
 					if (Input.GetButtonDown ("Crouch"))
 					{
 	//					myTransform.localScale = crouchScale;
-						myTransform.DOScaleY(crouchDifference, crouchTweenTime);
-						myTransform.GetChild(0).DOScaleY(childCrouchY, crouchTweenTime);
+						DOTween.To(()=> controller.height, x=> controller.height = x, CrouchHeight, crouchTweenTime);
+						DOTween.To(()=> controller.center, x=> controller.center = x, new Vector3(controller.center.x, standardCenterHeight.y + CrouchHeight, controller.center.z), crouchTweenTime);
+	
 						canStand = false;
 						crouched = true;
 					}
@@ -173,8 +175,9 @@ public class FPSController: MonoBehaviour {
 					{
 						if(canStand)
 						{
-							myTransform.DOScaleY(standardScale.y,crouchTweenTime);
-							myTransform.GetChild(0).DOScaleY(standardScale.y,crouchTweenTime);
+							DOTween.To(()=> controller.height, x=> controller.height = x, standardHeight, crouchTweenTime);
+							DOTween.To(()=> controller.center, x=> controller.center = x, standardCenterHeight, crouchTweenTime);
+
 							crouched = false;
 						}
 						
@@ -213,15 +216,14 @@ public class FPSController: MonoBehaviour {
 						Vector3 camPos = Camera.main.gameObject.transform.position;
 						Vector3 forwardOffset = new Vector3(0f, 0f, 0.5f);
 
-						if (!Physics.Raycast (camPos + forwardOffset, Vector3.up, out hitUp, crouchDifference*4f) && 
-							!Physics.Raycast (camPos + -1f* forwardOffset, Vector3.up, out hitBack, crouchDifference*4f))
+						if (!Physics.Raycast (camPos + forwardOffset, Vector3.up, out hitUp, standardHeight - CrouchHeight) && 
+						    !Physics.Raycast (camPos + -1f* forwardOffset, Vector3.up, out hitBack, standardHeight - CrouchHeight))
 						{
 							canStand = true;
 							if(!Input.GetButton("Crouch"))
 							{
-								myTransform.DOScaleY(standardScale.y, crouchTweenTime);
-								myTransform.GetChild(0).DOScaleY(standardScale.y, crouchTweenTime);
-								crouched = false;
+								DOTween.To(()=> controller.height, x=> controller.height = x, standardHeight, crouchTweenTime);
+								DOTween.To(()=> controller.center, x=> controller.center = x, standardCenterHeight, crouchTweenTime);
 							}
 						}
 						else

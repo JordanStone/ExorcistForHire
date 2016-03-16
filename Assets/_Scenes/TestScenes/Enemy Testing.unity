@@ -1308,6 +1308,7 @@ MonoBehaviour:
   SearchSpeed: 4
   SearchTime: 10
   fieldOfViewAngle: 110
+  flashlightfieldOfViewAngle: 360
   _playerVisable: 0
   SightDistance: 30
   flashlightOnSightDistance: 30
@@ -1454,6 +1455,10 @@ Prefab:
     - target: {fileID: 454902, guid: b95c848c5e5ce084bbecc7cb89289416, type: 2}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495336, guid: b95c848c5e5ce084bbecc7cb89289416, type: 2}
+      propertyPath: CrouchHeight
+      value: .100000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b95c848c5e5ce084bbecc7cb89289416, type: 2}
