@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: dca3a4bd78723944cbf4922152de92b2
+timeCreated: 1458121480
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: group10
+    100002: group11
+    100004: group5
+    100006: group7
+    100008: group8
+    100010: group9
+    100012: House_04:Chimney
+    100014: House_04:pCube70
+    100016: House_04:polySurface1
+    100018: House_04:polySurface2
+    100020: House_04:transform1
+    100022: House_04:Windows
+    100024: //RootNode
+    100026: pCube141
+    100028: pCube142
+    100030: pCube143
+    100032: pCube144
+    100034: pCube145
+    100036: pCube147
+    100038: pCube148
+    100040: pCube150
+    100042: pCube151
+    100044: pCube152
+    100046: pCube153
+    100048: pCube154
+    100050: pCube155
+    100052: pCube156
+    100054: pCube157
+    100056: pCube158
+    100058: pCube159
+    100060: pCube160
+    100062: pCube161
+    100064: pCube162
+    100066: pCube165
+    100068: pCube169
+    100070: pCube170
+    100072: pCube171
+    100074: pCube173
+    100076: pCube173 1
+    100078: pCube174
+    100080: pCube174 1
+    100082: pCube175
+    100084: pCube175 1
+    100086: pCube176
+    100088: pCube177
+    100090: pCube178
+    100092: pCube178 1
+    100094: pCube179
+    100096: pCube179 1
+    100098: pCube180
+    100100: rail2
+    100102: stairs2
+    400000: group10
+    400002: group11
+    400004: group5
+    400006: group7
+    400008: group8
+    400010: group9
+    400012: House_04:Chimney
+    400014: House_04:pCube70
+    400016: House_04:polySurface1
+    400018: House_04:polySurface2
+    400020: House_04:transform1
+    400022: House_04:Windows
+    400024: //RootNode
+    400026: pCube141
+    400028: pCube142
+    400030: pCube143
+    400032: pCube144
+    400034: pCube145
+    400036: pCube147
+    400038: pCube148
+    400040: pCube150
+    400042: pCube151
+    400044: pCube152
+    400046: pCube153
+    400048: pCube154
+    400050: pCube155
+    400052: pCube156
+    400054: pCube157
+    400056: pCube158
+    400058: pCube159
+    400060: pCube160
+    400062: pCube161
+    400064: pCube162
+    400066: pCube165
+    400068: pCube169
+    400070: pCube170
+    400072: pCube171
+    400074: pCube173
+    400076: pCube173 1
+    400078: pCube174
+    400080: pCube174 1
+    400082: pCube175
+    400084: pCube175 1
+    400086: pCube176
+    400088: pCube177
+    400090: pCube178
+    400092: pCube178 1
+    400094: pCube179
+    400096: pCube179 1
+    400098: pCube180
+    400100: rail2
+    400102: stairs2
+    2300000: House_04:Chimney
+    2300002: House_04:polySurface1
+    2300004: House_04:polySurface2
+    2300006: pCube141
+    2300008: pCube142
+    2300010: pCube143
+    2300012: pCube144
+    2300014: pCube145
+    2300016: pCube147
+    2300018: pCube148
+    2300020: pCube150
+    2300022: pCube151
+    2300024: pCube152
+    2300026: pCube153
+    2300028: pCube154
+    2300030: pCube155
+    2300032: pCube156
+    2300034: pCube157
+    2300036: pCube158
+    2300038: pCube159
+    2300040: pCube160
+    2300042: pCube161
+    2300044: pCube162
+    2300046: pCube165
+    2300048: pCube169
+    2300050: pCube170
+    2300052: pCube171
+    2300054: pCube173
+    2300056: pCube173 1
+    2300058: pCube174
+    2300060: pCube174 1
+    2300062: pCube175
+    2300064: pCube175 1
+    2300066: pCube176
+    2300068: pCube177
+    2300070: pCube178
+    2300072: pCube178 1
+    2300074: pCube179
+    2300076: pCube179 1
+    2300078: pCube180
+    3300000: House_04:Chimney
+    3300002: House_04:polySurface1
+    3300004: House_04:polySurface2
+    3300006: pCube141
+    3300008: pCube142
+    3300010: pCube143
+    3300012: pCube144
+    3300014: pCube145
+    3300016: pCube147
+    3300018: pCube148
+    3300020: pCube150
+    3300022: pCube151
+    3300024: pCube152
+    3300026: pCube153
+    3300028: pCube154
+    3300030: pCube155
+    3300032: pCube156
+    3300034: pCube157
+    3300036: pCube158
+    3300038: pCube159
+    3300040: pCube160
+    3300042: pCube161
+    3300044: pCube162
+    3300046: pCube165
+    3300048: pCube169
+    3300050: pCube170
+    3300052: pCube171
+    3300054: pCube173
+    3300056: pCube173 1
+    3300058: pCube174
+    3300060: pCube174 1
+    3300062: pCube175
+    3300064: pCube175 1
+    3300066: pCube176
+    3300068: pCube177
+    3300070: pCube178
+    3300072: pCube178 1
+    3300074: pCube179
+    3300076: pCube179 1
+    3300078: pCube180
+    4300000: pCube148
+    4300002: pCube147
+    4300004: pCube154
+    4300006: pCube155
+    4300008: pCube156
+    4300010: pCube157
+    4300012: pCube158
+    4300014: pCube159
+    4300016: pCube160
+    4300018: pCube161
+    4300020: pCube162
+    4300022: pCube165
+    4300024: pCube169
+    4300026: pCube170
+    4300028: pCube171
+    4300030: pCube141
+    4300032: pCube142
+    4300034: pCube143
+    4300036: pCube144
+    4300038: pCube145
+    4300040: pCube150
+    4300042: pCube151
+    4300044: pCube152
+    4300046: pCube153
+    4300048: House_04:Chimney
+    4300050: pCube179
+    4300052: pCube178
+    4300054: pCube173
+    4300056: pCube174
+    4300058: pCube175
+    4300060: pCube176
+    4300062: pCube177
+    4300064: pCube179
+    4300066: pCube178
+    4300068: pCube173
+    4300070: pCube174
+    4300072: pCube175
+    4300074: pCube180
+    4300076: House_04:polySurface1
+    4300078: House_04:polySurface2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
