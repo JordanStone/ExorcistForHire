@@ -15,7 +15,7 @@ public class FollowBossPath : MonoBehaviour {
 	private IEnumerator<Transform> currentPoint;
 	public Transform AttackTarget;
 	public float cooldown = 3f;
-	private bool attackCool;
+	public bool attackCool;
 	private Vector3 _lastTransform;
 	private float minDistanceToTarget;
 	private Vector3 fountainPosition;
@@ -113,7 +113,7 @@ public class FollowBossPath : MonoBehaviour {
 	//Should not be called in phase one
 	private float ChanceOfAttack(float targetDistance)
 	{
-		float phaseAttack = (float)(baseAttackChance * (int)_BossDetectionScript.currentPhase/2);
+		float phaseAttack = (float)(baseAttackChance * ((int)_BossDetectionScript.currentPhase + 1)/2);
 		float tempDistance = targetDistance;
 		if(tempDistance > maxDistanceToTarget)
 		{
@@ -135,7 +135,7 @@ public class FollowBossPath : MonoBehaviour {
 		//Debug.Log("Cooling");
 		float cool = cooldown;
 		if(_BossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Three)
-			cool = cooldown * 1.5f;
+			cool = cooldown * 2f;
 		attackCool = true;
 		yield return new WaitForSeconds(cool);
 		attackCool = false;

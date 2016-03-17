@@ -27,6 +27,7 @@ public class BossBehavior : MonoBehaviour {
 	private BossAttack currentAttack;
 	private GameObject aoeSphere;
 	private bool changeState = false;
+	public bool inAttack = false;
 	private bool strawDeployed = false;
 
 	public class AttackData
@@ -93,7 +94,7 @@ public class BossBehavior : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(startHealing && !healing)
+		if(startHealing && !healing && _bossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Two)
 		{
 			StartCoroutine(Heal());
 		}
@@ -242,7 +243,7 @@ public class BossBehavior : MonoBehaviour {
 			_myAnimator.SetTrigger("ClawAttack");
 			//clawData.totalTimesUsed += 1;
 			lastAttack = BossAttack.Claw;
-			StartCoroutine(WaitForAttackToFinish(1f, false, "none", 0.5f));
+			StartCoroutine(WaitForAttackToFinish(0.7f, false, "none", 0.5f));
 
 			//Debug.Log ("CLAAAAAAAAAAAAAWWWW!!!");
 		}
@@ -273,10 +274,11 @@ public class BossBehavior : MonoBehaviour {
 			_bossDetectionScript.Speed = 0f;
 			_myAnimator.SetBool("IsWalking", false);
 			_myAnimator.SetTrigger("TentacleAttack");
-			StartCoroutine(WaitForAttackToFinish(2f, false, "none", 0.5f));
 			//Debug.Log ("AAAAAAOOOOOOOOEEEEE!!!");
+			StartCoroutine(WaitForAttackToFinish(2f, false, "aoe", 0.8f));
+
 			//aoeData.totalTimesUsed += 1;
-			StartCoroutine(ActivateAOE());
+			//StartCoroutine(ActivateAOE());
 
 			lastAttack = BossAttack.Aoe;
 		}
@@ -289,7 +291,7 @@ public class BossBehavior : MonoBehaviour {
 			_bossDetectionScript.Speed = 0f;
 			_myAnimator.SetBool("IsWalking", false);
 			_myAnimator.SetTrigger("RangedAttack");
-			StartCoroutine(WaitForAttackToFinish(2f, true, "range", 0.5f));
+			StartCoroutine(WaitForAttackToFinish(1.2f, true, "range", 0.7f));
 			//GameObject range = Instantiate(rangedObject, projectileSpawn.transform.position, Quaternion.identity)as GameObject;
 			//StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
 			//Debug.Log ("RAAAAAAAAAAAAAAANGE!!!");
@@ -303,11 +305,12 @@ public class BossBehavior : MonoBehaviour {
 	{
 		aoeCollider.enabled = true;
 		aoeSphere.SetActive(true);
-		while(aoeCollider.radius < 1.7f)
+		float aoeIncrement = 0.3f;
+		while(aoeCollider.radius < 2.9f)
 		{
-			aoeCollider.radius += 0.3f;
-			aoeSphere.transform.localScale += new Vector3(0.3f, 0.3f, 0.3f);
-			yield return new WaitForSeconds(0.2f);
+			aoeCollider.radius += aoeIncrement;
+			aoeSphere.transform.localScale += new Vector3(aoeIncrement, aoeIncrement, aoeIncrement);
+			yield return new WaitForSeconds(0.01f);
 		}
 
 		yield return new WaitForSeconds(0.7f);
@@ -553,7 +556,6 @@ public class BossBehavior : MonoBehaviour {
 		yield return new WaitForSeconds(time * split);
 		if(healingObject != null)
 		{
-			//Debug.Log("Enable");
 			healingObject.SetActive(true);
 			strawDeployed = true;
 		}
@@ -568,14 +570,12 @@ public class BossBehavior : MonoBehaviour {
 
 		if(healingObject != null)
 		{
-			Debug.Log("Disable");
 			healingObject.SetActive(false);
 			strawDeployed = false;
 		}
 
 		_myAnimator.SetBool("IsWalking", true);
 		_myAnimator.SetBool("IsHealing", false);
-		Debug.Log("Stop!");
 		startHealing = false;
 	}
 
@@ -596,6 +596,7 @@ public class BossBehavior : MonoBehaviour {
 	IEnumerator WaitForAttackToFinish(float time, bool ranged, string name, float split)
 	{
 		changeState = false;
+		inAttack = true;
 		float remainder = 1f - split;
 		if (ranged)
 		{
@@ -604,7 +605,6 @@ public class BossBehavior : MonoBehaviour {
 			{
 				GameObject range = Instantiate(rangedObject, projectileSpawn.transform.position, Quaternion.identity)as GameObject;
 			}
-
 			else
 			{
 				GameObject petrify = Instantiate(petrificationObject, petrifySpawn.transform.position, Quaternion.identity)as GameObject;
@@ -615,9 +615,19 @@ public class BossBehavior : MonoBehaviour {
 		}
 		else
 		{
-			yield return new WaitForSeconds(time);
-		}
+			if (name == "aoe")
+			{
+				yield return new WaitForSeconds(time * split);
+				StartCoroutine(ActivateAOE());
+				yield return new WaitForSeconds(time * remainder);
+			}
+			else
+			{
+				yield return new WaitForSeconds(time);
+			}
 
+		}
+		inAttack = false;
 		changeState = true;
 		StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
 	}
