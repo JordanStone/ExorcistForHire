@@ -7402,7 +7402,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 141210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.119999997, y: .790000021, z: .0799999982}
+  m_LocalPosition: {x: -.0370000005, y: .99000001, z: .0799999982}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 421636}
@@ -9112,6 +9112,7 @@ MonoBehaviour:
   GoalDistance: .100000001
   AttackTarget: {fileID: 0}
   cooldown: 2
+  attackCool: 0
 --- !u!114 &11484790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9128,7 +9129,7 @@ MonoBehaviour:
   MeleeDamageDeltToPlayer: 30
   bulletDamage: 30
   healInterval: .300000012
-  healAmount: 45
+  healAmount: 30
   clawBaseProbability: 50
   petrificationBaseProbability: 5
   aoeBaseProbability: 10
@@ -9136,6 +9137,7 @@ MonoBehaviour:
   aoeKnockback: 500
   petrificationObject: {fileID: 165340, guid: d3c684801258348eeae1910989799288, type: 2}
   rangedObject: {fileID: 142196, guid: 9cf1b1b0edb4a4e308409192587ba1f5, type: 2}
+  inAttack: 0
 --- !u!114 &11499900
 MonoBehaviour:
   m_ObjectHideFlags: 1

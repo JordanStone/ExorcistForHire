@@ -383,6 +383,10 @@ namespace BossDetectionScript
 					StartCoroutine(ChangeState(BossState.Search));
 				}
 			}
+			else if(_bossBehaviorScript.inAttack == true)
+			{
+				Speed = 0f;
+			}
 			else
 			{
 				Speed = ChaseSpeed;
@@ -404,6 +408,7 @@ namespace BossDetectionScript
 					Speed = 0f;
 					yield return null;
 				} */
+				Speed = 0f;
 			}
 			yield return null;
 		}

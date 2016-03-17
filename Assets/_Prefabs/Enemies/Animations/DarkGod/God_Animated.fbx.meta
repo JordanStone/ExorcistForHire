@@ -260,6 +260,7 @@ ModelImporter:
     7400014: Hit 2
     7400016: Death
     7400018: Claw Attack
+    7400020: healing Loop
     9500000: //RootNode
     11100000: //RootNode
     13700000: DarkGod_body_geo
@@ -2682,6 +2683,272 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 200
       lastFrame: 224
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DarkGod_Geo
+        weight: 1
+      - path: DarkGod_Geo/DarkGod_body_geo
+        weight: 1
+      - path: DarkGod_Root_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j/DarkGod_L_Heel_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j/DarkGod_L_Heel_1_j/DarkGod_L_Heel_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j/DarkGod_L_Heel_1_j/DarkGod_L_Heel_2_j/DarkGod_L_Heel_3_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j/DarkGod_L_Toe_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j/DarkGod_L_Toe_1_j/DarkGod_L_Toe_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j/DarkGod_L_Toe_1_j/DarkGod_L_Toe_2_j/DarkGod_L_Toe_3_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_L_Leg_j/DarkGod_L_Knee_1_j/DarkGod_L_Knee_2_j/DarkGod_L_Foot_j/DarkGod_L_Toe_1_j/DarkGod_L_Toe_2_j/DarkGod_L_Toe_3_j/DarkGod_L_Toe_4_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j/DarkGod_R_Heel_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j/DarkGod_R_Heel_1_j/DarkGod_R_Heel_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j/DarkGod_R_Heel_1_j/DarkGod_R_Heel_2_j/DarkGod_R_Heel_3_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j/DarkGod_R_Toe_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j/DarkGod_R_Toe_1_j/DarkGod_R_Toe_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j/DarkGod_R_Toe_1_j/DarkGod_R_Toe_2_j/DarkGod_R_Toe_3_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_R_Leg_j/DarkGod_R_Knee_1_j/DarkGod_R_Knee_2_j/DarkGod_R_Foot_j/DarkGod_R_Toe_1_j/DarkGod_R_Toe_2_j/DarkGod_R_Toe_3_j/DarkGod_R_Toe_4_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03/DarkGod_L_1_Back_Tentacle_04
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03/DarkGod_L_1_Back_Tentacle_04/DarkGod_L_1_Back_Tentacle_05
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03/DarkGod_L_1_Back_Tentacle_04/DarkGod_L_1_Back_Tentacle_05/DarkGod_L_1_Back_Tentacle_06
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03/DarkGod_L_1_Back_Tentacle_04/DarkGod_L_1_Back_Tentacle_05/DarkGod_L_1_Back_Tentacle_06/DarkGod_L_1_Back_Tentacle_07
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03/DarkGod_L_1_Back_Tentacle_04/DarkGod_L_1_Back_Tentacle_05/DarkGod_L_1_Back_Tentacle_06/DarkGod_L_1_Back_Tentacle_07/DarkGod_L_1_Back_Tentacle_08
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03/DarkGod_L_1_Back_Tentacle_04/DarkGod_L_1_Back_Tentacle_05/DarkGod_L_1_Back_Tentacle_06/DarkGod_L_1_Back_Tentacle_07/DarkGod_L_1_Back_Tentacle_08/DarkGod_L_1_Back_Tentacle_09
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_1_Back_Tentacle_01/DarkGod_L_1_Back_Tentacle_02/DarkGod_L_1_Back_Tentacle_03/DarkGod_L_1_Back_Tentacle_04/DarkGod_L_1_Back_Tentacle_05/DarkGod_L_1_Back_Tentacle_06/DarkGod_L_1_Back_Tentacle_07/DarkGod_L_1_Back_Tentacle_08/DarkGod_L_1_Back_Tentacle_09/DarkGod_L_1_Back_Tentacle_10
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03/DarkGod_L_2_Back_Tentacle_04
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03/DarkGod_L_2_Back_Tentacle_04/DarkGod_L_2_Back_Tentacle_05
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03/DarkGod_L_2_Back_Tentacle_04/DarkGod_L_2_Back_Tentacle_05/DarkGod_L_2_Back_Tentacle_06
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03/DarkGod_L_2_Back_Tentacle_04/DarkGod_L_2_Back_Tentacle_05/DarkGod_L_2_Back_Tentacle_06/DarkGod_L_2_Back_Tentacle_07
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03/DarkGod_L_2_Back_Tentacle_04/DarkGod_L_2_Back_Tentacle_05/DarkGod_L_2_Back_Tentacle_06/DarkGod_L_2_Back_Tentacle_07/DarkGod_L_2_Back_Tentacle_08
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03/DarkGod_L_2_Back_Tentacle_04/DarkGod_L_2_Back_Tentacle_05/DarkGod_L_2_Back_Tentacle_06/DarkGod_L_2_Back_Tentacle_07/DarkGod_L_2_Back_Tentacle_08/DarkGod_L_2_Back_Tentacle_09
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_2_Back_Tentacle_01/DarkGod_L_2_Back_Tentacle_02/DarkGod_L_2_Back_Tentacle_03/DarkGod_L_2_Back_Tentacle_04/DarkGod_L_2_Back_Tentacle_05/DarkGod_L_2_Back_Tentacle_06/DarkGod_L_2_Back_Tentacle_07/DarkGod_L_2_Back_Tentacle_08/DarkGod_L_2_Back_Tentacle_09/DarkGod_L_2_Back_Tentacle_10
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03/DarkGod_L_3_Back_Tentacle_04
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03/DarkGod_L_3_Back_Tentacle_04/DarkGod_L_3_Back_Tentacle_05
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03/DarkGod_L_3_Back_Tentacle_04/DarkGod_L_3_Back_Tentacle_05/DarkGod_L_3_Back_Tentacle_06
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03/DarkGod_L_3_Back_Tentacle_04/DarkGod_L_3_Back_Tentacle_05/DarkGod_L_3_Back_Tentacle_06/DarkGod_L_3_Back_Tentacle_07
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03/DarkGod_L_3_Back_Tentacle_04/DarkGod_L_3_Back_Tentacle_05/DarkGod_L_3_Back_Tentacle_06/DarkGod_L_3_Back_Tentacle_07/DarkGod_L_3_Back_Tentacle_08
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03/DarkGod_L_3_Back_Tentacle_04/DarkGod_L_3_Back_Tentacle_05/DarkGod_L_3_Back_Tentacle_06/DarkGod_L_3_Back_Tentacle_07/DarkGod_L_3_Back_Tentacle_08/DarkGod_L_3_Back_Tentacle_09
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_3_Back_Tentacle_01/DarkGod_L_3_Back_Tentacle_02/DarkGod_L_3_Back_Tentacle_03/DarkGod_L_3_Back_Tentacle_04/DarkGod_L_3_Back_Tentacle_05/DarkGod_L_3_Back_Tentacle_06/DarkGod_L_3_Back_Tentacle_07/DarkGod_L_3_Back_Tentacle_08/DarkGod_L_3_Back_Tentacle_09/DarkGod_L_3_Back_Tentacle_10
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_j1
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_j1/DarkGod_L_Elbow_Top_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_j1/DarkGod_L_Elbow_Top_j/DarkGod_L_Wrist_Top_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_j1/DarkGod_L_Elbow_Top_j/DarkGod_L_Wrist_Top_j/DarkGod_L_Finger_1_Top_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_j1/DarkGod_L_Elbow_Top_j/DarkGod_L_Wrist_Top_j/DarkGod_L_Finger_1_Top_j/DarkGod_L_Finger_2_Top_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_j1/DarkGod_L_Elbow_Top_j/DarkGod_L_Wrist_Top_j/DarkGod_L_Finger_1_Top_j/DarkGod_L_Finger_2_Top_j/DarkGod_L_Finger_3_Top_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_Lower_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_Lower_1_j/DarkGod_L_Elbow_Lower_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_Lower_1_j/DarkGod_L_Elbow_Lower_2_j/DarkGod_L_Wrist_Lower_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_Lower_1_j/DarkGod_L_Elbow_Lower_2_j/DarkGod_L_Wrist_Lower_j/DarkGod_L_Finger_1_Lower_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_Lower_1_j/DarkGod_L_Elbow_Lower_2_j/DarkGod_L_Wrist_Lower_j/DarkGod_L_Finger_1_Lower_j/DarkGod_L_Finger_2_Lower_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_L_Arm_j/DarkGod_L_Elbow_j/DarkGod_L_Elbow_Lower_1_j/DarkGod_L_Elbow_Lower_2_j/DarkGod_L_Wrist_Lower_j/DarkGod_L_Finger_1_Lower_j/DarkGod_L_Finger_2_Lower_j/DarkGod_L_Finger_3_Lower_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_Jaw_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_Jaw_j/DarkGod_Chin_j1
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_Stone1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_Stone2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_Stone3_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_tri1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_tri2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_tri3_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_Neck_j/DarkGod_Head_j/DarkGod_tri4_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03/DarkGod_R_1_Back_Tentacle_04
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03/DarkGod_R_1_Back_Tentacle_04/DarkGod_R_1_Back_Tentacle_05
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03/DarkGod_R_1_Back_Tentacle_04/DarkGod_R_1_Back_Tentacle_05/DarkGod_R_1_Back_Tentacle_06
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03/DarkGod_R_1_Back_Tentacle_04/DarkGod_R_1_Back_Tentacle_05/DarkGod_R_1_Back_Tentacle_06/DarkGod_R_1_Back_Tentacle_07
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03/DarkGod_R_1_Back_Tentacle_04/DarkGod_R_1_Back_Tentacle_05/DarkGod_R_1_Back_Tentacle_06/DarkGod_R_1_Back_Tentacle_07/DarkGod_R_1_Back_Tentacle_08
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03/DarkGod_R_1_Back_Tentacle_04/DarkGod_R_1_Back_Tentacle_05/DarkGod_R_1_Back_Tentacle_06/DarkGod_R_1_Back_Tentacle_07/DarkGod_R_1_Back_Tentacle_08/DarkGod_R_1_Back_Tentacle_09
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_1_Back_Tentacle_01/DarkGod_R_1_Back_Tentacle_02/DarkGod_R_1_Back_Tentacle_03/DarkGod_R_1_Back_Tentacle_04/DarkGod_R_1_Back_Tentacle_05/DarkGod_R_1_Back_Tentacle_06/DarkGod_R_1_Back_Tentacle_07/DarkGod_R_1_Back_Tentacle_08/DarkGod_R_1_Back_Tentacle_09/DarkGod_R_1_Back_Tentacle_10
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03/DarkGod_R_2_Back_Tentacle_04
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03/DarkGod_R_2_Back_Tentacle_04/DarkGod_R_2_Back_Tentacle_05
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03/DarkGod_R_2_Back_Tentacle_04/DarkGod_R_2_Back_Tentacle_05/DarkGod_R_2_Back_Tentacle_06
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03/DarkGod_R_2_Back_Tentacle_04/DarkGod_R_2_Back_Tentacle_05/DarkGod_R_2_Back_Tentacle_06/DarkGod_R_2_Back_Tentacle_07
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03/DarkGod_R_2_Back_Tentacle_04/DarkGod_R_2_Back_Tentacle_05/DarkGod_R_2_Back_Tentacle_06/DarkGod_R_2_Back_Tentacle_07/DarkGod_R_2_Back_Tentacle_08
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03/DarkGod_R_2_Back_Tentacle_04/DarkGod_R_2_Back_Tentacle_05/DarkGod_R_2_Back_Tentacle_06/DarkGod_R_2_Back_Tentacle_07/DarkGod_R_2_Back_Tentacle_08/DarkGod_R_2_Back_Tentacle_09
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_2_Back_Tentacle_01/DarkGod_R_2_Back_Tentacle_02/DarkGod_R_2_Back_Tentacle_03/DarkGod_R_2_Back_Tentacle_04/DarkGod_R_2_Back_Tentacle_05/DarkGod_R_2_Back_Tentacle_06/DarkGod_R_2_Back_Tentacle_07/DarkGod_R_2_Back_Tentacle_08/DarkGod_R_2_Back_Tentacle_09/DarkGod_R_2_Back_Tentacle_10
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03/DarkGod_R_3_Back_Tentacle_04
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03/DarkGod_R_3_Back_Tentacle_04/DarkGod_R_3_Back_Tentacle_05
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03/DarkGod_R_3_Back_Tentacle_04/DarkGod_R_3_Back_Tentacle_05/DarkGod_R_3_Back_Tentacle_06
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03/DarkGod_R_3_Back_Tentacle_04/DarkGod_R_3_Back_Tentacle_05/DarkGod_R_3_Back_Tentacle_06/DarkGod_R_3_Back_Tentacle_07
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03/DarkGod_R_3_Back_Tentacle_04/DarkGod_R_3_Back_Tentacle_05/DarkGod_R_3_Back_Tentacle_06/DarkGod_R_3_Back_Tentacle_07/DarkGod_R_3_Back_Tentacle_08
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03/DarkGod_R_3_Back_Tentacle_04/DarkGod_R_3_Back_Tentacle_05/DarkGod_R_3_Back_Tentacle_06/DarkGod_R_3_Back_Tentacle_07/DarkGod_R_3_Back_Tentacle_08/DarkGod_R_3_Back_Tentacle_09
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_3_Back_Tentacle_01/DarkGod_R_3_Back_Tentacle_02/DarkGod_R_3_Back_Tentacle_03/DarkGod_R_3_Back_Tentacle_04/DarkGod_R_3_Back_Tentacle_05/DarkGod_R_3_Back_Tentacle_06/DarkGod_R_3_Back_Tentacle_07/DarkGod_R_3_Back_Tentacle_08/DarkGod_R_3_Back_Tentacle_09/DarkGod_R_3_Back_Tentacle_10
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_Arm_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_Arm_j/DarkGod_R_Elbow_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_Arm_j/DarkGod_R_Elbow_j/DarkGod_R_Wrist_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_Arm_j/DarkGod_R_Elbow_j/DarkGod_R_Wrist_j/DarkGod_R_Finger_1_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_Arm_j/DarkGod_R_Elbow_j/DarkGod_R_Wrist_j/DarkGod_R_Finger_1_j/DarkGod_R_Finger_2_j
+        weight: 1
+      - path: DarkGod_Root_j/DarkGod_Spine_1_j/DarkGod_Spine_2_j/DarkGod_Spine_3_j/DarkGod_R_Arm_j/DarkGod_R_Elbow_j/DarkGod_R_Wrist_j/DarkGod_R_Finger_1_j/DarkGod_R_Finger_2_j/DarkGod_R_Finger_3_j
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: healing Loop
+      takeName: Take 001
+      firstFrame: 460
+      lastFrame: 482
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
