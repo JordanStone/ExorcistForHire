@@ -32,6 +32,7 @@ namespace BossDetectionScript
 			Attack,
 			Search,
 			Heal,
+			Stagger,
 			Die
 		}
 
@@ -185,6 +186,10 @@ namespace BossDetectionScript
 				{
 					UpdateHeal();
 				}
+				if(currentState == BossState.Stagger)
+				{
+					UpdateStagger();
+				}
 			}
 
 			RaycastHit Hit;
@@ -238,6 +243,9 @@ namespace BossDetectionScript
 			case BossState.Heal:
 				yield return StartCoroutine(ExitHeal());
 				break;
+			case BossState.Stagger:
+				yield return StartCoroutine(ExitStagger());
+				break;
 			}
 
 			switch(STATE)
@@ -256,6 +264,9 @@ namespace BossDetectionScript
 				break;
 			case BossState.Heal:
 				yield return StartCoroutine(EnterHeal());
+				break;
+			case BossState.Stagger:
+				yield return StartCoroutine(EnterStagger());
 				break;
 			}	
 			// Handleing _lastState is a bit strange.
@@ -567,6 +578,24 @@ namespace BossDetectionScript
 
 		}
 
+		#endregion
+
+		#region Stagger
+		IEnumerator EnterStagger()
+		{
+			Speed = 0f;
+			_myAnimator.SetBool("IsWalking", false);
+			_myAnimator.SetTrigger("Staggered");
+			yield return new WaitForSeconds(0.3f);
+		}
+		void UpdateStagger()
+		{
+			StartCoroutine(ChangeState(BossState.Search));
+		}
+		IEnumerator ExitStagger()
+		{
+			yield return null;
+		}
 		#endregion
 
 		public void OnBossAddDeath()

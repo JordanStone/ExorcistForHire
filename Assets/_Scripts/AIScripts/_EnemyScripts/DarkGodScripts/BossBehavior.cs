@@ -68,6 +68,7 @@ public class BossBehavior : MonoBehaviour {
 	private GameObject healingObject;
 	private Transform petrifySpawn;
 	private Transform projectileSpawn;
+	private float nextStaggerHealth;
 
 	// Use this for initialization
 	void Start () {
@@ -79,6 +80,7 @@ public class BossBehavior : MonoBehaviour {
 		healingObject = transform.Find("HealingObject").gameObject;
 
 		bossHealth = bossStartingHealth;
+		nextStaggerHealth = bossHealth;
 
 		//spookyAttack = GetComponents<AudioSource>()[1];
 		//spookDeath = GetComponents<AudioSource>()[2];
@@ -291,7 +293,7 @@ public class BossBehavior : MonoBehaviour {
 			_bossDetectionScript.Speed = 0f;
 			_myAnimator.SetBool("IsWalking", false);
 			_myAnimator.SetTrigger("RangedAttack");
-			StartCoroutine(WaitForAttackToFinish(1.2f, true, "range", 0.7f));
+			StartCoroutine(WaitForAttackToFinish(1.2f, true, "range", 0.8f));
 			//GameObject range = Instantiate(rangedObject, projectileSpawn.transform.position, Quaternion.identity)as GameObject;
 			//StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
 			//Debug.Log ("RAAAAAAAAAAAAAAANGE!!!");
@@ -634,7 +636,7 @@ public class BossBehavior : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
 	{
-
+		int numBulletsToStagger = 9;
 		if( collision.gameObject.name == "Player")
 		{
 			if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
@@ -656,6 +658,7 @@ public class BossBehavior : MonoBehaviour {
 				//Debug.Log("HEALTH at need healing state");
 				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Heal));
 			}
+			
 			if(bossHealth <= 0f)
 			{
 				_bossDetectionScript.Speed = 0f;	
@@ -664,6 +667,10 @@ public class BossBehavior : MonoBehaviour {
 				_myAnimator.SetBool("Dying", true);
 
 				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Die));
+			}
+			else if(bossHealth == nextStaggerHealth - (bulletDamage * numBulletsToStagger) && _bossDetectionScript.currentState != DarkGodStateMachine.BossState.Heal)
+			{
+				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Stagger));
 			}
 		}
 	}
