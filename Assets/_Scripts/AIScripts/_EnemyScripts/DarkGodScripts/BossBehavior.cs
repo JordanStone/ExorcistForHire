@@ -27,6 +27,7 @@ public class BossBehavior : MonoBehaviour {
 	private BossAttack currentAttack;
 	private GameObject aoeSphere;
 	private bool changeState = false;
+	private bool strawDeployed = false;
 
 	public class AttackData
 	{
@@ -540,7 +541,8 @@ public class BossBehavior : MonoBehaviour {
 		{
 			_myAnimator.SetBool("IsWalking", false);
 			_myAnimator.SetBool("IsHealing", true);
-			StartCoroutine(DeployStraw(2f, 0.8f));
+			if(!strawDeployed)
+				StartCoroutine(DeployStraw(2f, 0.8f));
 		}
 
 	}
@@ -549,18 +551,31 @@ public class BossBehavior : MonoBehaviour {
 	{
 		float remainder = 1f - split;
 		yield return new WaitForSeconds(time * split);
-		healingObject.SetActive(true);
+		if(healingObject != null)
+		{
+			//Debug.Log("Enable");
+			healingObject.SetActive(true);
+			strawDeployed = true;
+		}
 		startHealing = true;
 		yield return new WaitForSeconds(time * remainder);
+
 
 	}
 
 	public void StopHealing()
 	{
+
 		if(healingObject != null)
+		{
+			Debug.Log("Disable");
 			healingObject.SetActive(false);
+			strawDeployed = false;
+		}
+
 		_myAnimator.SetBool("IsWalking", true);
 		_myAnimator.SetBool("IsHealing", false);
+		Debug.Log("Stop!");
 		startHealing = false;
 	}
 
@@ -569,12 +584,13 @@ public class BossBehavior : MonoBehaviour {
 		healing = true;
 		yield return  new WaitForSeconds(healInterval);
 		bossHealth += healAmount;
+		healing = false;
 		if(bossHealth >= bossStartingHealth)
 		{
 			bossHealth = bossStartingHealth;
 			StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
 		}
-		healing = false;
+
 	}
 
 	IEnumerator WaitForAttackToFinish(float time, bool ranged, string name, float split)

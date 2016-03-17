@@ -15,7 +15,8 @@ public class BossBullet : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindWithTag("Player").transform;
-		transform.LookAt(player);
+		Vector3 target = player.transform.position + new Vector3(0f, 1f, 0f);
+		transform.LookAt(target);
 
 		rb = GetComponent<Rigidbody>();
 		rb.AddForce(transform.forward * thrust);

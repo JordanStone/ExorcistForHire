@@ -3575,7 +3575,7 @@ GameObject:
   - 114: {fileID: 11480088}
   m_Layer: 13
   m_Name: Dark_God
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4521,7 +4521,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0120000001, y: 2.69400001, z: .200000003}
+  m_LocalPosition: {x: -.0120000001, y: 1.75999999, z: 1.273}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 421636}
@@ -9050,6 +9050,7 @@ MonoBehaviour:
   SearchSpeed: 4
   SearchTime: 10
   fieldOfViewAngle: 110
+  flashlightfieldOfViewAngle: 360
   _playerVisable: 0
   SightDistance: 30
   flashlightOnSightDistance: 30
@@ -9110,7 +9111,7 @@ MonoBehaviour:
   Path: {fileID: 11480088}
   GoalDistance: .100000001
   AttackTarget: {fileID: 0}
-  cooldown: 1
+  cooldown: 2
 --- !u!114 &11484790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10739,7 +10740,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 194644}

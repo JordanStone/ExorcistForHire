@@ -137,7 +137,7 @@ public class FollowBossPath : MonoBehaviour {
 		if(_BossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Three)
 			cool = cooldown * 1.5f;
 		attackCool = true;
-		yield return new WaitForSeconds(cooldown);
+		yield return new WaitForSeconds(cool);
 		attackCool = false;
 	}
 
