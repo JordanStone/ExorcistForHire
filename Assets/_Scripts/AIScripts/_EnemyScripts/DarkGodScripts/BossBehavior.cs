@@ -68,7 +68,8 @@ public class BossBehavior : MonoBehaviour {
 	private GameObject healingObject;
 	private Transform petrifySpawn;
 	private Transform projectileSpawn;
-	private float nextStaggerHealth;
+	[SerializeField]
+	private int bulletsHit;
 
 	// Use this for initialization
 	void Start () {
@@ -80,7 +81,6 @@ public class BossBehavior : MonoBehaviour {
 		healingObject = transform.Find("HealingObject").gameObject;
 
 		bossHealth = bossStartingHealth;
-		nextStaggerHealth = bossHealth;
 
 		//spookyAttack = GetComponents<AudioSource>()[1];
 		//spookDeath = GetComponents<AudioSource>()[2];
@@ -91,6 +91,7 @@ public class BossBehavior : MonoBehaviour {
 		aoeSphere.SetActive(false);
 		petrifySpawn = transform.Find("PetrifyLocation").transform;
 		projectileSpawn = transform.Find("ProjectileSpawn").transform;
+		bulletsHit = 0;
 	}
 	
 	// Update is called once per frame
@@ -637,6 +638,7 @@ public class BossBehavior : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		int numBulletsToStagger = 9;
+
 		if( collision.gameObject.name == "Player")
 		{
 			if(_bossDetectionScript.currentState == DarkGodStateMachine.BossState.Attack)
@@ -653,6 +655,11 @@ public class BossBehavior : MonoBehaviour {
 		{
 			bossHealth -= bulletDamage;
 
+			if(_bossDetectionScript.currentState != DarkGodStateMachine.BossState.Heal && _bossDetectionScript.currentState != DarkGodStateMachine.BossState.Die)
+			{
+				bulletsHit++;
+			}
+
 			if(bossHealth < (bossStartingHealth/2f) && _bossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Two)
 			{
 				//Debug.Log("HEALTH at need healing state");
@@ -668,8 +675,9 @@ public class BossBehavior : MonoBehaviour {
 
 				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Die));
 			}
-			else if(bossHealth == nextStaggerHealth - (bulletDamage * numBulletsToStagger) && _bossDetectionScript.currentState != DarkGodStateMachine.BossState.Heal)
+			else if(bulletsHit == numBulletsToStagger && _bossDetectionScript.currentState != DarkGodStateMachine.BossState.Heal)
 			{
+				bulletsHit = 0;
 				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Stagger));
 			}
 		}
