@@ -9,9 +9,11 @@ public string[] InitialLines;
 	public GameObject manager;
 	public bool hasTalked;
 	public GameObject[] Enemies;
+	public Material sky;
 	private Text myText;
 	public int gate;
 	private bool inRange;
+	public bool changeSky;
 	void Start() {
 		subtitles = GameObject.Find("Subtitles");
 		manager = GameObject.Find ("GameManager");
@@ -41,6 +43,9 @@ public string[] InitialLines;
 			} else {
 				myText.text = HasTalkedLines[0];
 			}
+		}
+		if(changeSky == true) {
+			RenderSettings.skybox = sky;
 		}
 	}
 }
