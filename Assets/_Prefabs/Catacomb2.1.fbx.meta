@@ -1,0 +1,1554 @@
+fileFormatVersion: 2
+guid: 745198cab19bc1e40ad2ab6aeb753fbf
+timeCreated: 1458200862
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: anatomy_room
+    100002: banquet_hall
+    100004: boss_roof
+    100006: boss_stairs
+    100008: //RootNode
+    100010: cavern_entry
+    100012: caverns
+    100014: ceiling_frame
+    100016: ceiling_frame 1
+    100018: ceiling_frame 2
+    100020: ceiling_frame1
+    100022: ceiling_frame2
+    100024: ceiling_frame3
+    100026: ceiling_frame4
+    100028: ceiling_frame5
+    100030: ceiling_frame6
+    100032: ceiling_frame7
+    100034: ceiling_frame8
+    100036: ceiling_frame9
+    100038: ceiling_frame_corner
+    100040: ceiling_frame_corner 1
+    100042: ceiling_frame_corner1
+    100044: ceiling_frame_corner2
+    100046: ceiling_frame_corner3
+    100048: ceiling_frame_corner4
+    100050: ceiling_frame_corner5
+    100052: ceiling_frame_corner6
+    100054: ceiling_frame_corner_wide
+    100056: ceiling_frame_corner_wide 1
+    100058: ceiling_frame_corner_wide 2
+    100060: ceiling_frame_corner_wide1
+    100062: ceiling_frame_corner_wide2
+    100064: ceiling_frame_corner_wide3
+    100066: ceiling_frame_wide
+    100068: ceiling_frame_wide 1
+    100070: ceiling_frame_wide 2
+    100072: ceiling_frame_wide1
+    100074: ceiling_frame_wide2
+    100076: ceiling_frame_wide3
+    100078: ceiling_frame_wide4
+    100080: ceiling_frame_wide5
+    100082: ceiling_frame_wide6
+    100084: center_hall
+    100086: corner_hall_1
+    100088: corner_hall_2
+    100090: corner_wall
+    100092: corner_wall 1
+    100094: corner_wall1
+    100096: corner_wall2
+    100098: corner_wall3
+    100100: corner_wall4
+    100102: corner_wall5
+    100104: corner_wall6
+    100106: door_plank
+    100108: door_plank 1
+    100110: door_plank 2
+    100112: door_plank 3
+    100114: door_plank 4
+    100116: door_plank1
+    100118: door_plank10
+    100120: door_plank11
+    100122: door_plank13
+    100124: door_plank14
+    100126: door_plank15
+    100128: door_plank16
+    100130: door_plank17
+    100132: door_plank18
+    100134: door_plank19
+    100136: door_plank2
+    100138: door_plank20
+    100140: door_plank21
+    100142: door_plank23
+    100144: door_plank24
+    100146: door_plank25
+    100148: door_plank26
+    100150: door_plank27
+    100152: door_plank28
+    100154: door_plank3
+    100156: door_plank4
+    100158: door_plank5
+    100160: door_plank6
+    100162: door_plank7
+    100164: door_plank8
+    100166: door_plank9
+    100168: entry_room
+    100170: floor1
+    100172: floor2
+    100174: floors
+    100176: initial_stairway
+    100178: long_door
+    100180: long_door 1
+    100182: long_door 2
+    100184: long_door 3
+    100186: long_door 4
+    100188: long_door 5
+    100190: long_door 6
+    100192: long_door1
+    100194: long_door2
+    100196: long_door3
+    100198: long_door4
+    100200: long_door5
+    100202: long_door6
+    100204: long_door7
+    100206: long_door8
+    100208: long_wall
+    100210: long_wall 1
+    100212: long_wall 10
+    100214: long_wall 2
+    100216: long_wall 3
+    100218: long_wall 4
+    100220: long_wall 5
+    100222: long_wall 6
+    100224: long_wall 7
+    100226: long_wall 8
+    100228: long_wall 9
+    100230: long_wall1
+    100232: long_wall1 1
+    100234: long_wall10
+    100236: long_wall11
+    100238: long_wall12
+    100240: long_wall13
+    100242: long_wall14
+    100244: long_wall15
+    100246: long_wall16
+    100248: long_wall17
+    100250: long_wall18
+    100252: long_wall19
+    100254: long_wall2
+    100256: long_wall2 1
+    100258: long_wall20
+    100260: long_wall21
+    100262: long_wall22
+    100264: long_wall23
+    100266: long_wall24
+    100268: long_wall25
+    100270: long_wall26
+    100272: long_wall27
+    100274: long_wall28
+    100276: long_wall29
+    100278: long_wall3
+    100280: long_wall3 1
+    100282: long_wall30
+    100284: long_wall31
+    100286: long_wall32
+    100288: long_wall33
+    100290: long_wall34
+    100292: long_wall35
+    100294: long_wall36
+    100296: long_wall37
+    100298: long_wall38
+    100300: long_wall39
+    100302: long_wall4
+    100304: long_wall4 1
+    100306: long_wall40
+    100308: long_wall41
+    100310: long_wall42
+    100312: long_wall43
+    100314: long_wall44
+    100316: long_wall45
+    100318: long_wall46
+    100320: long_wall47
+    100322: long_wall48
+    100324: long_wall49
+    100326: long_wall5
+    100328: long_wall5 1
+    100330: long_wall50
+    100332: long_wall51
+    100334: long_wall52
+    100336: long_wall53
+    100338: long_wall54
+    100340: long_wall55
+    100342: long_wall56
+    100344: long_wall57
+    100346: long_wall58
+    100348: long_wall59
+    100350: long_wall6
+    100352: long_wall6 1
+    100354: long_wall60
+    100356: long_wall61
+    100358: long_wall62
+    100360: long_wall63
+    100362: long_wall64
+    100364: long_wall65
+    100366: long_wall66
+    100368: long_wall67
+    100370: long_wall68
+    100372: long_wall69
+    100374: long_wall7
+    100376: long_wall7 1
+    100378: long_wall70
+    100380: long_wall71
+    100382: long_wall72
+    100384: long_wall73
+    100386: long_wall74
+    100388: long_wall75
+    100390: long_wall76
+    100392: long_wall77
+    100394: long_wall78
+    100396: long_wall79
+    100398: long_wall8
+    100400: long_wall80
+    100402: long_wall81
+    100404: long_wall82
+    100406: long_wall83
+    100408: long_wall84
+    100410: long_wall85
+    100412: long_wall86
+    100414: long_wall87
+    100416: long_wall88
+    100418: long_wall89
+    100420: long_wall9
+    100422: long_wall90
+    100424: long_wall91
+    100426: long_wall92
+    100428: long_wall93
+    100430: long_wall94
+    100432: long_wall95
+    100434: long_wall96
+    100436: long_wall97
+    100438: long_wall98
+    100440: second_stairway
+    100442: short_door
+    100444: short_door 1
+    100446: short_door 2
+    100448: short_door 3
+    100450: short_door1
+    100452: short_door2
+    100454: short_door2 1
+    100456: short_door3
+    100458: short_door3 1
+    100460: short_door4
+    100462: short_door5
+    100464: short_wall
+    100466: short_wall 1
+    100468: short_wall 2
+    100470: short_wall 3
+    100472: short_wall 4
+    100474: short_wall 5
+    100476: short_wall1
+    100478: short_wall2
+    100480: short_wall3
+    100482: short_wall4
+    100484: short_wall5
+    100486: side_hall
+    100488: stairwell
+    100490: stairwell 1
+    100492: stairwell1
+    100494: stairwell2
+    100496: stairwell3
+    100498: stairwell4
+    100500: stairwell5
+    100502: stairwell6
+    100504: stairwell7
+    100506: study
+    100508: tunnel
+    100510: tunnel_roof
+    100512: walls
+    400000: anatomy_room
+    400002: banquet_hall
+    400004: boss_roof
+    400006: boss_stairs
+    400008: //RootNode
+    400010: cavern_entry
+    400012: caverns
+    400014: ceiling_frame
+    400016: ceiling_frame 1
+    400018: ceiling_frame 2
+    400020: ceiling_frame1
+    400022: ceiling_frame2
+    400024: ceiling_frame3
+    400026: ceiling_frame4
+    400028: ceiling_frame5
+    400030: ceiling_frame6
+    400032: ceiling_frame7
+    400034: ceiling_frame8
+    400036: ceiling_frame9
+    400038: ceiling_frame_corner
+    400040: ceiling_frame_corner 1
+    400042: ceiling_frame_corner1
+    400044: ceiling_frame_corner2
+    400046: ceiling_frame_corner3
+    400048: ceiling_frame_corner4
+    400050: ceiling_frame_corner5
+    400052: ceiling_frame_corner6
+    400054: ceiling_frame_corner_wide
+    400056: ceiling_frame_corner_wide 1
+    400058: ceiling_frame_corner_wide 2
+    400060: ceiling_frame_corner_wide1
+    400062: ceiling_frame_corner_wide2
+    400064: ceiling_frame_corner_wide3
+    400066: ceiling_frame_wide
+    400068: ceiling_frame_wide 1
+    400070: ceiling_frame_wide 2
+    400072: ceiling_frame_wide1
+    400074: ceiling_frame_wide2
+    400076: ceiling_frame_wide3
+    400078: ceiling_frame_wide4
+    400080: ceiling_frame_wide5
+    400082: ceiling_frame_wide6
+    400084: center_hall
+    400086: corner_hall_1
+    400088: corner_hall_2
+    400090: corner_wall
+    400092: corner_wall 1
+    400094: corner_wall1
+    400096: corner_wall2
+    400098: corner_wall3
+    400100: corner_wall4
+    400102: corner_wall5
+    400104: corner_wall6
+    400106: door_plank
+    400108: door_plank 1
+    400110: door_plank 2
+    400112: door_plank 3
+    400114: door_plank 4
+    400116: door_plank1
+    400118: door_plank10
+    400120: door_plank11
+    400122: door_plank13
+    400124: door_plank14
+    400126: door_plank15
+    400128: door_plank16
+    400130: door_plank17
+    400132: door_plank18
+    400134: door_plank19
+    400136: door_plank2
+    400138: door_plank20
+    400140: door_plank21
+    400142: door_plank23
+    400144: door_plank24
+    400146: door_plank25
+    400148: door_plank26
+    400150: door_plank27
+    400152: door_plank28
+    400154: door_plank3
+    400156: door_plank4
+    400158: door_plank5
+    400160: door_plank6
+    400162: door_plank7
+    400164: door_plank8
+    400166: door_plank9
+    400168: entry_room
+    400170: floor1
+    400172: floor2
+    400174: floors
+    400176: initial_stairway
+    400178: long_door
+    400180: long_door 1
+    400182: long_door 2
+    400184: long_door 3
+    400186: long_door 4
+    400188: long_door 5
+    400190: long_door 6
+    400192: long_door1
+    400194: long_door2
+    400196: long_door3
+    400198: long_door4
+    400200: long_door5
+    400202: long_door6
+    400204: long_door7
+    400206: long_door8
+    400208: long_wall
+    400210: long_wall 1
+    400212: long_wall 10
+    400214: long_wall 2
+    400216: long_wall 3
+    400218: long_wall 4
+    400220: long_wall 5
+    400222: long_wall 6
+    400224: long_wall 7
+    400226: long_wall 8
+    400228: long_wall 9
+    400230: long_wall1
+    400232: long_wall1 1
+    400234: long_wall10
+    400236: long_wall11
+    400238: long_wall12
+    400240: long_wall13
+    400242: long_wall14
+    400244: long_wall15
+    400246: long_wall16
+    400248: long_wall17
+    400250: long_wall18
+    400252: long_wall19
+    400254: long_wall2
+    400256: long_wall2 1
+    400258: long_wall20
+    400260: long_wall21
+    400262: long_wall22
+    400264: long_wall23
+    400266: long_wall24
+    400268: long_wall25
+    400270: long_wall26
+    400272: long_wall27
+    400274: long_wall28
+    400276: long_wall29
+    400278: long_wall3
+    400280: long_wall3 1
+    400282: long_wall30
+    400284: long_wall31
+    400286: long_wall32
+    400288: long_wall33
+    400290: long_wall34
+    400292: long_wall35
+    400294: long_wall36
+    400296: long_wall37
+    400298: long_wall38
+    400300: long_wall39
+    400302: long_wall4
+    400304: long_wall4 1
+    400306: long_wall40
+    400308: long_wall41
+    400310: long_wall42
+    400312: long_wall43
+    400314: long_wall44
+    400316: long_wall45
+    400318: long_wall46
+    400320: long_wall47
+    400322: long_wall48
+    400324: long_wall49
+    400326: long_wall5
+    400328: long_wall5 1
+    400330: long_wall50
+    400332: long_wall51
+    400334: long_wall52
+    400336: long_wall53
+    400338: long_wall54
+    400340: long_wall55
+    400342: long_wall56
+    400344: long_wall57
+    400346: long_wall58
+    400348: long_wall59
+    400350: long_wall6
+    400352: long_wall6 1
+    400354: long_wall60
+    400356: long_wall61
+    400358: long_wall62
+    400360: long_wall63
+    400362: long_wall64
+    400364: long_wall65
+    400366: long_wall66
+    400368: long_wall67
+    400370: long_wall68
+    400372: long_wall69
+    400374: long_wall7
+    400376: long_wall7 1
+    400378: long_wall70
+    400380: long_wall71
+    400382: long_wall72
+    400384: long_wall73
+    400386: long_wall74
+    400388: long_wall75
+    400390: long_wall76
+    400392: long_wall77
+    400394: long_wall78
+    400396: long_wall79
+    400398: long_wall8
+    400400: long_wall80
+    400402: long_wall81
+    400404: long_wall82
+    400406: long_wall83
+    400408: long_wall84
+    400410: long_wall85
+    400412: long_wall86
+    400414: long_wall87
+    400416: long_wall88
+    400418: long_wall89
+    400420: long_wall9
+    400422: long_wall90
+    400424: long_wall91
+    400426: long_wall92
+    400428: long_wall93
+    400430: long_wall94
+    400432: long_wall95
+    400434: long_wall96
+    400436: long_wall97
+    400438: long_wall98
+    400440: second_stairway
+    400442: short_door
+    400444: short_door 1
+    400446: short_door 2
+    400448: short_door 3
+    400450: short_door1
+    400452: short_door2
+    400454: short_door2 1
+    400456: short_door3
+    400458: short_door3 1
+    400460: short_door4
+    400462: short_door5
+    400464: short_wall
+    400466: short_wall 1
+    400468: short_wall 2
+    400470: short_wall 3
+    400472: short_wall 4
+    400474: short_wall 5
+    400476: short_wall1
+    400478: short_wall2
+    400480: short_wall3
+    400482: short_wall4
+    400484: short_wall5
+    400486: side_hall
+    400488: stairwell
+    400490: stairwell 1
+    400492: stairwell1
+    400494: stairwell2
+    400496: stairwell3
+    400498: stairwell4
+    400500: stairwell5
+    400502: stairwell6
+    400504: stairwell7
+    400506: study
+    400508: tunnel
+    400510: tunnel_roof
+    400512: walls
+    2300000: boss_roof
+    2300002: ceiling_frame
+    2300004: ceiling_frame 1
+    2300006: ceiling_frame 2
+    2300008: ceiling_frame1
+    2300010: ceiling_frame2
+    2300012: ceiling_frame3
+    2300014: ceiling_frame4
+    2300016: ceiling_frame5
+    2300018: ceiling_frame6
+    2300020: ceiling_frame7
+    2300022: ceiling_frame8
+    2300024: ceiling_frame9
+    2300026: ceiling_frame_corner
+    2300028: ceiling_frame_corner 1
+    2300030: ceiling_frame_corner1
+    2300032: ceiling_frame_corner2
+    2300034: ceiling_frame_corner3
+    2300036: ceiling_frame_corner4
+    2300038: ceiling_frame_corner5
+    2300040: ceiling_frame_corner6
+    2300042: ceiling_frame_corner_wide
+    2300044: ceiling_frame_corner_wide 1
+    2300046: ceiling_frame_corner_wide 2
+    2300048: ceiling_frame_corner_wide1
+    2300050: ceiling_frame_corner_wide2
+    2300052: ceiling_frame_corner_wide3
+    2300054: ceiling_frame_wide
+    2300056: ceiling_frame_wide 1
+    2300058: ceiling_frame_wide 2
+    2300060: ceiling_frame_wide1
+    2300062: ceiling_frame_wide2
+    2300064: ceiling_frame_wide3
+    2300066: ceiling_frame_wide4
+    2300068: ceiling_frame_wide5
+    2300070: ceiling_frame_wide6
+    2300072: corner_wall
+    2300074: corner_wall 1
+    2300076: corner_wall1
+    2300078: corner_wall2
+    2300080: corner_wall3
+    2300082: corner_wall4
+    2300084: corner_wall5
+    2300086: corner_wall6
+    2300088: door_plank
+    2300090: door_plank 1
+    2300092: door_plank 2
+    2300094: door_plank 3
+    2300096: door_plank 4
+    2300098: door_plank1
+    2300100: door_plank10
+    2300102: door_plank11
+    2300104: door_plank13
+    2300106: door_plank14
+    2300108: door_plank15
+    2300110: door_plank16
+    2300112: door_plank17
+    2300114: door_plank18
+    2300116: door_plank19
+    2300118: door_plank2
+    2300120: door_plank20
+    2300122: door_plank21
+    2300124: door_plank23
+    2300126: door_plank24
+    2300128: door_plank25
+    2300130: door_plank26
+    2300132: door_plank27
+    2300134: door_plank28
+    2300136: door_plank3
+    2300138: door_plank4
+    2300140: door_plank5
+    2300142: door_plank6
+    2300144: door_plank7
+    2300146: door_plank8
+    2300148: door_plank9
+    2300150: floor1
+    2300152: floor2
+    2300154: long_door
+    2300156: long_door 1
+    2300158: long_door 2
+    2300160: long_door 3
+    2300162: long_door 4
+    2300164: long_door 5
+    2300166: long_door 6
+    2300168: long_door1
+    2300170: long_door2
+    2300172: long_door3
+    2300174: long_door4
+    2300176: long_door5
+    2300178: long_door6
+    2300180: long_door7
+    2300182: long_door8
+    2300184: long_wall
+    2300186: long_wall 1
+    2300188: long_wall 10
+    2300190: long_wall 2
+    2300192: long_wall 3
+    2300194: long_wall 4
+    2300196: long_wall 5
+    2300198: long_wall 6
+    2300200: long_wall 7
+    2300202: long_wall 8
+    2300204: long_wall 9
+    2300206: long_wall1
+    2300208: long_wall1 1
+    2300210: long_wall10
+    2300212: long_wall11
+    2300214: long_wall12
+    2300216: long_wall13
+    2300218: long_wall14
+    2300220: long_wall15
+    2300222: long_wall16
+    2300224: long_wall17
+    2300226: long_wall18
+    2300228: long_wall19
+    2300230: long_wall2
+    2300232: long_wall2 1
+    2300234: long_wall20
+    2300236: long_wall21
+    2300238: long_wall22
+    2300240: long_wall23
+    2300242: long_wall24
+    2300244: long_wall25
+    2300246: long_wall26
+    2300248: long_wall27
+    2300250: long_wall28
+    2300252: long_wall29
+    2300254: long_wall3
+    2300256: long_wall3 1
+    2300258: long_wall30
+    2300260: long_wall31
+    2300262: long_wall32
+    2300264: long_wall33
+    2300266: long_wall34
+    2300268: long_wall35
+    2300270: long_wall36
+    2300272: long_wall37
+    2300274: long_wall38
+    2300276: long_wall39
+    2300278: long_wall4
+    2300280: long_wall4 1
+    2300282: long_wall40
+    2300284: long_wall41
+    2300286: long_wall42
+    2300288: long_wall43
+    2300290: long_wall44
+    2300292: long_wall45
+    2300294: long_wall46
+    2300296: long_wall47
+    2300298: long_wall48
+    2300300: long_wall49
+    2300302: long_wall5
+    2300304: long_wall5 1
+    2300306: long_wall50
+    2300308: long_wall51
+    2300310: long_wall52
+    2300312: long_wall53
+    2300314: long_wall54
+    2300316: long_wall55
+    2300318: long_wall56
+    2300320: long_wall57
+    2300322: long_wall58
+    2300324: long_wall59
+    2300326: long_wall6
+    2300328: long_wall6 1
+    2300330: long_wall60
+    2300332: long_wall61
+    2300334: long_wall62
+    2300336: long_wall63
+    2300338: long_wall64
+    2300340: long_wall65
+    2300342: long_wall66
+    2300344: long_wall67
+    2300346: long_wall68
+    2300348: long_wall69
+    2300350: long_wall7
+    2300352: long_wall7 1
+    2300354: long_wall70
+    2300356: long_wall71
+    2300358: long_wall72
+    2300360: long_wall73
+    2300362: long_wall74
+    2300364: long_wall75
+    2300366: long_wall76
+    2300368: long_wall77
+    2300370: long_wall78
+    2300372: long_wall79
+    2300374: long_wall8
+    2300376: long_wall80
+    2300378: long_wall81
+    2300380: long_wall82
+    2300382: long_wall83
+    2300384: long_wall84
+    2300386: long_wall85
+    2300388: long_wall86
+    2300390: long_wall87
+    2300392: long_wall88
+    2300394: long_wall89
+    2300396: long_wall9
+    2300398: long_wall90
+    2300400: long_wall91
+    2300402: long_wall92
+    2300404: long_wall93
+    2300406: long_wall94
+    2300408: long_wall95
+    2300410: long_wall96
+    2300412: long_wall97
+    2300414: long_wall98
+    2300416: short_door
+    2300418: short_door 1
+    2300420: short_door 2
+    2300422: short_door 3
+    2300424: short_door1
+    2300426: short_door2
+    2300428: short_door2 1
+    2300430: short_door3
+    2300432: short_door3 1
+    2300434: short_door4
+    2300436: short_door5
+    2300438: short_wall
+    2300440: short_wall 1
+    2300442: short_wall 2
+    2300444: short_wall 3
+    2300446: short_wall 4
+    2300448: short_wall 5
+    2300450: short_wall1
+    2300452: short_wall2
+    2300454: short_wall3
+    2300456: short_wall4
+    2300458: short_wall5
+    2300460: stairwell
+    2300462: stairwell 1
+    2300464: stairwell1
+    2300466: stairwell2
+    2300468: stairwell3
+    2300470: stairwell4
+    2300472: stairwell5
+    2300474: stairwell6
+    2300476: stairwell7
+    2300478: tunnel
+    2300480: tunnel_roof
+    2300482: walls
+    3300000: boss_roof
+    3300002: ceiling_frame
+    3300004: ceiling_frame 1
+    3300006: ceiling_frame 2
+    3300008: ceiling_frame1
+    3300010: ceiling_frame2
+    3300012: ceiling_frame3
+    3300014: ceiling_frame4
+    3300016: ceiling_frame5
+    3300018: ceiling_frame6
+    3300020: ceiling_frame7
+    3300022: ceiling_frame8
+    3300024: ceiling_frame9
+    3300026: ceiling_frame_corner
+    3300028: ceiling_frame_corner 1
+    3300030: ceiling_frame_corner1
+    3300032: ceiling_frame_corner2
+    3300034: ceiling_frame_corner3
+    3300036: ceiling_frame_corner4
+    3300038: ceiling_frame_corner5
+    3300040: ceiling_frame_corner6
+    3300042: ceiling_frame_corner_wide
+    3300044: ceiling_frame_corner_wide 1
+    3300046: ceiling_frame_corner_wide 2
+    3300048: ceiling_frame_corner_wide1
+    3300050: ceiling_frame_corner_wide2
+    3300052: ceiling_frame_corner_wide3
+    3300054: ceiling_frame_wide
+    3300056: ceiling_frame_wide 1
+    3300058: ceiling_frame_wide 2
+    3300060: ceiling_frame_wide1
+    3300062: ceiling_frame_wide2
+    3300064: ceiling_frame_wide3
+    3300066: ceiling_frame_wide4
+    3300068: ceiling_frame_wide5
+    3300070: ceiling_frame_wide6
+    3300072: corner_wall
+    3300074: corner_wall 1
+    3300076: corner_wall1
+    3300078: corner_wall2
+    3300080: corner_wall3
+    3300082: corner_wall4
+    3300084: corner_wall5
+    3300086: corner_wall6
+    3300088: door_plank
+    3300090: door_plank 1
+    3300092: door_plank 2
+    3300094: door_plank 3
+    3300096: door_plank 4
+    3300098: door_plank1
+    3300100: door_plank10
+    3300102: door_plank11
+    3300104: door_plank13
+    3300106: door_plank14
+    3300108: door_plank15
+    3300110: door_plank16
+    3300112: door_plank17
+    3300114: door_plank18
+    3300116: door_plank19
+    3300118: door_plank2
+    3300120: door_plank20
+    3300122: door_plank21
+    3300124: door_plank23
+    3300126: door_plank24
+    3300128: door_plank25
+    3300130: door_plank26
+    3300132: door_plank27
+    3300134: door_plank28
+    3300136: door_plank3
+    3300138: door_plank4
+    3300140: door_plank5
+    3300142: door_plank6
+    3300144: door_plank7
+    3300146: door_plank8
+    3300148: door_plank9
+    3300150: floor1
+    3300152: floor2
+    3300154: long_door
+    3300156: long_door 1
+    3300158: long_door 2
+    3300160: long_door 3
+    3300162: long_door 4
+    3300164: long_door 5
+    3300166: long_door 6
+    3300168: long_door1
+    3300170: long_door2
+    3300172: long_door3
+    3300174: long_door4
+    3300176: long_door5
+    3300178: long_door6
+    3300180: long_door7
+    3300182: long_door8
+    3300184: long_wall
+    3300186: long_wall 1
+    3300188: long_wall 10
+    3300190: long_wall 2
+    3300192: long_wall 3
+    3300194: long_wall 4
+    3300196: long_wall 5
+    3300198: long_wall 6
+    3300200: long_wall 7
+    3300202: long_wall 8
+    3300204: long_wall 9
+    3300206: long_wall1
+    3300208: long_wall1 1
+    3300210: long_wall10
+    3300212: long_wall11
+    3300214: long_wall12
+    3300216: long_wall13
+    3300218: long_wall14
+    3300220: long_wall15
+    3300222: long_wall16
+    3300224: long_wall17
+    3300226: long_wall18
+    3300228: long_wall19
+    3300230: long_wall2
+    3300232: long_wall2 1
+    3300234: long_wall20
+    3300236: long_wall21
+    3300238: long_wall22
+    3300240: long_wall23
+    3300242: long_wall24
+    3300244: long_wall25
+    3300246: long_wall26
+    3300248: long_wall27
+    3300250: long_wall28
+    3300252: long_wall29
+    3300254: long_wall3
+    3300256: long_wall3 1
+    3300258: long_wall30
+    3300260: long_wall31
+    3300262: long_wall32
+    3300264: long_wall33
+    3300266: long_wall34
+    3300268: long_wall35
+    3300270: long_wall36
+    3300272: long_wall37
+    3300274: long_wall38
+    3300276: long_wall39
+    3300278: long_wall4
+    3300280: long_wall4 1
+    3300282: long_wall40
+    3300284: long_wall41
+    3300286: long_wall42
+    3300288: long_wall43
+    3300290: long_wall44
+    3300292: long_wall45
+    3300294: long_wall46
+    3300296: long_wall47
+    3300298: long_wall48
+    3300300: long_wall49
+    3300302: long_wall5
+    3300304: long_wall5 1
+    3300306: long_wall50
+    3300308: long_wall51
+    3300310: long_wall52
+    3300312: long_wall53
+    3300314: long_wall54
+    3300316: long_wall55
+    3300318: long_wall56
+    3300320: long_wall57
+    3300322: long_wall58
+    3300324: long_wall59
+    3300326: long_wall6
+    3300328: long_wall6 1
+    3300330: long_wall60
+    3300332: long_wall61
+    3300334: long_wall62
+    3300336: long_wall63
+    3300338: long_wall64
+    3300340: long_wall65
+    3300342: long_wall66
+    3300344: long_wall67
+    3300346: long_wall68
+    3300348: long_wall69
+    3300350: long_wall7
+    3300352: long_wall7 1
+    3300354: long_wall70
+    3300356: long_wall71
+    3300358: long_wall72
+    3300360: long_wall73
+    3300362: long_wall74
+    3300364: long_wall75
+    3300366: long_wall76
+    3300368: long_wall77
+    3300370: long_wall78
+    3300372: long_wall79
+    3300374: long_wall8
+    3300376: long_wall80
+    3300378: long_wall81
+    3300380: long_wall82
+    3300382: long_wall83
+    3300384: long_wall84
+    3300386: long_wall85
+    3300388: long_wall86
+    3300390: long_wall87
+    3300392: long_wall88
+    3300394: long_wall89
+    3300396: long_wall9
+    3300398: long_wall90
+    3300400: long_wall91
+    3300402: long_wall92
+    3300404: long_wall93
+    3300406: long_wall94
+    3300408: long_wall95
+    3300410: long_wall96
+    3300412: long_wall97
+    3300414: long_wall98
+    3300416: short_door
+    3300418: short_door 1
+    3300420: short_door 2
+    3300422: short_door 3
+    3300424: short_door1
+    3300426: short_door2
+    3300428: short_door2 1
+    3300430: short_door3
+    3300432: short_door3 1
+    3300434: short_door4
+    3300436: short_door5
+    3300438: short_wall
+    3300440: short_wall 1
+    3300442: short_wall 2
+    3300444: short_wall 3
+    3300446: short_wall 4
+    3300448: short_wall 5
+    3300450: short_wall1
+    3300452: short_wall2
+    3300454: short_wall3
+    3300456: short_wall4
+    3300458: short_wall5
+    3300460: stairwell
+    3300462: stairwell 1
+    3300464: stairwell1
+    3300466: stairwell2
+    3300468: stairwell3
+    3300470: stairwell4
+    3300472: stairwell5
+    3300474: stairwell6
+    3300476: stairwell7
+    3300478: tunnel
+    3300480: tunnel_roof
+    3300482: walls
+    4300000: stairwell4
+    4300002: stairwell
+    4300004: stairwell1
+    4300006: long_wall
+    4300008: long_wall67
+    4300010: long_wall68
+    4300012: long_wall69
+    4300014: long_wall70
+    4300016: long_wall71
+    4300018: long_wall72
+    4300020: long_wall73
+    4300022: long_wall74
+    4300024: long_wall75
+    4300026: long_wall76
+    4300028: long_wall77
+    4300030: long_wall78
+    4300032: long_wall79
+    4300034: long_wall80
+    4300036: long_wall81
+    4300038: long_wall82
+    4300040: long_wall83
+    4300042: long_wall84
+    4300044: long_wall85
+    4300046: long_wall86
+    4300048: long_wall87
+    4300050: ceiling_frame
+    4300052: ceiling_frame4
+    4300054: ceiling_frame5
+    4300056: ceiling_frame6
+    4300058: short_wall
+    4300060: short_wall3
+    4300062: short_wall4
+    4300064: door_plank1
+    4300066: door_plank
+    4300068: long_wall7
+    4300070: long_wall6
+    4300072: long_wall5
+    4300074: long_wall4
+    4300076: long_wall3
+    4300078: long_wall2
+    4300080: short_door3
+    4300082: short_door2
+    4300084: ceiling_frame_corner_wide3
+    4300086: ceiling_frame_corner_wide2
+    4300088: short_door1
+    4300090: long_wall1
+    4300092: ceiling_frame_corner_wide1
+    4300094: ceiling_frame_corner_wide
+    4300096: long_wall
+    4300098: short_door
+    4300100: long_door
+    4300102: long_wall
+    4300104: long_wall8
+    4300106: long_wall9
+    4300108: long_wall10
+    4300110: long_wall11
+    4300112: long_wall12
+    4300114: long_door1
+    4300116: ceiling_frame_corner_wide
+    4300118: long_wall
+    4300120: long_wall13
+    4300122: long_wall14
+    4300124: long_wall15
+    4300126: long_wall16
+    4300128: ceiling_frame_corner_wide
+    4300130: long_wall17
+    4300132: long_door
+    4300134: long_door2
+    4300136: door_plank
+    4300138: door_plank2
+    4300140: long_wall7
+    4300142: long_wall6
+    4300144: long_wall5
+    4300146: long_wall4
+    4300148: long_wall3
+    4300150: long_wall2
+    4300152: short_door3
+    4300154: short_door2
+    4300156: long_wall1
+    4300158: long_wall
+    4300160: short_door
+    4300162: short_wall
+    4300164: ceiling_frame
+    4300166: ceiling_frame1
+    4300168: ceiling_frame2
+    4300170: ceiling_frame3
+    4300172: door_plank4
+    4300174: door_plank5
+    4300176: long_door
+    4300178: long_door3
+    4300180: long_wall
+    4300182: long_wall18
+    4300184: long_wall19
+    4300186: short_wall
+    4300188: short_wall1
+    4300190: long_wall20
+    4300192: long_wall21
+    4300194: long_wall22
+    4300196: long_wall23
+    4300198: long_door4
+    4300200: long_wall24
+    4300202: ceiling_frame_wide
+    4300204: ceiling_frame_wide1
+    4300206: ceiling_frame_wide2
+    4300208: long_door5
+    4300210: door_plank
+    4300212: door_plank3
+    4300214: door_plank6
+    4300216: door_plank7
+    4300218: door_plank27
+    4300220: door_plank28
+    4300222: long_door
+    4300224: long_wall
+    4300226: long_wall25
+    4300228: long_wall26
+    4300230: long_wall27
+    4300232: long_wall28
+    4300234: long_wall29
+    4300236: long_wall30
+    4300238: long_wall31
+    4300240: long_door6
+    4300242: long_wall32
+    4300244: long_wall33
+    4300246: long_wall34
+    4300248: long_wall35
+    4300250: long_wall36
+    4300252: long_wall37
+    4300254: long_wall38
+    4300256: long_wall39
+    4300258: long_wall40
+    4300260: long_wall41
+    4300262: ceiling_frame_wide
+    4300264: ceiling_frame_wide3
+    4300266: ceiling_frame_wide4
+    4300268: long_wall
+    4300270: long_door
+    4300272: long_wall42
+    4300274: door_plank
+    4300276: door_plank8
+    4300278: door_plank9
+    4300280: door_plank10
+    4300282: door_plank11
+    4300284: door_plank13
+    4300286: door_plank14
+    4300288: door_plank15
+    4300290: door_plank16
+    4300292: door_plank17
+    4300294: door_plank18
+    4300296: stairwell3
+    4300298: stairwell6
+    4300300: stairwell5
+    4300302: stairwell2
+    4300304: long_wall51
+    4300306: long_wall52
+    4300308: long_wall53
+    4300310: long_wall54
+    4300312: long_wall55
+    4300314: long_wall56
+    4300316: long_wall57
+    4300318: long_wall58
+    4300320: short_wall
+    4300322: long_wall60
+    4300324: long_wall62
+    4300326: long_wall63
+    4300328: long_wall65
+    4300330: short_wall2
+    4300332: long_wall64
+    4300334: long_wall66
+    4300336: long_wall61
+    4300338: long_wall59
+    4300340: short_door4
+    4300342: corner_wall
+    4300344: corner_wall1
+    4300346: long_wall
+    4300348: long_wall43
+    4300350: corner_wall2
+    4300352: corner_wall3
+    4300354: long_wall44
+    4300356: long_door
+    4300358: ceiling_frame_wide6
+    4300360: ceiling_frame_corner
+    4300362: ceiling_frame_corner1
+    4300364: ceiling_frame_corner2
+    4300366: ceiling_frame_corner3
+    4300368: long_wall
+    4300370: short_door5
+    4300372: short_door
+    4300374: long_wall45
+    4300376: long_door
+    4300378: long_wall46
+    4300380: long_wall47
+    4300382: long_wall48
+    4300384: long_wall49
+    4300386: long_wall50
+    4300388: ceiling_frame_wide
+    4300390: ceiling_frame_wide5
+    4300392: long_door7
+    4300394: corner_wall
+    4300396: corner_wall4
+    4300398: corner_wall5
+    4300400: corner_wall6
+    4300402: short_wall
+    4300404: long_door8
+    4300406: ceiling_frame_corner
+    4300408: ceiling_frame_corner4
+    4300410: ceiling_frame_corner5
+    4300412: ceiling_frame_corner6
+    4300414: door_plank
+    4300416: door_plank19
+    4300418: door_plank20
+    4300420: door_plank21
+    4300422: door_plank23
+    4300424: door_plank24
+    4300426: door_plank25
+    4300428: door_plank26
+    4300430: tunnel
+    4300432: stairwell
+    4300434: stairwell7
+    4300436: ceiling_frame
+    4300438: long_wall
+    4300440: long_wall88
+    4300442: long_wall89
+    4300444: long_wall90
+    4300446: long_wall91
+    4300448: long_wall92
+    4300450: long_wall93
+    4300452: long_wall94
+    4300454: long_wall95
+    4300456: long_wall96
+    4300458: long_wall97
+    4300460: long_wall98
+    4300462: ceiling_frame7
+    4300464: ceiling_frame8
+    4300466: ceiling_frame9
+    4300468: short_door
+    4300470: short_wall
+    4300472: short_wall5
+    4300474: floor1
+    4300476: floor2
+    4300478: walls
+    4300480: boss_roof
+    4300482: tunnel_roof
+    6400000: boss_roof
+    6400002: ceiling_frame
+    6400004: ceiling_frame 1
+    6400006: ceiling_frame 2
+    6400008: ceiling_frame1
+    6400010: ceiling_frame2
+    6400012: ceiling_frame3
+    6400014: ceiling_frame4
+    6400016: ceiling_frame5
+    6400018: ceiling_frame6
+    6400020: ceiling_frame7
+    6400022: ceiling_frame8
+    6400024: ceiling_frame9
+    6400026: ceiling_frame_corner
+    6400028: ceiling_frame_corner 1
+    6400030: ceiling_frame_corner1
+    6400032: ceiling_frame_corner2
+    6400034: ceiling_frame_corner3
+    6400036: ceiling_frame_corner4
+    6400038: ceiling_frame_corner5
+    6400040: ceiling_frame_corner6
+    6400042: ceiling_frame_corner_wide
+    6400044: ceiling_frame_corner_wide 1
+    6400046: ceiling_frame_corner_wide 2
+    6400048: ceiling_frame_corner_wide1
+    6400050: ceiling_frame_corner_wide2
+    6400052: ceiling_frame_corner_wide3
+    6400054: ceiling_frame_wide
+    6400056: ceiling_frame_wide 1
+    6400058: ceiling_frame_wide 2
+    6400060: ceiling_frame_wide1
+    6400062: ceiling_frame_wide2
+    6400064: ceiling_frame_wide3
+    6400066: ceiling_frame_wide4
+    6400068: ceiling_frame_wide5
+    6400070: ceiling_frame_wide6
+    6400072: corner_wall
+    6400074: corner_wall 1
+    6400076: corner_wall1
+    6400078: corner_wall2
+    6400080: corner_wall3
+    6400082: corner_wall4
+    6400084: corner_wall5
+    6400086: corner_wall6
+    6400088: door_plank
+    6400090: door_plank 1
+    6400092: door_plank 2
+    6400094: door_plank 3
+    6400096: door_plank 4
+    6400098: door_plank1
+    6400100: door_plank10
+    6400102: door_plank11
+    6400104: door_plank13
+    6400106: door_plank14
+    6400108: door_plank15
+    6400110: door_plank16
+    6400112: door_plank17
+    6400114: door_plank18
+    6400116: door_plank19
+    6400118: door_plank2
+    6400120: door_plank20
+    6400122: door_plank21
+    6400124: door_plank23
+    6400126: door_plank24
+    6400128: door_plank25
+    6400130: door_plank26
+    6400132: door_plank27
+    6400134: door_plank28
+    6400136: door_plank3
+    6400138: door_plank4
+    6400140: door_plank5
+    6400142: door_plank6
+    6400144: door_plank7
+    6400146: door_plank8
+    6400148: door_plank9
+    6400150: floor1
+    6400152: floor2
+    6400154: long_door
+    6400156: long_door 1
+    6400158: long_door 2
+    6400160: long_door 3
+    6400162: long_door 4
+    6400164: long_door 5
+    6400166: long_door 6
+    6400168: long_door1
+    6400170: long_door2
+    6400172: long_door3
+    6400174: long_door4
+    6400176: long_door5
+    6400178: long_door6
+    6400180: long_door7
+    6400182: long_door8
+    6400184: long_wall
+    6400186: long_wall 1
+    6400188: long_wall 10
+    6400190: long_wall 2
+    6400192: long_wall 3
+    6400194: long_wall 4
+    6400196: long_wall 5
+    6400198: long_wall 6
+    6400200: long_wall 7
+    6400202: long_wall 8
+    6400204: long_wall 9
+    6400206: long_wall1
+    6400208: long_wall1 1
+    6400210: long_wall10
+    6400212: long_wall11
+    6400214: long_wall12
+    6400216: long_wall13
+    6400218: long_wall14
+    6400220: long_wall15
+    6400222: long_wall16
+    6400224: long_wall17
+    6400226: long_wall18
+    6400228: long_wall19
+    6400230: long_wall2
+    6400232: long_wall2 1
+    6400234: long_wall20
+    6400236: long_wall21
+    6400238: long_wall22
+    6400240: long_wall23
+    6400242: long_wall24
+    6400244: long_wall25
+    6400246: long_wall26
+    6400248: long_wall27
+    6400250: long_wall28
+    6400252: long_wall29
+    6400254: long_wall3
+    6400256: long_wall3 1
+    6400258: long_wall30
+    6400260: long_wall31
+    6400262: long_wall32
+    6400264: long_wall33
+    6400266: long_wall34
+    6400268: long_wall35
+    6400270: long_wall36
+    6400272: long_wall37
+    6400274: long_wall38
+    6400276: long_wall39
+    6400278: long_wall4
+    6400280: long_wall4 1
+    6400282: long_wall40
+    6400284: long_wall41
+    6400286: long_wall42
+    6400288: long_wall43
+    6400290: long_wall44
+    6400292: long_wall45
+    6400294: long_wall46
+    6400296: long_wall47
+    6400298: long_wall48
+    6400300: long_wall49
+    6400302: long_wall5
+    6400304: long_wall5 1
+    6400306: long_wall50
+    6400308: long_wall51
+    6400310: long_wall52
+    6400312: long_wall53
+    6400314: long_wall54
+    6400316: long_wall55
+    6400318: long_wall56
+    6400320: long_wall57
+    6400322: long_wall58
+    6400324: long_wall59
+    6400326: long_wall6
+    6400328: long_wall6 1
+    6400330: long_wall60
+    6400332: long_wall61
+    6400334: long_wall62
+    6400336: long_wall63
+    6400338: long_wall64
+    6400340: long_wall65
+    6400342: long_wall66
+    6400344: long_wall67
+    6400346: long_wall68
+    6400348: long_wall69
+    6400350: long_wall7
+    6400352: long_wall7 1
+    6400354: long_wall70
+    6400356: long_wall71
+    6400358: long_wall72
+    6400360: long_wall73
+    6400362: long_wall74
+    6400364: long_wall75
+    6400366: long_wall76
+    6400368: long_wall77
+    6400370: long_wall78
+    6400372: long_wall79
+    6400374: long_wall8
+    6400376: long_wall80
+    6400378: long_wall81
+    6400380: long_wall82
+    6400382: long_wall83
+    6400384: long_wall84
+    6400386: long_wall85
+    6400388: long_wall86
+    6400390: long_wall87
+    6400392: long_wall88
+    6400394: long_wall89
+    6400396: long_wall9
+    6400398: long_wall90
+    6400400: long_wall91
+    6400402: long_wall92
+    6400404: long_wall93
+    6400406: long_wall94
+    6400408: long_wall95
+    6400410: long_wall96
+    6400412: long_wall97
+    6400414: long_wall98
+    6400416: short_door
+    6400418: short_door 1
+    6400420: short_door 2
+    6400422: short_door 3
+    6400424: short_door1
+    6400426: short_door2
+    6400428: short_door2 1
+    6400430: short_door3
+    6400432: short_door3 1
+    6400434: short_door4
+    6400436: short_door5
+    6400438: short_wall
+    6400440: short_wall 1
+    6400442: short_wall 2
+    6400444: short_wall 3
+    6400446: short_wall 4
+    6400448: short_wall 5
+    6400450: short_wall1
+    6400452: short_wall2
+    6400454: short_wall3
+    6400456: short_wall4
+    6400458: short_wall5
+    6400460: stairwell
+    6400462: stairwell 1
+    6400464: stairwell1
+    6400466: stairwell2
+    6400468: stairwell3
+    6400470: stairwell4
+    6400472: stairwell5
+    6400474: stairwell6
+    6400476: stairwell7
+    6400478: tunnel
+    6400480: tunnel_roof
+    6400482: walls
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 60
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
