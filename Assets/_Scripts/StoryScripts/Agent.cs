@@ -10,7 +10,7 @@ public string[] InitialLines;
 	public bool hasTalked;
 	public GameObject[] Enemies;
 	private Text myText;
-	private int gate;
+	public int gate;
 	private bool inRange;
 	void Start() {
 		subtitles = GameObject.Find("Subtitles");
@@ -32,14 +32,14 @@ public string[] InitialLines;
 	public void DisplayLine() {
 		if(inRange == true) {
 			if(hasTalked == false) {
-				myText.text = InitialLines[gate];
+				myText.text = InitialLines[0];
 				hasTalked = true;
-				manager.GetComponent<GameManagerScript>().setGate(2);
+				manager.GetComponent<GameManagerScript>().setGate(gate);
 				foreach(GameObject g in Enemies) {
 					g.SetActive(true);
 				}
 			} else {
-				myText.text = HasTalkedLines[gate];
+				myText.text = HasTalkedLines[0];
 			}
 		}
 	}
