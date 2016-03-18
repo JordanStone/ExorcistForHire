@@ -94,7 +94,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .270000011
+        second: .129999995
       data:
         first:
           name: _Metallic
