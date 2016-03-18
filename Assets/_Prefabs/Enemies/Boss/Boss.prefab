@@ -9138,6 +9138,7 @@ MonoBehaviour:
   petrificationObject: {fileID: 165340, guid: d3c684801258348eeae1910989799288, type: 2}
   rangedObject: {fileID: 142196, guid: 9cf1b1b0edb4a4e308409192587ba1f5, type: 2}
   inAttack: 0
+  bulletsHit: 0
 --- !u!114 &11499900
 MonoBehaviour:
   m_ObjectHideFlags: 1

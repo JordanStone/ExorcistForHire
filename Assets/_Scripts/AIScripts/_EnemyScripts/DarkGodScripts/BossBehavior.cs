@@ -68,6 +68,8 @@ public class BossBehavior : MonoBehaviour {
 	private GameObject healingObject;
 	private Transform petrifySpawn;
 	private Transform projectileSpawn;
+	[SerializeField]
+	private int bulletsHit;
 
 	// Use this for initialization
 	void Start () {
@@ -89,6 +91,7 @@ public class BossBehavior : MonoBehaviour {
 		aoeSphere.SetActive(false);
 		petrifySpawn = transform.Find("PetrifyLocation").transform;
 		projectileSpawn = transform.Find("ProjectileSpawn").transform;
+		bulletsHit = 0;
 	}
 	
 	// Update is called once per frame
@@ -291,7 +294,7 @@ public class BossBehavior : MonoBehaviour {
 			_bossDetectionScript.Speed = 0f;
 			_myAnimator.SetBool("IsWalking", false);
 			_myAnimator.SetTrigger("RangedAttack");
-			StartCoroutine(WaitForAttackToFinish(1.2f, true, "range", 0.7f));
+			StartCoroutine(WaitForAttackToFinish(1.2f, true, "range", 0.8f));
 			//GameObject range = Instantiate(rangedObject, projectileSpawn.transform.position, Quaternion.identity)as GameObject;
 			//StartCoroutine( _bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Search));
 			//Debug.Log ("RAAAAAAAAAAAAAAANGE!!!");
@@ -634,6 +637,7 @@ public class BossBehavior : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
 	{
+		int numBulletsToStagger = 9;
 
 		if( collision.gameObject.name == "Player")
 		{
@@ -651,11 +655,17 @@ public class BossBehavior : MonoBehaviour {
 		{
 			bossHealth -= bulletDamage;
 
+			if(_bossDetectionScript.currentState != DarkGodStateMachine.BossState.Heal && _bossDetectionScript.currentState != DarkGodStateMachine.BossState.Die)
+			{
+				bulletsHit++;
+			}
+
 			if(bossHealth < (bossStartingHealth/2f) && _bossDetectionScript.currentPhase == DarkGodStateMachine.BossPhase.Two)
 			{
 				//Debug.Log("HEALTH at need healing state");
 				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Heal));
 			}
+			
 			if(bossHealth <= 0f)
 			{
 				_bossDetectionScript.Speed = 0f;	
@@ -664,6 +674,11 @@ public class BossBehavior : MonoBehaviour {
 				_myAnimator.SetBool("Dying", true);
 
 				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Die));
+			}
+			else if(bulletsHit == numBulletsToStagger && _bossDetectionScript.currentState != DarkGodStateMachine.BossState.Heal)
+			{
+				bulletsHit = 0;
+				StartCoroutine(_bossDetectionScript.ChangeState(DarkGodStateMachine.BossState.Stagger));
 			}
 		}
 	}
