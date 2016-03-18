@@ -7,7 +7,7 @@ using SoundController;
 /**
  * Pause Menu Controller
  * Created by Ruben Guzman
- * last updated: 3/4/2015 Ruben Guzman
+ * last updated: 3/18/2015 Ruben Guzman -- updated death screen
  * 
  * When "p" or "esc" are pressed, this script enables the pause menu UI.
  * It displays Settings(sound and mouse options), reload checkpoint, and quit buttons.
@@ -43,6 +43,8 @@ public class pauseMenuController : MonoBehaviour {
 	public GameObject reloadSettingsPanel;
 	public GameObject quitSettingsPanel;
 	public GameObject inventoryItems;
+	public GameObject spiritsImage;
+	public GameObject pauseImage;
 	public bool isPaused;
 	bool settingsIsClicked;
 	bool inventoryIsClicked;
@@ -53,6 +55,8 @@ public class pauseMenuController : MonoBehaviour {
 	bool reloadIsClicked;
 	bool quitIsClicked;
 	private AudioSource[] audioSources;
+	private bool dead;
+
 
 	void Awake()
 	{
@@ -62,7 +66,9 @@ public class pauseMenuController : MonoBehaviour {
 	//Every object is disabled
 	void Start () 
 	{
+		//invSetPanel.GetComponent<Animator> ().Play ("pause_default");
 		isPaused = false;
+		dead = false;
 		//backgroundCanvas.enabled = false;
 		invSetCanvas.enabled = false;
 		settingsIsClicked = false;
@@ -73,6 +79,9 @@ public class pauseMenuController : MonoBehaviour {
 		mouseIsClicked = false;
 		reloadIsClicked = false;
 		quitIsClicked = false;
+		settingsBut.SetActive (true);
+		pauseImage.SetActive (true);
+		spiritsImage.SetActive (false);
 		inventoryItems.SetActive (false);
 		itemsBut.SetActive (false);
 		upgradesBut.SetActive (false);
@@ -97,6 +106,8 @@ public class pauseMenuController : MonoBehaviour {
 			Time.timeScale = 0;
 			//backgroundCanvas.enabled = true;
 			invSetCanvas.enabled = true;
+			pauseImage.SetActive(true);
+			spiritsImage.SetActive(false);
 			invSetPanel.GetComponent<Animator> ().Play ("pause_start");
 
 			//Uncomment this section to enable the inventory system UI
@@ -110,6 +121,38 @@ public class pauseMenuController : MonoBehaviour {
 			invSetPanel.GetComponent<Animator> ().Play ("pause_default");
 			this.Start ();
 		}
+	}
+
+	//override
+	//start of death screen
+	private void PauseGame(bool death)
+	{
+		if (isPaused == false) 
+		{
+			dead = death;
+			//isPaused = !isPaused;
+			Time.timeScale = 0;
+			//backgroundCanvas.enabled = true;
+			invSetCanvas.enabled = true;
+			settingsBut.SetActive(false);
+			invSetPanel.GetComponent<Animator> ().Play ("paused_death");
+			pauseImage.SetActive(false);
+			spiritsImage.SetActive(true);
+			spiritsImage.GetComponent<Animator>().Play("spirits");
+			reloadOnMouseDown();
+			
+			//Uncomment this section to enable the inventory system UI
+			//inventoryBut.GetComponent<Animator> ().Play ("inventory_highlighted");
+			//inventoryItems.SetActive (true);
+			//inventoryItems.GetComponent<Animator> ().Play ("inventory_show");
+		} 
+		else 
+		{
+			Time.timeScale = 1;
+			invSetPanel.GetComponent<Animator> ().Play ("pause_default");
+			this.Start ();
+		}
+
 	}
 
 	//animation for hovering over inventory button
@@ -201,20 +244,21 @@ public class pauseMenuController : MonoBehaviour {
 		if (settingsIsClicked == false)
 		{
 			if (inventoryIsClicked == true) {
-				invSetPanel.GetComponent<Animator> ().Play ("pause_inv_set_clicked");			
+				//invSetPanel.GetComponent<Animator> ().Play ("pause_inv_set_clicked");			
 				inventoryItems.GetComponent<Animator> ().Play ("upgrades_hideInventory");
 				inventoryIsClicked = false;
 			}
 			if (reloadIsClicked == true) {
-				invSetPanel.GetComponent<Animator> ().Play ("pause_inv_set_clicked");
+				//invSetPanel.GetComponent<Animator> ().Play ("pause_inv_set_clicked");
 				reloadSettingsPanel.GetComponent<Animator>().Play("reload_buttons_exit");
 				reloadIsClicked = false;
 			}
 			if (quitIsClicked == true) {
-				invSetPanel.GetComponent<Animator> ().Play ("pause_inv_set_clicked");			
+				//invSetPanel.GetComponent<Animator> ().Play ("pause_inv_set_clicked");			
 				quitSettingsPanel.GetComponent<Animator>().Play("quit_buttons_exit");
 				quitIsClicked = false;
 			}
+			invSetPanel.GetComponent<Animator> ().Play ("pause_inv_set_clicked");			
 			settingsBut.GetComponent<Animator> ().Play ("settings_highlighted");
 			//itemsUpPanel.GetComponent<Animator> ().Play ("settings_clicked");
 			//itemsIsClicked = false;
@@ -450,7 +494,7 @@ public class pauseMenuController : MonoBehaviour {
 	//clicking it enables the sound settings
 	public void soundOnMouseDown()
 	{
-		if (soundIsClicked == false) 
+		if ((soundIsClicked == false) && (mouseIsClicked == true))
 		{
 			soundBut.GetComponent<Animator> ().Play ("sound_highlighted");
 			mouseIsClicked = false;
@@ -460,6 +504,13 @@ public class pauseMenuController : MonoBehaviour {
 			soundSettingsPanel.GetComponent<Animator> ().Play ("sound_settings_intro");
 			mouseSettingsPanel.GetComponent<Animator> ().Play ("mouse_settings_exit");
 			mouseSettingsPanel.SetActive (false);
+		}
+		else if (soundIsClicked == false)
+		{
+			soundBut.GetComponent<Animator> ().Play ("sound_highlighted");
+			soundIsClicked = true;
+			soundSettingsPanel.SetActive (true);
+			soundSettingsPanel.GetComponent<Animator> ().Play ("sound_settings_intro");
 		}
 	}
 
@@ -530,6 +581,7 @@ public class pauseMenuController : MonoBehaviour {
 	{
 
 		PauseGame();
+		Start ();
 		EventManager.PostNotification((int) GameManagerScript.GameEvents.LoadLastCheckpointPressed, this, null);
 
 
@@ -561,14 +613,25 @@ public class pauseMenuController : MonoBehaviour {
 		if (quitIsClicked == true) 
 		{
 			yesQuitBut.GetComponent<Animator>().Play("yes_quit_highlighted");
-			Application.Quit();
+			quitGame();
 		}
+	}
+
+	public void quitGame()
+	{
+		Application.Quit ();
+	}
+	//gameOverScreen
+	public void gameOverScreen()
+	{
+		PauseGame (true);
+
 	}
 		
 	// Update is called once per frame
 	//starts pause game when player presses p or escape button
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
+		if ((Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape)) && (dead != true))
 		{
 			PauseGame ();	
 		}
