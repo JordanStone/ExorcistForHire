@@ -3,7 +3,7 @@ guid: c39ae5fe79b6b6945b53584d5b94a527
 timeCreated: 1447558116
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 18
   fileIDToRecycleName:
     100000: Barrel
     100002: Body_1
@@ -26,6 +26,7 @@ ModelImporter:
     100036: crucifix_UV:crucifix
     100038: polySurface10
     100040: polySurface11
+    100042: GunHolster
     400000: Barrel
     400002: Body_1
     400004: Cylinder
@@ -47,6 +48,7 @@ ModelImporter:
     400036: crucifix_UV:crucifix
     400038: polySurface10
     400040: polySurface11
+    400042: GunHolster
     2300000: Barrel
     2300002: Body_1
     2300004: Cylinder
@@ -128,7 +130,6 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -136,9 +137,9 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
-    animationRotationError: 0.5
-    animationPositionError: 0.5
-    animationScaleError: 0.5
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
@@ -152,7 +153,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -169,23 +169,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ShotTwo
       takeName: Take 001
@@ -196,7 +197,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -213,23 +213,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ShotThree
       takeName: Take 001
@@ -240,7 +241,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -257,23 +257,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ShotFour
       takeName: Take 001
@@ -284,7 +285,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -301,23 +301,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ShotFive
       takeName: Take 001
@@ -328,7 +329,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -345,23 +345,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ReloadDown
       takeName: Take 001
@@ -372,7 +373,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -389,23 +389,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ReloadUp
       takeName: Take 001
@@ -416,7 +417,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -433,23 +433,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ShotSix
       takeName: Take 001
@@ -460,7 +461,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -477,23 +477,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: FullyLoaded
       takeName: Take 001
@@ -504,7 +505,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -521,23 +521,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
+        weight: 0
+      - path: GunHolster/Body_2
         weight: 1
-      - path: Body_2/Body_1
+      - path: GunHolster/Body_2/Body_1
         weight: 1
-      - path: Body_2/Body_1/Barrel
+      - path: GunHolster/Body_2/Body_1/Barrel
         weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
         weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Unequip
       takeName: Take 001
@@ -548,7 +549,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -565,23 +565,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
         weight: 1
-      - path: Body_2/Body_1
-        weight: 1
-      - path: Body_2/Body_1/Barrel
-        weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
-        weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
-        weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
-        weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
-        weight: 1
+      - path: GunHolster/Body_2
+        weight: 0
+      - path: GunHolster/Body_2/Body_1
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0.96
     - serializedVersion: 16
       name: Equip
       takeName: Take 001
@@ -592,7 +593,6 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -609,23 +609,24 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Body_2
+      - path: GunHolster
         weight: 1
-      - path: Body_2/Body_1
-        weight: 1
-      - path: Body_2/Body_1/Barrel
-        weight: 1
-      - path: Body_2/Body_1/Barrel/Cylinder
-        weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10
-        weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
-        weight: 1
-      - path: Body_2/Body_1/Barrel/polySurface11
-        weight: 1
+      - path: GunHolster/Body_2
+        weight: 0
+      - path: GunHolster/Body_2/Body_1
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/Cylinder
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 0
+      - path: GunHolster/Body_2/Body_1/Barrel/polySurface11
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0.96
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -646,6 +647,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 46
+    splitTangentsAcrossUV: 1
     normalImportMode: 1
     tangentImportMode: 4
   importAnimation: 1
@@ -653,12 +655,12 @@ ModelImporter:
   humanDescription:
     human: []
     skeleton: []
-    armTwist: 0.5
-    foreArmTwist: 0.5
-    upperLegTwist: 0.5
-    legTwist: 0.5
-    armStretch: 0.05
-    legStretch: 0.05
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
