@@ -1,0 +1,649 @@
+fileFormatVersion: 2
+guid: c39ae5fe79b6b6945b53584d5b94a527
+timeCreated: 1447558116
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: Body_1
+    100004: Cylinder
+    100006: //RootNode
+    100008: Ball
+    100010: Ball1
+    100012: Ball2
+    100014: Ball3
+    100016: Ball4
+    100018: Ball5
+    100020: Ball6
+    100022: Ball7
+    100024: Ball8
+    100026: Ball9
+    100028: Barrel1
+    100030: Body_2
+    100032: Chain
+    100034: Base1
+    100036: crucifix_UV:crucifix
+    100038: polySurface10
+    100040: polySurface11
+    400000: Barrel
+    400002: Body_1
+    400004: Cylinder
+    400006: //RootNode
+    400008: Ball
+    400010: Ball1
+    400012: Ball2
+    400014: Ball3
+    400016: Ball4
+    400018: Ball5
+    400020: Ball6
+    400022: Ball7
+    400024: Ball8
+    400026: Ball9
+    400028: Barrel1
+    400030: Body_2
+    400032: Chain
+    400034: Base1
+    400036: crucifix_UV:crucifix
+    400038: polySurface10
+    400040: polySurface11
+    2300000: Barrel
+    2300002: Body_1
+    2300004: Cylinder
+    2300006: //RootNode
+    2300008: Ball
+    2300010: Ball1
+    2300012: Ball2
+    2300014: Ball3
+    2300016: Ball4
+    2300018: Ball5
+    2300020: Ball6
+    2300022: Ball7
+    2300024: Ball8
+    2300026: Ball9
+    2300028: Barrel1
+    2300030: Body_2
+    2300032: Chain
+    2300034: crucifix_UV:crucifix
+    2300036: polySurface10
+    2300038: polySurface11
+    3300000: Barrel
+    3300002: Body_1
+    3300004: Cylinder
+    3300006: //RootNode
+    3300008: Ball
+    3300010: Ball1
+    3300012: Ball2
+    3300014: Ball3
+    3300016: Ball4
+    3300018: Ball5
+    3300020: Ball6
+    3300022: Ball7
+    3300024: Ball8
+    3300026: Ball9
+    3300028: Barrel1
+    3300030: Body_2
+    3300032: Chain
+    3300034: crucifix_UV:crucifix
+    3300036: polySurface10
+    3300038: polySurface11
+    4300000: Body_2
+    4300002: Body_1
+    4300004: Barrel
+    4300006: Cylinder
+    4300008: Ball8
+    4300010: Ball7
+    4300012: Ball6
+    4300014: Ball5
+    4300016: Ball4
+    4300018: Ball3
+    4300020: Ball2
+    4300022: Ball1
+    4300024: Barrel1
+    4300026: Ball
+    4300028: Ball9
+    4300030: Chain
+    4300032: Root
+    4300034: BaseBit
+    4300036: polySurface10
+    4300038: crucifix_UV:crucifix
+    4300040: polySurface11
+    7400000: ShotOne
+    7400002: ShotTwo
+    7400004: ShotThree
+    7400006: ShotFour
+    7400008: ShotFive
+    7400010: ReloadDown
+    7400012: ReloadUp
+    7400014: ShotSix
+    7400016: FullyLoaded
+    7400018: Unequip
+    7400020: Equip
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ShotOne
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ShotTwo
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ShotThree
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ShotFour
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ShotFive
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ReloadDown
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ReloadUp
+      takeName: Take 001
+      firstFrame: 78
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ShotSix
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: FullyLoaded
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Unequip
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Equip
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_2
+        weight: 1
+      - path: Body_2/Body_1
+        weight: 1
+      - path: Body_2/Body_1/Barrel
+        weight: 1
+      - path: Body_2/Body_1/Barrel/Cylinder
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface10/crucifix_UV:crucifix
+        weight: 1
+      - path: Body_2/Body_1/Barrel/polySurface11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 46
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

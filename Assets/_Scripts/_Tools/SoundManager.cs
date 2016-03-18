@@ -36,9 +36,9 @@ namespace SoundController
 		void Awake () 
 		{
 			audioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[]; 
-			sfxVolume = GameObject.Find ("sfx_slider").GetComponent <Slider> ().value;
-			masterVolume = GameObject.Find ("master_slider").GetComponent <Slider> ().value;
-			musicVolume = GameObject.Find ("music_slider").GetComponent <Slider> ().value;
+		//	sfxVolume = GameObject.Find ("sfx_slider").GetComponent <Slider> ().value;
+		//	masterVolume = GameObject.Find ("master_slider").GetComponent <Slider> ().value;
+		//	musicVolume = GameObject.Find ("music_slider").GetComponent <Slider> ().value;
 
 			// Keep an array that tracks all sounds for convenience
 //			audioSources = ambience.Concat(walks).Concat(gunshots).Concat(ghostnoises).ToArray();
