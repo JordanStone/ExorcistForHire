@@ -21,10 +21,13 @@ public class _DeathScreenListener : MonoBehaviour
 
 	private PlayerStats _playerStats;
 
+	private pauseMenuController _deathScreen;
+
 	void Start () 
 	{
 		_myImage =gameObject.GetComponent<Image>();
 		_soundManager = GameObject.Find ("SoundManager").GetComponent<SoundManager> ();
+		_deathScreen = GameObject.Find("PauseCanvas").GetComponent<pauseMenuController>();
 		
 		if(ShownAtStart)
 		{
@@ -59,7 +62,8 @@ public class _DeathScreenListener : MonoBehaviour
 	{
 		if(pausedState != ShownAtStart)
 		{
-			setImageTo(true);
+			setImageTo(false);
+			_deathScreen.gameOverScreen();
 			_soundManager.StopAllAudio();
 
 			GameManagerScript.isAlive = false;
