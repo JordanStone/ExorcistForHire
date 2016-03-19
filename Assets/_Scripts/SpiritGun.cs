@@ -170,11 +170,13 @@ namespace GunController
 			{
 				_equipped = equipped;
 				GunAnimator.speed = 0f;
+				//GunAnimator.enabled = false;
 			}
 			else
 			{
 				_equipped = equipped;
 				GunAnimator.speed = 1f;
+				//GunAnimator.enabled = true;
 			}
 			if (_equippedAnimator)	
 				_equippedAnimator.SetBool("Equipped", equipped);

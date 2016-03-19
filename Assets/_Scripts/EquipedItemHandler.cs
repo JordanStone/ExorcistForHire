@@ -37,7 +37,7 @@ namespace EquipedItemHandler
 			_gunController = gameObject.GetComponentInChildren<SpiritGun> ();
 			_soundManager = GameObject.Find ("SoundManager").GetComponent<SoundManager> ();
 
-			flashlightSound.clip = _soundManager.GetSFXSound(2);
+			flashlightSound.clip = _soundManager.GetSFXSound(3);
 			
 			
 			if (StartingState == State.GUN && _currentState != State.GUN) 

@@ -143,6 +143,21 @@ ModelImporter:
     100270: Trim_Text_GENERALxSTORE_1_1
     100272: Trim_Text_GENERALxSTORE_1_2
     100274: windows
+    100276: GenStore_Good:polySurface1
+    100278: polySurface127
+    100280: polySurface128
+    100282: polySurface129
+    100284: polySurface130
+    100286: polySurface131
+    100288: polySurface133
+    100290: polySurface134
+    100292: polySurface135
+    100294: polySurface136
+    100296: polySurface137
+    100298: polySurface141
+    100300: polySurface142
+    100302: transform7
+    100304: transform8
     400000: //RootNode
     400002: General_Store:polySurface1
     400004: group17
@@ -281,6 +296,21 @@ ModelImporter:
     400270: Trim_Text_GENERALxSTORE_1_1
     400272: Trim_Text_GENERALxSTORE_1_2
     400274: windows
+    400276: GenStore_Good:polySurface1
+    400278: polySurface127
+    400280: polySurface128
+    400282: polySurface129
+    400284: polySurface130
+    400286: polySurface131
+    400288: polySurface133
+    400290: polySurface134
+    400292: polySurface135
+    400294: polySurface136
+    400296: polySurface137
+    400298: polySurface141
+    400300: polySurface142
+    400302: transform7
+    400304: transform8
     2300000: General_Store:polySurface1
     2300002: pCube195
     2300004: pCube196
@@ -396,6 +426,19 @@ ModelImporter:
     2300224: Trim_Char_S_2_1 1
     2300226: Trim_Char_T_2_1
     2300228: Trim_Char_T_2_1 1
+    2300230: GenStore_Good:polySurface1
+    2300232: polySurface127
+    2300234: polySurface128
+    2300236: polySurface129
+    2300238: polySurface130
+    2300240: polySurface131
+    2300242: polySurface133
+    2300244: polySurface134
+    2300246: polySurface135
+    2300248: polySurface136
+    2300250: polySurface137
+    2300252: polySurface141
+    2300254: polySurface142
     3300000: General_Store:polySurface1
     3300002: pCube195
     3300004: pCube196
@@ -511,6 +554,19 @@ ModelImporter:
     3300224: Trim_Char_S_2_1 1
     3300226: Trim_Char_T_2_1
     3300228: Trim_Char_T_2_1 1
+    3300230: GenStore_Good:polySurface1
+    3300232: polySurface127
+    3300234: polySurface128
+    3300236: polySurface129
+    3300238: polySurface130
+    3300240: polySurface131
+    3300242: polySurface133
+    3300244: polySurface134
+    3300246: polySurface135
+    3300248: polySurface136
+    3300250: polySurface137
+    3300252: polySurface141
+    3300254: polySurface142
     4300000: pCube195
     4300002: pCube196
     4300004: pCylinder4
@@ -626,6 +682,19 @@ ModelImporter:
     4300224: polySurface121
     4300226: polySurface123
     4300228: Table2:polySurface1
+    4300230: polySurface127
+    4300232: polySurface128
+    4300234: polySurface129
+    4300236: polySurface130
+    4300238: polySurface131
+    4300240: polySurface141
+    4300242: polySurface133
+    4300244: polySurface134
+    4300246: polySurface135
+    4300248: polySurface136
+    4300250: polySurface137
+    4300252: polySurface142
+    4300254: GenStore_Good:polySurface1
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -650,7 +719,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 10
+    globalScale: 8
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -683,8 +752,10 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
