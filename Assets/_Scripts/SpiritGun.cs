@@ -69,6 +69,7 @@ namespace GunController
 			gunSound.clip = _soundManager.GetGunSound(0);
 
 			_ammoCountHud = GameObject.Find("AmmoCount").GetComponent<Text>();
+
 			updateAmmoCountHud();
 
 			EventManager.AddListener((int) GameManagerScript.GameEvents.LoadlastCheckpoint, OnLoadLastCheckpoint);
@@ -169,13 +170,13 @@ namespace GunController
 			if(!equipped)
 			{
 				_equipped = equipped;
-				GunAnimator.speed = 0f;
+			//	GunAnimator.speed = 0f;
 				//GunAnimator.enabled = false;
 			}
 			else
 			{
 				_equipped = equipped;
-				GunAnimator.speed = 1f;
+				//GunAnimator.speed = 1f;
 				//GunAnimator.enabled = true;
 			}
 			if (_equippedAnimator)	

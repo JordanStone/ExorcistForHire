@@ -58,7 +58,7 @@ TagManager:
   - PlacedObjectCollider
   - Bird
   - LadderRaycastOnly
-  - 
+  - EnemyWeapon
   - 
   - 
   m_SortingLayers:

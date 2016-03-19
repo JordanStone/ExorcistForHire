@@ -34,15 +34,5 @@ public class TriggerXEnemiesOnPlayerZoneEnter : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerExit(Collider other) 
-	{
-		if(other.gameObject.tag == "Player")
-		{
-			foreach (EnemyStateMachine StateMachine in _stateMachines)
-			{
-				//StateMachine.SetPlayerInTrigger(false);
-			}
-		}
-	}
 
 }
