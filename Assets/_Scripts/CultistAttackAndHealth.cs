@@ -66,8 +66,8 @@ public class CultistAttackAndHealth : MonoBehaviour {
 
 			if(_ghostHealth <= 0f)
 			{
-				if (spookDeath.clip)
-					AudioSource.PlayClipAtPoint(spookDeath.clip, transform.position);
+				//if (spookDeath.clip)
+				//	AudioSource.PlayClipAtPoint(spookDeath.clip, transform.position);
 				_myAnimator.SetTrigger("DeathKnockdown");
 				if(_bossAdd != null)
 					_bossAdd.AddDeath();
@@ -87,8 +87,8 @@ public class CultistAttackAndHealth : MonoBehaviour {
 
 		if(_ghostHealth <= 0f)
 		{
-			if (spookDeath.clip)
-				AudioSource.PlayClipAtPoint(spookDeath.clip, transform.position);
+			//if (spookDeath.clip)
+			//	AudioSource.PlayClipAtPoint(spookDeath.clip, transform.position);
 			_myAnimator.SetTrigger("DeathKnockdown");
 			if(_bossAdd != null)
 				_bossAdd.AddDeath();

@@ -27,19 +27,27 @@ public string[] InitialLines;
 			inRange = true;
 		}
 	}
-	void OnTriggerExit () {
+
+	void OnTriggerExit () 
+	{
 		myText.text = "";
 		inRange = false;
+
+		if(hasTalked == true)
+		{
+			manager.GetComponent<GameManagerScript>().setGate(gate);
+			foreach(GameObject g in Enemies) {
+				g.SetActive(true);
+			}
+		}
+
 	}
 	public void DisplayLine() {
 		if(inRange == true) {
 			if(hasTalked == false) {
 				myText.text = InitialLines[0];
 				hasTalked = true;
-				manager.GetComponent<GameManagerScript>().setGate(gate);
-				foreach(GameObject g in Enemies) {
-					g.SetActive(true);
-				}
+
 			} else {
 				myText.text = HasTalkedLines[0];
 			}

@@ -492,7 +492,7 @@ namespace EnemyDetectionScript
 						DodgeDirection = Random.Range(1,5);
 						_dodgePecent = Random.Range(0,100);
 					}
-					if(_dodgeTimer <= 0f && DodgeChance >= _dodgePecent)
+					if(_dodgeTimer <= 0f && DodgeChance >= _dodgePecent && !_myAnimator.IsInTransition(0))
 					{
 						float dodgeSpeed = 10f;
 

@@ -97,10 +97,10 @@ namespace GunController
 					GunAnimator.SetInteger("Shot", GunAnimator.GetInteger("Shot")+1);
 					_fireRateTimer = FireRate;
 
-					//Start the muzzle flare
+			/*		//Start the muzzle flare
 					GameObject muzzleflash = (GameObject)Instantiate(MuzzleFlash, MuzzleFlashLocation.transform.position, MuzzleFlashLocation.transform.rotation);
 					muzzleflash.transform.parent = MuzzleFlashLocation.transform;
-
+*/
 					//Raycast from the camera.
 					RaycastHit hitInfo;
 					if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hitInfo, 99999f, GunLayerMask))
@@ -108,7 +108,13 @@ namespace GunController
 						Instantiate(FiredBullet, hitInfo.point, hitInfo.transform.rotation);
 						Instantiate(HitSpark, hitInfo.point, hitInfo.transform.rotation);
 						Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward * hitInfo.distance, Color.yellow, .4f);
+
+
 					}
+				}
+				else
+				{
+
 				}
 				
 				_fireRateTimer -= Time.deltaTime;
